@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-brand-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-brand-heading;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 px-7 py-3 rounded-btn font-semibold text-sm
+           transition-all duration-200 border-2 border-transparent whitespace-nowrap
+           tracking-wide cursor-pointer;
+  }
+  .btn-orange {
+    @apply bg-accent text-white border-accent hover:bg-accent-dark hover:border-accent-dark
+           hover:-translate-y-px hover:shadow-[0_6px_20px_rgba(240,90,40,0.35)];
+  }
+  .btn-navy {
+    @apply bg-navy text-white border-navy hover:bg-navy-dark hover:border-navy-dark;
+  }
+  .btn-outline-white {
+    @apply bg-transparent text-white border-white/70
+           hover:bg-white hover:text-navy;
+  }
+  .btn-outline-navy {
+    @apply bg-transparent text-navy border-navy
+           hover:bg-navy hover:text-white;
+  }
+  .section-eyebrow {
+    @apply block text-[0.72rem] font-bold tracking-[2.5px] uppercase text-accent mb-2.5;
+  }
+  .section-title {
+    @apply text-2xl md:text-3xl lg:text-4xl font-extrabold text-brand-heading leading-tight mb-4;
+  }
+  .section-sub {
+    @apply text-base text-brand-body leading-relaxed;
+  }
+  .card {
+    @apply bg-white rounded-card border border-black/[0.07] shadow-card
+           transition-all duration-300;
+  }
+  .card:hover {
+    @apply -translate-y-1 shadow-hover;
+  }
+  .nav-link {
+    @apply flex items-center gap-1 px-3 py-2 text-[0.87rem] font-medium text-brand-heading
+           rounded hover:text-accent hover:bg-accent/[0.06] transition-all duration-200
+           cursor-pointer whitespace-nowrap;
+  }
+}
+
+@layer utilities {
+  .bg-grid-overlay {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-orange-400;
+  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+}
