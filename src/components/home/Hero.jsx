@@ -1,6 +1,14 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import { useState, useEffect } from 'react'
 import { stats } from '../../data/siteData'
+
+const SLIDES = [
+  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector.png',
+  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-3.png',
+  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-2.png',
+  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-1.png',
+]
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
@@ -9,6 +17,15 @@ const fade = (delay = 0) => ({
 })
 
 export default function Hero() {
+  const [current, setCurrent] = useState(0)
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent(i => (i + 1) % SLIDES.length)
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [])
+
   return (
     <section className="relative bg-navy overflow-hidden pt-24 lg:pt-28">
       {/* Blueprint grid */}
@@ -79,12 +96,31 @@ export default function Hero() {
             transition={{ duration: 0.75, ease: 'easeOut', delay: 0.3 }}
             className="hidden lg:block relative"
           >
-            <div className="rounded-xl overflow-hidden shadow-[0_32px_80px_rgba(0,0,0,0.45)]">
-              <img
-                src="https://placehold.co/600x390/0A1F44/4a7fc1?text=CAD+%26+BIM+Drafting"
-                alt="CAD Drafting and BIM Services"
-                className="w-full h-[390px] object-cover"
-              />
+            <div className="rounded-xl overflow-hidden shadow-[0_32px_80px_rgba(0,0,0,0.45)] relative h-[390px]">
+              <AnimatePresence>
+                <motion.img
+                  key={current}
+                  src={SLIDES[current]}
+                  alt="CAD Drafting and BIM Services"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  initial={{ opacity: 0, scale: 1.08 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.8, ease: 'easeInOut' }}
+                />
+              </AnimatePresence>
+              {/* Slide dots */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+                {SLIDES.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrent(i)}
+                    className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                      i === current ? 'bg-white w-4' : 'bg-white/50'
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
             {/* Float cards */}
             <motion.div

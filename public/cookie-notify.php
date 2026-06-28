@@ -1,5 +1,6 @@
 <?php
 header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 
@@ -66,7 +67,12 @@ try {
     echo json_encode(['success' => true]);
 
 } catch (Exception $e) {
+    error_log('[GeoNectar cookie-notify.php] PHPMailer error: ' . $e->getMessage());
     // Fail silently — don't surface mailer errors to the visitor
+    http_response_code(200);
+    echo json_encode(['success' => false]);
+} catch (\Exception $e) {
+    error_log('[GeoNectar cookie-notify.php] Unexpected error: ' . $e->getMessage());
     http_response_code(200);
     echo json_encode(['success' => false]);
 }
