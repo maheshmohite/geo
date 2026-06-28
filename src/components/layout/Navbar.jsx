@@ -104,20 +104,8 @@ export default function Navbar() {
       >
         <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-[70px] gap-5">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2.5 flex-shrink-0">
-            <div className="w-10 h-10 bg-navy rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 stroke-accent fill-none" strokeWidth="1.8" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <div>
-              <div className="text-[1.2rem] font-extrabold text-navy leading-none">
-                Geo<span className="text-accent">Nectar</span>
-              </div>
-              <div className="text-[0.58rem] font-semibold text-brand-body tracking-[1.2px] uppercase mt-0.5">
-                Technologies
-              </div>
-            </div>
+          <Link to="/" className="flex-shrink-0">
+            <img src="/images/geonectar-logo.png" alt="Geo-Nectar Technologies" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
@@ -263,13 +251,8 @@ export default function Navbar() {
           >
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-white/10">
-              <Link to="/" className="flex items-center gap-2.5">
-                <div className="w-9 h-9 bg-accent rounded-lg flex items-center justify-center">
-                  <svg className="w-5 h-5 stroke-white fill-none" strokeWidth="1.8" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
-                  </svg>
-                </div>
-                <span className="text-white font-extrabold text-lg">Geo<span className="text-accent">Nectar</span></span>
+              <Link to="/">
+                <img src="/images/geonectar-logo.png" alt="Geo-Nectar Technologies" className="h-9 w-auto bg-white rounded-lg px-2 py-1" />
               </Link>
               <button onClick={() => setMobileOpen(false)} className="text-white/70 hover:text-white p-1">
                 <X size={24} />

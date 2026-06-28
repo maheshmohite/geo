@@ -64,7 +64,7 @@ export default function SubServicePage() {
                 </Link>
                 <a href="tel:+14322937220"
                   className="block text-center text-[0.82rem] text-white/50 hover:text-accent transition-colors">
-                  +1 432 293 7220
+                  +1 409 934 5355
                 </a>
               </div>
 

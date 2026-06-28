@@ -230,10 +230,10 @@ export const blogPosts = [
 export const companyInfo = {
   name: 'GeoNectar Technologies',
   tagline: 'Expert CAD Drafting & Design Outsourcing for Surveyors, Engineers, and Architects Worldwide',
-  phone: '+1 432 293 7220',
+  phone: '+1 409 934 5355',
   email: 'services@geo-nectar.com',
   address: 'Ganga Trueno Business Park, 2nd Floor, New Airport Road, Viman Nagar, Pune 411014, India',
-  markets: ['USA', 'UK', 'Australia', 'India'],
+  markets: ['USA', 'UK', 'Australia'],
   social: {
     linkedin: '#',
     twitter:  '#',

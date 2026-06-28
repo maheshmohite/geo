@@ -166,7 +166,14 @@ export default function ContactPage() {
                     <MapPin size={18} className="stroke-accent flex-shrink-0 mt-0.5" strokeWidth={1.8} />
                     <div>
                       <div className="text-[0.72rem] uppercase tracking-wider text-white/45 mb-0.5">Address</div>
-                      <p className="text-white/75 text-[0.84rem] leading-relaxed">{companyInfo.address}</p>
+                      <a
+                        href="https://www.google.com/maps/place/Geo-Nectar+Technologies+Pvt.+Ltd./@18.5690421,73.9060692,18z/data=!4m6!3m5!1s0x3bc2c15c8e58551d:0xfbed89cfb2e7b60d!8m2!3d18.5682692!4d73.9061175!16s%2Fg%2F11z5vbtk_y?hl=en-GB&entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/75 text-[0.84rem] leading-relaxed hover:text-accent transition-colors"
+                      >
+                        {companyInfo.address}
+                      </a>
                     </div>
                   </div>
                   <div className="flex gap-3.5 items-start">
@@ -181,13 +188,12 @@ export default function ContactPage() {
 
               {/* Markets */}
               <div className="bg-brand-light rounded-xl p-7">
-                <h4 className="text-[0.8rem] font-bold text-brand-heading mb-4">Markets We Serve</h4>
+                <h4 className="text-[0.8rem] font-bold text-brand-heading mb-4">Clients We Serve</h4>
                 <div className="grid grid-cols-2 gap-3">
                   {[
                     { flag: '🇺🇸', name: 'United States' },
                     { flag: '🇬🇧', name: 'United Kingdom' },
                     { flag: '🇦🇺', name: 'Australia' },
-                    { flag: '🇮🇳', name: 'India' },
                   ].map(({ flag, name }) => (
                     <div key={name} className="flex items-center gap-2.5">
                       <span className="text-xl">{flag}</span>
