@@ -29,53 +29,77 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.1 }}
                   transition={{ duration: 0.55, ease: 'easeOut', delay: i * 0.08 }}
-                  className="group relative bg-white rounded-card border border-black/[0.07]
-                             shadow-card hover:shadow-hover hover:-translate-y-1.5
-                             transition-all duration-300 p-6 md:p-9 overflow-hidden"
+                  className="group relative rounded-card overflow-hidden min-h-[380px] flex flex-col
+                             shadow-card hover:shadow-hover transition-shadow duration-300"
                 >
-                  <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-accent
-                                  scale-y-0 group-hover:scale-y-100 transition-transform
-                                  duration-300 origin-top rounded-l" />
+                  {/* Background image — always visible, zooms on hover */}
+                  <div
+                    className="absolute inset-0 bg-cover bg-center
+                                transition-transform duration-700 ease-out group-hover:scale-110"
+                    style={{ backgroundImage: `url(${svc.cardBg || svc.heroImage})` }}
+                  />
 
-                  <div className="w-14 h-14 rounded-xl bg-navy/[0.06] flex items-center justify-center
-                                  mb-5 group-hover:bg-accent/[0.09] transition-colors duration-200">
-                    <Icon size={26} strokeWidth={1.6}
-                      className="stroke-navy group-hover:stroke-accent transition-colors duration-200" />
-                  </div>
+                  {/* Permanent dark gradient — lifts slightly on hover */}
+                  <div className="absolute inset-0
+                                  bg-gradient-to-b from-navy/55 via-navy/70 to-navy/95
+                                  group-hover:from-navy/40 group-hover:via-navy/58 group-hover:to-navy/88
+                                  transition-all duration-500" />
 
-                  <h3 className="text-[1.05rem] font-bold text-brand-heading mb-2.5">{svc.title}</h3>
-                  <p className="text-[0.86rem] text-brand-body leading-relaxed mb-5">{svc.description}</p>
+                  {/* Bottom accent bar */}
+                  <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-accent z-10
+                                  scale-x-0 group-hover:scale-x-100
+                                  transition-transform duration-500 origin-left" />
 
-                  {/* Sub-services preview */}
-                  <div className="flex flex-wrap gap-1.5 mb-5">
-                    {svc.subServices.slice(0, 4).map((sub) => (
+                  {/* Card content */}
+                  <div className="relative z-10 p-6 md:p-8 flex flex-col h-full min-h-[380px]">
+                    {/* Icon at top */}
+                    <div className="w-14 h-14 rounded-xl bg-white/15 group-hover:bg-accent/30
+                                    flex items-center justify-center
+                                    transition-colors duration-300 mb-auto">
+                      <Icon size={26} strokeWidth={1.6} className="stroke-white" />
+                    </div>
+
+                    {/* Text at bottom */}
+                    <div className="mt-8">
+                      <h3 className="text-[1.05rem] font-bold text-white mb-2">
+                        {svc.title}
+                      </h3>
+                      <p className="text-[0.84rem] text-white/75 leading-relaxed mb-4 line-clamp-2">
+                        {svc.description}
+                      </p>
+
+                      {/* Sub-service pills */}
+                      <div className="flex flex-wrap gap-1.5 mb-5">
+                        {svc.subServices.slice(0, 3).map((sub) => (
+                          <Link
+                            key={sub.slug}
+                            to={`/services/${svc.slug}/${sub.slug}`}
+                            className="text-[0.73rem] bg-white/10 border border-white/20 rounded-full
+                                       px-3 py-1 text-white/75
+                                       hover:bg-accent hover:text-white hover:border-accent
+                                       transition-all duration-150"
+                          >
+                            {sub.title}
+                          </Link>
+                        ))}
+                        {svc.subServices.length > 3 && (
+                          <span className="text-[0.73rem] bg-white/10 border border-white/20
+                                           rounded-full px-3 py-1 text-white/60">
+                            +{svc.subServices.length - 3} more
+                          </span>
+                        )}
+                      </div>
+
                       <Link
-                        key={sub.slug}
-                        to={`/services/${svc.slug}/${sub.slug}`}
-                        className="text-[0.74rem] bg-brand-light border border-black/[0.06] rounded-full
-                                   px-3 py-1 text-brand-body hover:bg-accent hover:text-white
-                                   hover:border-accent transition-all duration-150"
+                        to={`/services/${svc.slug}`}
+                        className="inline-flex items-center gap-2 text-[0.82rem] font-bold text-accent
+                                   group-hover:gap-3 transition-all duration-200"
                       >
-                        {sub.title}
+                        Explore All Services
+                        <ArrowRight size={14} strokeWidth={2.5} />
                       </Link>
-                    ))}
-                    {svc.subServices.length > 4 && (
-                      <span className="text-[0.74rem] bg-brand-light border border-black/[0.06]
-                                       rounded-full px-3 py-1 text-brand-body">
-                        +{svc.subServices.length - 4} more
-                      </span>
-                    )}
+                    </div>
                   </div>
-
-                  <Link
-                    to={`/services/${svc.slug}`}
-                    className="inline-flex items-center gap-2 text-[0.82rem] font-bold text-navy
-                               group-hover:text-accent transition-colors duration-200"
-                  >
-                    Explore All Services
-                    <ArrowRight size={14} strokeWidth={2.5}
-                      className="group-hover:translate-x-1 transition-transform duration-200" />
-                  </Link>
                 </motion.div>
               )
             })}

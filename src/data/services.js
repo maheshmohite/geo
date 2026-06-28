@@ -7,6 +7,7 @@ export const services = [
     icon: 'Map',
     tagline: 'Precision survey drafting for US, UK & Australian standards',
     heroImage: '/images/hero-land-survey.svg',
+    cardBg: '/images/card-land-survey.jpg',
     description:
       'Our land survey drafting team delivers accurate, compliant, and client-ready survey drawings across ALTA/NSPS, topographical, boundary, and mortgage disciplines. We support surveyors across the USA, UK, and Australia with fast turnarounds and zero-error outputs.',
     benefits: [
@@ -28,6 +29,7 @@ export const services = [
           'By partnering with Geo-Nectar, surveying and engineering firms can reduce drafting backlogs, improve operational efficiency, optimize project costs, and confidently meet demanding deadlines while ensuring that every ALTA survey deliverable satisfies the expectations of title insurers, financial institutions, legal stakeholders, and property developers.',
         ],
         image: '/images/alta-nsps-survey.svg',
+        cardBg: '/images/card-sub-alta-survey.jpg',
       },
       {
         slug: 'topographical-survey-drafting',
@@ -41,6 +43,7 @@ export const services = [
           'By partnering with Geo-Nectar, clients gain access to reliable offshore drafting support that enhances productivity, reduces operational costs, accelerates project schedules, and delivers the precise topographic information necessary for successful land development, infrastructure planning, and environmental management initiatives.',
         ],
         image: '/images/topo-survey.svg',
+        cardBg: '/images/card-sub-topo-survey.jpg',
       },
       {
         slug: 'boundary-survey-drafting',
@@ -54,6 +57,7 @@ export const services = [
           'Geo-Nectar delivers final outputs in DWG, DXF, and PDF formats, enabling seamless integration into surveying, engineering, and land development workflows. Through dependable turnaround times and scalable offshore support, we empower our clients to increase productivity, reduce operational burdens, and achieve legally sound, efficient, and successful project outcomes.',
         ],
         image: '/images/boundary-survey.svg',
+        cardBg: '/images/card-sub-boundary-survey.jpg',
       },
       {
         slug: 'mortgage-survey-drafting',
@@ -67,6 +71,7 @@ export const services = [
           'Through scalable offshore support and dependable turnaround times, Geo-Nectar enables organizations to reduce operational costs, manage peak workloads effectively, and consistently deliver high-quality mortgage survey products that meet the expectations of lenders, title professionals, and property owners alike.',
         ],
         image: '/images/mortgage-survey.svg',
+        cardBg: '/images/card-sub-mortgage-survey.jpg',
       },
       {
         slug: 'aerial-survey-drafting',
@@ -80,6 +85,7 @@ export const services = [
           'With scalable offshore support and dependable turnaround times, Geo-Nectar empowers organizations to reduce operational costs, accelerate project schedules, and confidently execute large-scale development initiatives through precise, data-driven aerial survey solutions.',
         ],
         image: '/images/aerial-survey.svg',
+        cardBg: '/images/card-sub-aerial-survey.jpg',
       },
       {
         slug: 'wetland-delineation-drafting',
@@ -94,6 +100,7 @@ export const services = [
           'By combining technical expertise with scalable offshore support, Geo-Nectar helps organizations reduce turnaround times, improve project efficiency, and achieve environmentally responsible outcomes that balance development objectives with long-term ecosystem preservation.',
         ],
         image: '/images/wetland-delineation.svg',
+        cardBg: '/images/card-sub-wetland.jpg',
       },
       {
         slug: 'photogrammetry-drafting',
@@ -107,6 +114,7 @@ export const services = [
           'Our scalable offshore production capabilities allow organizations to process large volumes of imagery efficiently while reducing operational costs and maintaining rapid turnaround times. By combining photogrammetric expertise with advanced CAD and geospatial technologies, Geo-Nectar empowers clients to execute infrastructure, environmental, mining, transportation, and land development projects with confidence, precision, and data-driven insights.',
         ],
         image: '/images/photogrammetry.svg',
+        cardBg: '/images/card-sub-photogrammetry.jpg',
       },
     ],
   },
@@ -118,6 +126,7 @@ export const services = [
     icon: 'Boxes',
     tagline: 'Comprehensive Building Information Modeling for AEC projects',
     heroImage: '/images/hero-bim-services.svg',
+    cardBg: '/images/card-bim-services.jpg',
     description:
       'Geo-Nectar delivers comprehensive Building Information Modeling (BIM) solutions that support the entire project lifecycle—from conceptual design and detailed 3D modeling to multidisciplinary coordination, clash detection, construction documentation, and as-built asset management.',
     overview: [
@@ -145,6 +154,7 @@ export const services = [
           'Whether supporting residential, commercial, industrial, healthcare, or institutional developments, Geo-Nectar provides scalable architectural BIM solutions that enhance project efficiency and enable seamless collaboration from concept design through final construction and long-term asset management.',
         ],
         image: '/images/architectural-bim.svg',
+        cardBg: '/images/card-sub-arch-bim.jpg',
       },
       {
         slug: 'structural-bim-modeling',
@@ -158,6 +168,7 @@ export const services = [
           'Through rigorous quality assurance and scalable offshore support, Geo-Nectar enables engineering firms and contractors to accelerate project delivery, enhance structural integrity, and achieve more efficient, data-driven project outcomes.',
         ],
         image: '/images/structural-bim.svg',
+        cardBg: '/images/card-sub-structural-bim.jpg',
       },
       {
         slug: 'mep-bim-modeling',
@@ -170,6 +181,7 @@ export const services = [
           'By leveraging BIM-first workflows and rigorous quality assurance procedures, we enable project teams to improve constructability, streamline approvals, enhance multidisciplinary collaboration, and accelerate project delivery. Whether supporting commercial, residential, healthcare, industrial, or institutional developments, Geo-Nectar provides reliable and scalable MEP BIM solutions that drive successful, efficient, and clash-free construction outcomes.',
         ],
         image: '/images/mep-bim.svg',
+        cardBg: '/images/card-sub-mep-bim.jpg',
       },
       {
         slug: 'point-cloud-to-bim',
@@ -182,6 +194,7 @@ export const services = [
           'Geo-Nectar combines advanced modeling workflows with rigorous quality assurance procedures to deliver coordinated, standards-compliant Revit models that seamlessly integrate with client BIM environments. Our scalable offshore capabilities enable organizations to accelerate project timelines, reduce operational costs, and leverage digital twins for more efficient facility operations and maintenance.',
         ],
         image: '/images/point-cloud-bim.svg',
+        cardBg: '/images/card-sub-point-cloud.jpg',
       },
       {
         slug: 'bim-modelling',
@@ -193,6 +206,7 @@ export const services = [
           'From new developments and infrastructure projects to renovations and facility management applications, Geo-Nectar serves as a reliable BIM partner, providing accurate, coordinated, and construction-ready models that support every phase of the building lifecycle.',
         ],
         image: '/images/bim-modelling.svg',
+        cardBg: '/images/card-sub-bim-modelling.jpg',
       },
       {
         slug: 'cad-to-bim',
@@ -200,6 +214,7 @@ export const services = [
         description: 'Converting legacy 2D CAD drawings into intelligent, parametric BIM models.',
         content: 'We migrate 2D DWG drawings into fully parametric Revit BIM models with accurate geometry, materials, and metadata. An essential first step for firms transitioning to BIM-first workflows.',
         image: '/images/cad-to-bim.svg',
+        cardBg: '/images/card-sub-cad-to-bim.jpg',
       },
       {
         slug: 'bim-coordination',
@@ -212,6 +227,7 @@ export const services = [
           'From commercial and residential developments to industrial and infrastructure projects, our BIM coordination services provide construction-ready, fully integrated models that support successful execution, cost control, and long-term asset performance.',
         ],
         image: '/images/bim-coordination.svg',
+        cardBg: '/images/card-sub-bim-coordination.jpg',
       },
       {
         slug: 'clash-detection',
@@ -224,6 +240,7 @@ export const services = [
           'By integrating proactive clash management into BIM execution plans, we help architects, engineers, contractors, and owners minimize rework, optimize constructability, reduce project risks, and accelerate delivery schedules. Our commitment to precision and collaboration ensures reliable, construction-ready digital models that support successful project outcomes across commercial, residential, industrial, and infrastructure developments.',
         ],
         image: '/images/clash-detection.svg',
+        cardBg: '/images/card-sub-clash-detection.jpg',
       },
     ],
   },
@@ -235,6 +252,7 @@ export const services = [
     icon: 'Building2',
     tagline: 'Comprehensive civil drafting from concept to construction',
     heroImage: '/images/hero-civil-engineering.svg',
+    cardBg: '/images/card-civil-engineering.jpg',
     description:
       'Geo-Nectar provides comprehensive civil engineering drafting and design support services for engineering consultants, land developers, infrastructure firms, and government agencies.',
     overview: [
@@ -262,6 +280,7 @@ export const services = [
           'Leveraging advanced CAD and BIM workflows, Geo-Nectar provides scalable drafting support for residential, commercial, industrial, institutional, and mixed-use developments. By serving as an extension of your in-house team, we help accelerate project timelines, reduce operational costs, and deliver high-quality architectural documentation that enables successful project outcomes.',
         ],
         image: '/images/architectural-drafting.svg',
+        cardBg: '/images/card-sub-arch-drafting.jpg',
       },
       {
         slug: '3d-rendering-visualization',
@@ -274,6 +293,7 @@ export const services = [
           'Geo-Nectar combines artistic excellence with technical precision to deliver visually impactful content that supports design validation, accelerates approvals, and strengthens project marketing efforts. Whether producing high-resolution stills, interactive panoramic experiences, or cinematic project walkthroughs, we help clients showcase their vision with clarity, realism, and professionalism.',
         ],
         image: '/images/3d-rendering.svg',
+        cardBg: '/images/card-sub-3d-rendering.jpg',
       },
       {
         slug: 'land-development-drafting',
@@ -287,6 +307,7 @@ export const services = [
           'From preliminary planning and entitlement submissions to final construction drawings and as-built documentation, Geo-Nectar serves as a trusted technical partner, delivering reliable land development solutions tailored to the requirements of the US and UK markets.',
         ],
         image: '/images/land-development.svg',
+        cardBg: '/images/card-sub-land-development.jpg',
       },
       {
         slug: 'road-network-drafting',
@@ -300,6 +321,7 @@ export const services = [
           'From concept design and feasibility studies to detailed engineering plans and as-built documentation, Geo-Nectar serves as a reliable extension of your transportation engineering team, delivering precise, standards-compliant road network solutions for successful infrastructure development.',
         ],
         image: '/images/road-network.svg',
+        cardBg: '/images/card-sub-road-network.jpg',
       },
       {
         slug: 'stormwater-drainage-drafting',
@@ -313,6 +335,7 @@ export const services = [
           'From preliminary stormwater concepts to final construction drawings and as-built records, Geo-Nectar serves as a trusted partner in delivering resilient, efficient, and compliant drainage infrastructure solutions for the US and UK markets.',
         ],
         image: '/images/stormwater-drainage.svg',
+        cardBg: '/images/card-sub-stormwater.jpg',
       },
       {
         slug: 'utility-layout-drafting',
@@ -326,6 +349,7 @@ export const services = [
           'From concept planning and entitlement stages to final design and as-built documentation, Geo-Nectar serves as a dependable technical partner, helping civil engineers and developers deliver efficient, resilient, and future-ready utility infrastructure across the US and UK markets.',
         ],
         image: '/images/utility-layout.svg',
+        cardBg: '/images/card-sub-utility-layout.jpg',
       },
     ],
   },
@@ -337,6 +361,7 @@ export const services = [
     icon: 'Layers',
     tagline: 'MEP, HVAC, electrical and structural building services drafting',
     heroImage: '/images/hero-building-services.svg',
+    cardBg: '/images/card-building-services.jpg',
     description:
       'Geo-Nectar provides comprehensive building services drafting solutions for engineering consultants, contractors, developers, and property owners across the United States, the United Kingdom, and global markets.',
     overview: [
@@ -363,6 +388,7 @@ export const services = [
           'Through rigorous quality control and scalable offshore support, Geo-Nectar enables organizations to reduce documentation backlogs, optimize asset performance, and maintain accurate facility records that support informed decision-making and efficient day-to-day operations.',
         ],
         image: '/images/facility-management.svg',
+        cardBg: '/images/card-sub-facility-mgmt.jpg',
       },
       {
         slug: 'mep-drafting',
@@ -376,6 +402,7 @@ export const services = [
           'By providing scalable offshore drafting capabilities and dependable turnaround times, Geo-Nectar serves as a trusted extension of your engineering team, delivering high-quality, coordinated MEP documentation that drives efficient, cost-effective, and successful project execution.',
         ],
         image: '/images/mep-drafting.svg',
+        cardBg: '/images/card-sub-mep-drafting.jpg',
       },
       {
         slug: 'hvac-drafting',
@@ -387,6 +414,7 @@ export const services = [
           'Our drafting workflows adhere to recognized industry standards, including ASHRAE guidelines in the United States and CIBSE requirements in the United Kingdom, ensuring compliance and consistency across all deliverables.',
         ],
         image: '/images/hvac-drafting.svg',
+        cardBg: '/images/card-sub-hvac.jpg',
       },
       {
         slug: 'electrical-drafting',
@@ -400,6 +428,7 @@ export const services = [
           'By providing scalable offshore drafting support and dependable turnaround times, Geo-Nectar enables electrical consultants and contractors to increase productivity, reduce operational costs, and deliver high-quality, fully coordinated electrical systems that are ready for procurement, installation, and long-term facility operation.',
         ],
         image: '/images/electrical-drafting.svg',
+        cardBg: '/images/card-sub-electrical.jpg',
       },
       {
         slug: 'plumbing-drafting',
@@ -413,6 +442,7 @@ export const services = [
           'From high-rise developments and commercial facilities to healthcare institutions and industrial complexes, Geo-Nectar serves as a trusted partner in delivering efficient, code-compliant, and fully coordinated plumbing systems for the US and UK markets.',
         ],
         image: '/images/plumbing-drafting.svg',
+        cardBg: '/images/card-sub-plumbing.jpg',
       },
       {
         slug: 'fire-protection-drafting',
@@ -426,6 +456,7 @@ export const services = [
           'From office buildings and industrial facilities to hospitals, educational campuses, and mixed-use developments, Geo-Nectar delivers reliable, code-compliant fire protection drafting solutions that enhance life safety, support efficient installations, and contribute to successful project delivery.',
         ],
         image: '/images/fire-protection.svg',
+        cardBg: '/images/card-sub-fire-protection.jpg',
       },
     ],
   },

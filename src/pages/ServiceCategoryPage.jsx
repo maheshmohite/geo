@@ -52,7 +52,7 @@ export default function ServiceCategoryPage() {
       </section>
 
       {/* Sub-services grid */}
-      <section className="py-14 md:py-20 bg-brand-light">
+      <section className="py-14 md:py-20 bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <SectionHeader
             eyebrow="Our Specialisms"
@@ -69,23 +69,52 @@ export default function ServiceCategoryPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.5, ease: 'easeOut', delay: i * 0.07 }}
-                className="group bg-white rounded-card border border-black/[0.07] p-7
-                           shadow-card hover:shadow-hover hover:-translate-y-1 transition-all duration-300"
+                className="group relative rounded-card overflow-hidden min-h-[280px] flex flex-col
+                           shadow-card hover:shadow-hover transition-shadow duration-300"
               >
-                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                  <div className="w-2.5 h-2.5 rounded-full bg-accent" />
+                {/* Background image — sub's own photo, else parent category photo, else SVG */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center
+                              transition-transform duration-700 ease-out group-hover:scale-110"
+                  style={{ backgroundImage: `url(${sub.cardBg || svc.cardBg || sub.image})` }}
+                />
+
+                {/* Permanent dark gradient — lifts slightly on hover */}
+                <div className="absolute inset-0
+                                bg-gradient-to-b from-navy/55 via-navy/70 to-navy/95
+                                group-hover:from-navy/40 group-hover:via-navy/58 group-hover:to-navy/88
+                                transition-all duration-500" />
+
+                {/* Bottom accent bar */}
+                <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-accent z-10
+                                scale-x-0 group-hover:scale-x-100
+                                transition-transform duration-500 origin-left" />
+
+                {/* Content */}
+                <div className="relative z-10 p-6 md:p-7 flex flex-col h-full min-h-[280px]">
+                  {/* Dot icon at top */}
+                  <div className="w-10 h-10 rounded-lg bg-white/15 group-hover:bg-accent/30
+                                  flex items-center justify-center
+                                  transition-colors duration-300 mb-auto">
+                    <div className="w-2.5 h-2.5 rounded-full bg-white" />
+                  </div>
+
+                  {/* Text anchored to bottom */}
+                  <div className="mt-8">
+                    <h3 className="text-[0.97rem] font-bold text-white mb-2">{sub.title}</h3>
+                    <p className="text-[0.84rem] text-white/75 leading-relaxed mb-4 line-clamp-2">
+                      {sub.description}
+                    </p>
+                    <Link
+                      to={`/services/${svc.slug}/${sub.slug}`}
+                      className="inline-flex items-center gap-1.5 text-[0.81rem] font-bold text-accent
+                                 group-hover:gap-2.5 transition-all duration-200"
+                    >
+                      Learn More
+                      <ArrowRight size={13} strokeWidth={2.5} />
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-[0.97rem] font-bold text-brand-heading mb-2">{sub.title}</h3>
-                <p className="text-[0.84rem] text-brand-body leading-relaxed mb-4">{sub.description}</p>
-                <Link
-                  to={`/services/${svc.slug}/${sub.slug}`}
-                  className="inline-flex items-center gap-1.5 text-[0.81rem] font-bold text-navy
-                             group-hover:text-accent transition-colors duration-200"
-                >
-                  Learn More
-                  <ArrowRight size={13} strokeWidth={2.5}
-                    className="group-hover:translate-x-1 transition-transform duration-200" />
-                </Link>
               </motion.div>
             ))}
           </div>

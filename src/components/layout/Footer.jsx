@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Phone, Mail, MapPin, Linkedin, Twitter, Facebook, Instagram } from 'lucide-react'
+import { Phone, Mail, MapPin, Linkedin, Instagram } from 'lucide-react'
 import { companyInfo } from '../../data/siteData'
 import { services } from '../../data/services'
 
@@ -21,10 +21,8 @@ const legalLinks = [
 ]
 
 const socials = [
-  { Icon: Linkedin,  href: '#', label: 'LinkedIn' },
-  { Icon: Twitter,   href: '#', label: 'Twitter' },
-  { Icon: Facebook,  href: '#', label: 'Facebook' },
-  { Icon: Instagram, href: '#', label: 'Instagram' },
+  { Icon: Linkedin,  href: 'https://www.linkedin.com/in/geo-nectar-technologies-75369b368/', label: 'LinkedIn' },
+  { Icon: Instagram, href: 'https://www.instagram.com/geo.nectartechnologies?igsh=MXdramZ5bXlwYzl1Mw==', label: 'Instagram' },
 ]
 
 export default function Footer() {

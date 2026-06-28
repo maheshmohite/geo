@@ -32,7 +32,7 @@ const KB = {
   about:
     'Geo-Nectar Technologies is a leading geospatial and engineering services firm with 150+ completed projects across 6 verticals. ISO-certified, we serve clients in the USA, UK, Canada, UAE, and Australia.',
   contact:
-    'You can reach us at:\n📧 info@geonectar.com\n📞 +1-555-000-1234\n🌐 www.geonectar.com\nWe typically respond within 1 business day.',
+    'You can reach us at:\n📧 services@geo-nectar.com\n📞 +1 409 934 5355\n🌐 www.geo-nectar.com\nWe typically respond within 1 business day.',
   industries:
     'We serve: Commercial Real Estate, Residential Development, Infrastructure & Transportation, Healthcare Facilities, Industrial & Warehousing, and Hospitality & Retail sectors.',
 }

@@ -27,33 +27,54 @@ export default function ServicesGrid() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.55, ease: 'easeOut', delay: i * 0.08 }}
-                className="group relative card border border-black/[0.07] p-6 md:p-9 overflow-hidden cursor-default"
+                className="group relative rounded-card overflow-hidden min-h-[320px] flex flex-col
+                           shadow-card hover:shadow-hover transition-shadow duration-300 cursor-pointer"
               >
-                {/* Orange left accent on hover */}
-                <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-accent
-                                scale-y-0 group-hover:scale-y-100 transition-transform
-                                duration-300 origin-top rounded-l" />
+                {/* Background image — always visible, zooms gently on hover */}
+                <div
+                  className="absolute inset-0 bg-cover bg-center
+                              transition-transform duration-700 ease-out group-hover:scale-110"
+                  style={{ backgroundImage: `url(${svc.cardBg || svc.heroImage})` }}
+                />
 
-                {/* Icon */}
-                <div className="w-14 h-14 rounded-xl bg-navy/[0.06] flex items-center justify-center
-                                mb-5 transition-colors duration-200 group-hover:bg-accent/[0.09]">
-                  <Icon size={26} strokeWidth={1.6}
-                    className="stroke-navy transition-colors duration-200 group-hover:stroke-accent" />
+                {/* Permanent dark gradient — lifts slightly on hover to reveal more image */}
+                <div className="absolute inset-0
+                                bg-gradient-to-b from-navy/55 via-navy/70 to-navy/92
+                                group-hover:from-navy/40 group-hover:via-navy/58 group-hover:to-navy/85
+                                transition-all duration-500" />
+
+                {/* Bottom accent bar slides in on hover */}
+                <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-accent z-10
+                                scale-x-0 group-hover:scale-x-100
+                                transition-transform duration-500 origin-left" />
+
+                {/* Card content */}
+                <div className="relative z-10 p-6 md:p-8 flex flex-col h-full min-h-[320px]">
+                  {/* Icon — sits at top */}
+                  <div className="w-14 h-14 rounded-xl bg-white/15 group-hover:bg-accent/30
+                                  flex items-center justify-center
+                                  transition-colors duration-300 mb-auto">
+                    <Icon size={26} strokeWidth={1.6} className="stroke-white" />
+                  </div>
+
+                  {/* Text — anchored to bottom */}
+                  <div className="mt-8">
+                    <h3 className="text-[1.05rem] font-bold text-white mb-2">
+                      {svc.title}
+                    </h3>
+                    <p className="text-[0.84rem] text-white/75 leading-relaxed mb-5 line-clamp-2">
+                      {svc.tagline}
+                    </p>
+                    <Link
+                      to={`/services/${svc.slug}`}
+                      className="inline-flex items-center gap-2 text-[0.82rem] font-bold text-accent
+                                 group-hover:gap-3 transition-all duration-200"
+                    >
+                      Explore Services
+                      <ArrowRight size={14} strokeWidth={2.5} />
+                    </Link>
+                  </div>
                 </div>
-
-                <h3 className="text-[1.03rem] font-bold text-brand-heading mb-2.5">{svc.title}</h3>
-                <p className="text-[0.86rem] text-brand-body leading-relaxed mb-5 line-clamp-3">
-                  {svc.tagline}
-                </p>
-                <Link
-                  to={`/services/${svc.slug}`}
-                  className="inline-flex items-center gap-2 text-[0.82rem] font-bold text-navy
-                             transition-all duration-200 group-hover:text-accent"
-                >
-                  Explore Services
-                  <ArrowRight size={14} strokeWidth={2.5}
-                    className="transition-transform duration-200 group-hover:translate-x-1" />
-                </Link>
               </motion.div>
             )
           })}
