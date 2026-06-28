@@ -56,7 +56,7 @@ export const industries = [
     tagline: 'Structural detailing and analysis support',
     description:
       'Structural drafting, steel detailing, rebar schedules, and structural analysis model creation for structural engineering consultancies and contractors worldwide.',
-    services: ['Steel Detailing', 'Rebar Detailing', 'Shop Drawings', 'Structural Analysis', 'Precast Design'],
+    services: [],
     image: 'https://placehold.co/800x500/0A1F44/4a7fc1?text=Structural+Engineering',
   },
   {

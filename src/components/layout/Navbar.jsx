@@ -29,18 +29,6 @@ const megaMenuCols = [
     items: ['Facility Management', 'MEP', 'HVAC', 'Electrical', 'Plumbing', 'Fire Protection', 'Structural Detailing'],
     slugs: ['facility-management-drawings','mep-drafting','hvac-drafting','electrical-drafting','plumbing-drafting','fire-protection-drafting','structural-design-detailing'],
   },
-  {
-    heading: 'Structural Design',
-    slug: 'structural-design-services',
-    items: ['Steel Detailing', 'Fabrication Drawings', 'Prefab Design', 'Precast Design', 'Structural Analysis', 'Rebar Detailing', 'Shop Drawings'],
-    slugs: ['steel-detailing','fabrication-drawings','prefab-design-drafting','precast-design-drafting','structural-analysis-drafting','rebar-detailing','shop-drawings'],
-  },
-  {
-    heading: 'Mechanical Design',
-    slug: 'mechanical-design-services',
-    items: ['Mechanical 3D Modelling', 'Sheet Metal', 'Process Flow Diagram', 'P&ID Drafting', 'Product Design', 'Plant Engineering'],
-    slugs: ['mechanical-3d-modelling','sheet-metal-design','process-flow-diagram','pid-drafting','product-design','plant-engineering'],
-  },
 ]
 
 const industryDropdown = [

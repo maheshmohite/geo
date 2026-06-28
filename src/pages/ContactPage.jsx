@@ -10,13 +10,30 @@ export default function ContactPage() {
     name: '', email: '', phone: '', company: '', service: '', message: '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
 
   const handleChange = (e) =>
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }))
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    setSubmitted(true)
+    setSending(true)
+    setError('')
+    try {
+      const res = await fetch('/mail.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+      const json = await res.json()
+      if (!res.ok || !json.success) throw new Error(json.message)
+      setSubmitted(true)
+    } catch {
+      setError('Something went wrong. Please try again or email us directly.')
+    } finally {
+      setSending(false)
+    }
   }
 
   return (
@@ -107,10 +124,14 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <button type="submit"
-                    className="btn btn-orange px-10 py-3.5 text-[0.95rem] w-full sm:w-auto">
+                  {error && (
+                    <p className="text-red-600 text-[0.85rem]">{error}</p>
+                  )}
+
+                  <button type="submit" disabled={sending}
+                    className="btn btn-orange px-10 py-3.5 text-[0.95rem] w-full sm:w-auto disabled:opacity-60 disabled:cursor-not-allowed">
                     <Send size={16} strokeWidth={2} />
-                    Send Message
+                    {sending ? 'Sending…' : 'Send Message'}
                   </button>
                 </form>
               )}
