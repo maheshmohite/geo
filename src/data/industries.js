@@ -50,16 +50,6 @@ export const industries = [
     image: 'https://placehold.co/800x500/0A1F44/4a7fc1?text=Infrastructure',
   },
   {
-    slug: 'structural-engineering',
-    title: 'Structural Engineering',
-    icon: 'Triangle',
-    tagline: 'Structural detailing and analysis support',
-    description:
-      'Structural drafting, steel detailing, rebar schedules, and structural analysis model creation for structural engineering consultancies and contractors worldwide.',
-    services: [],
-    image: 'https://placehold.co/800x500/0A1F44/4a7fc1?text=Structural+Engineering',
-  },
-  {
     slug: 'mep-consultants',
     title: 'MEP Consultants',
     icon: 'Wrench',

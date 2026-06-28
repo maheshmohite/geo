@@ -33,11 +33,11 @@ const megaMenuCols = [
 
 const industryDropdown = [
   'Architecture & Construction', 'Land Surveying', 'Civil Engineering',
-  'Real Estate', 'Infrastructure', 'Structural Engineering', 'MEP Consultants',
+  'Real Estate', 'Infrastructure', 'MEP Consultants',
 ]
 const industrySlug = [
   'architecture-construction', 'land-surveying', 'civil-engineering',
-  'real-estate', 'infrastructure', 'structural-engineering', 'mep-consultants',
+  'real-estate', 'infrastructure', 'mep-consultants',
 ]
 
 const aboutDropdown = ['Our Story', 'Team', 'Certifications', 'Careers']

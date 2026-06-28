@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import ScrollToTop from './components/ui/ScrollToTop'
+import CookieConsent from './components/ui/CookieConsent'
 
 // Pages
 import HomePage             from './pages/HomePage'
@@ -23,6 +24,7 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
+      <CookieConsent />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/"                                              element={<HomePage />} />

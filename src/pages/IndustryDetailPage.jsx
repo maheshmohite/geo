@@ -17,6 +17,7 @@ export default function IndustryDetailPage() {
         title={ind.title}
         subtitle={ind.tagline}
         image={ind.image}
+        hideTitle={!!ind.image}
         breadcrumbs={[
           { label: 'Industries', to: '/industries' },
           { label: ind.title },
@@ -31,8 +32,6 @@ export default function IndustryDetailPage() {
               <h2 className="section-title">GeoNectar for {ind.title}</h2>
               <p className="text-brand-body leading-relaxed mb-8">{ind.description}</p>
 
-              <img src={ind.image} alt={ind.title}
-                className="rounded-xl w-full h-64 object-cover mb-8" />
 
               <h3 className="text-[1.05rem] font-bold text-brand-heading mb-4">Key Services for This Industry</h3>
               <div className="flex flex-wrap gap-2">

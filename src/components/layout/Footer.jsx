@@ -36,15 +36,9 @@ export default function Footer() {
 
           {/* Col 1 — Brand */}
           <div>
-            <Link to="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 bg-accent rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg className="w-5 h-5 stroke-white fill-none" strokeWidth="1.8" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 7l10 5 10-5-10-5M2 17l10 5 10-5M2 12l10 5 10-5"/>
-                </svg>
-              </div>
-              <span className="text-white font-extrabold text-lg leading-none">
-                Geo<span className="text-accent">Nectar</span>
-              </span>
+            <Link to="/" className="inline-block mb-4">
+              <img src="/images/geonectar-logo.png" alt="Geo-Nectar Technologies"
+                className="h-10 w-auto bg-white rounded-lg px-2 py-1" />
             </Link>
             <p className="text-[0.84rem] leading-relaxed text-white/55 mb-5">
               Expert CAD Drafting &amp; Design Outsourcing for Surveyors, Engineers, and Architects Worldwide. Precision. Speed. Value.

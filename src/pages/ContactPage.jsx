@@ -140,7 +140,7 @@ export default function ContactPage() {
             {/* Contact info */}
             <AnimatedSection delay={0.1} className="lg:col-span-2 space-y-6">
               <div className="bg-navy rounded-2xl p-8 text-white">
-                <h3 className="text-[1.05rem] font-bold mb-6">Contact Information</h3>
+                <h3 className="text-[1.05rem] font-bold text-white mb-6">Contact Information</h3>
                 <div className="space-y-5">
                   <div className="flex gap-3.5 items-start">
                     <Phone size={18} className="stroke-accent flex-shrink-0 mt-0.5" strokeWidth={1.8} />

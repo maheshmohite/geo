@@ -4,7 +4,7 @@ import { ChevronRight } from 'lucide-react'
 /**
  * Reusable inner-page hero banner with breadcrumb.
  */
-export default function PageHero({ title, subtitle, breadcrumbs = [], image }) {
+export default function PageHero({ title, subtitle, breadcrumbs = [], image, hideTitle = false }) {
   return (
     <section className="relative bg-navy overflow-hidden pt-20 pb-16">
       {/* Grid overlay */}
@@ -34,27 +34,37 @@ export default function PageHero({ title, subtitle, breadcrumbs = [], image }) {
           </nav>
         )}
 
-        <div className={image ? 'grid grid-cols-1 lg:grid-cols-2 gap-12 items-center' : ''}>
-          <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight mb-5">
-              {title}
-            </h1>
-            {subtitle && (
-              <p className="text-base text-white/68 leading-relaxed max-w-xl">
-                {subtitle}
-              </p>
+        {hideTitle && image ? (
+          <div className="flex justify-center">
+            <img
+              src={image}
+              alt={title}
+              className="rounded-xl shadow-float w-full max-w-3xl object-cover h-[320px]"
+            />
+          </div>
+        ) : (
+          <div className={image ? 'grid grid-cols-1 lg:grid-cols-2 gap-12 items-center' : ''}>
+            <div>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight mb-5">
+                {title}
+              </h1>
+              {subtitle && (
+                <p className="text-base text-white/68 leading-relaxed max-w-xl">
+                  {subtitle}
+                </p>
+              )}
+            </div>
+            {image && (
+              <div className="hidden lg:block">
+                <img
+                  src={image}
+                  alt={title}
+                  className="rounded-xl shadow-float w-full object-cover h-[280px]"
+                />
+              </div>
             )}
           </div>
-          {image && (
-            <div className="hidden lg:block">
-              <img
-                src={image}
-                alt={title}
-                className="rounded-xl shadow-float w-full object-cover h-[280px]"
-              />
-            </div>
-          )}
-        </div>
+        )}
       </div>
     </section>
   )

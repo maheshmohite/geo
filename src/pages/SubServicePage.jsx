@@ -20,6 +20,7 @@ export default function SubServicePage() {
         title={sub.title}
         subtitle={sub.description}
         image={sub.image}
+        hideTitle={!!sub.image}
         breadcrumbs={[
           { label: 'Services',      to: '/services' },
           { label: category.title, to: `/services/${category.slug}` },
@@ -35,10 +36,10 @@ export default function SubServicePage() {
             <div className="lg:col-span-2">
               <span className="section-eyebrow">Service Detail</span>
               <h2 className="section-title">{sub.title}</h2>
-              <p className="text-brand-body leading-relaxed mb-6">{sub.content}</p>
+              {(Array.isArray(sub.content) ? sub.content : [sub.content]).map((para, i) => (
+                <p key={i} className="text-brand-body leading-relaxed mb-6">{para}</p>
+              ))}
 
-              <img src={sub.image} alt={sub.title}
-                className="rounded-xl w-full h-64 object-cover mb-8" />
 
               <h3 className="text-[1.1rem] font-bold text-brand-heading mb-4">
                 Why Outsource to GeoNectar?

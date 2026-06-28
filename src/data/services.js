@@ -18,12 +18,16 @@ export const services = [
     subServices: [
       {
         slug: 'alta-nsps-survey-drafting',
-        title: 'ALTA / NSPS Survey Drafting',
+        title: 'ALTA/NSPS Land Title Survey Drafting Services',
         description:
-          'Accurate and standards-compliant ALTA/NSPS Land Title Survey drafting for commercial real estate transactions across the USA.',
-        content:
-          'We specialize in producing ALTA/NSPS Land Title Survey drawings that meet the requirements of title companies, lenders, and attorneys. Our CAD teams are trained in the latest ALTA/NSPS Table A standards and deliver DWG, PDF, and DXF outputs within tight deadlines.',
-        image: 'https://placehold.co/800x500/0A1F44/4a7fc1?text=ALTA+NSPS+Survey',
+          '',
+        content: [
+          'At Geo-Nectar, we specialize in providing comprehensive ALTA/NSPS Land Title Survey drafting solutions that align with the stringent requirements of title companies, lenders, attorneys, developers, and land surveying professionals across the United States. Our team possesses extensive experience in interpreting survey field data, title commitments, easements, legal descriptions, and Table A requirements to produce accurate, compliant, and presentation-ready deliverables.',
+          'We remain up to date with the latest ALTA/NSPS Minimum Standard Detail Requirements, ensuring that every drawing reflects current industry practices and client specifications. From boundary information and rights-of-way to easements, encroachments, utilities, access points, and optional Table A items, our CAD specialists meticulously incorporate every critical element into the final survey exhibit.',
+          'Geo-Nectar delivers high-quality outputs in DWG, DXF, and PDF formats, fully compatible with our clients\' existing workflows and quality standards. Our streamlined production processes, dedicated project teams, and rigorous quality-control procedures enable us to maintain rapid turnaround times without compromising precision or compliance.',
+          'By partnering with Geo-Nectar, surveying and engineering firms can reduce drafting backlogs, improve operational efficiency, optimize project costs, and confidently meet demanding deadlines while ensuring that every ALTA survey deliverable satisfies the expectations of title insurers, financial institutions, legal stakeholders, and property developers.',
+        ],
+        image: '/images/alta-nsps-survey.svg',
       },
       {
         slug: 'topographical-survey-drafting',
