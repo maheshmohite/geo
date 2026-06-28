@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">MEP BIM MODEL</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SOFTWARE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Revit MEP 2024</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">LOD</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">300 — 400</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="40" y1="130" x2="760" y2="130"/>
+    <line x1="40" y1="230" x2="760" y2="230"/>
+    <line x1="40" y1="330" x2="760" y2="330"/>
+    <line x1="150" y1="40" x2="150" y2="424"/>
+    <line x1="300" y1="40" x2="300" y2="424"/>
+    <line x1="450" y1="40" x2="450" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+  </g>
+  <!-- Structural ceiling slab (background) -->
+  <rect x="40" y="58" width="720" height="18" fill="#dde6f0" stroke="#0A1F44" stroke-width="0.8" opacity="0.7"/>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44" text-anchor="middle">STRUCTURAL SLAB — SOFFIT EL. +3300</text>
+  <!-- HVAC DUCTWORK (light blue — main duct) -->
+  <!-- Main supply duct — horizontal -->
+  <rect x="55" y="88" width="500" height="38" fill="#c8dff0" stroke="#4a7fc1" stroke-width="1.5" rx="2"/>
+  <text x="305" y="111" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">600 × 300 SA DUCT</text>
+  <!-- Branch ducts from main supply -->
+  <rect x="160" y="126" width="25" height="80" fill="#c8dff0" stroke="#4a7fc1" stroke-width="1.2" rx="2"/>
+  <text x="172" y="172" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle" transform="rotate(-90,172,172)">300×200 SA</text>
+  <rect x="290" y="126" width="25" height="100" fill="#c8dff0" stroke="#4a7fc1" stroke-width="1.2" rx="2"/>
+  <text x="302" y="180" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle" transform="rotate(-90,302,180)">300×200 SA</text>
+  <rect x="420" y="126" width="25" height="80" fill="#c8dff0" stroke="#4a7fc1" stroke-width="1.2" rx="2"/>
+  <text x="432" y="172" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle" transform="rotate(-90,432,172)">300×200 SA</text>
+  <!-- Return air duct -->
+  <rect x="55" y="200" width="400" height="28" fill="#e0f0e8" stroke="#22a366" stroke-width="1.5" rx="2"/>
+  <text x="255" y="218" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">400 × 250 RA DUCT</text>
+  <!-- PLUMBING PIPES (thin lines — blue for water, brown/orange for sewer) -->
+  <!-- Cold water supply -->
+  <line x1="55" y1="250" x2="720" y2="250" stroke="#2563eb" stroke-width="4"/>
+  <text x="400" y="246" font-family="Arial, sans-serif" font-size="6.5" fill="#2563eb" text-anchor="middle">CWS — DN50</text>
+  <!-- Hot water supply -->
+  <line x1="55" y1="265" x2="600" y2="265" stroke="#d97706" stroke-width="4"/>
+  <text x="330" y="280" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">HWS — DN32</text>
+  <!-- Sanitary drain -->
+  <line x1="55" y1="290" x2="720" y2="290" stroke="#854d0e" stroke-width="5"/>
+  <text x="400" y="308" font-family="Arial, sans-serif" font-size="6.5" fill="#854d0e" text-anchor="middle">SAN. DRAIN — DN100</text>
+  <!-- ELECTRICAL — cable tray (dashed wide line) -->
+  <rect x="55" y="320" width="660" height="20" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="12,4"/>
+  <line x1="55" y1="330" x2="715" y2="330" stroke="#d97706" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="390" y="352" font-family="Arial, sans-serif" font-size="7" fill="#d97706" text-anchor="middle">CABLE TRAY 600W — POWER + DATA</text>
+  <!-- Electrical conduit branch -->
+  <rect x="200" y="340" width="14" height="60" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="450" y="340" width="14" height="60" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <!-- Air handling unit (AHU) -->
+  <rect x="575" y="68" width="145" height="115" fill="#e8eef5" stroke="#0A1F44" stroke-width="2" rx="3"/>
+  <rect x="580" y="73" width="135" height="12" fill="#0A1F44" rx="1"/>
+  <text x="647" y="83" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">AHU-01</text>
+  <ellipse cx="620" cy="130" rx="28" ry="28" fill="#c8d8ea" stroke="#0A1F44" stroke-width="1.2"/>
+  <ellipse cx="620" cy="130" rx="12" ry="12" fill="#0A1F44"/>
+  <text x="620" y="134" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">FAN</text>
+  <text x="660" y="120" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">12.5 kW</text>
+  <text x="660" y="132" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">8000 L/s</text>
+  <text x="660" y="144" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Class 2</text>
+  <!-- Legend -->
+  <rect x="40" y="370" width="500" height="50" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="40" y="370" width="500" height="14" fill="#0A1F44"/>
+  <text x="290" y="381" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">MEP LEGEND</text>
+  <rect x="50" y="390" width="22" height="12" fill="#c8dff0" stroke="#4a7fc1" stroke-width="1.2"/>
+  <text x="78" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">HVAC Ductwork</text>
+  <line x1="155" y1="396" x2="175" y2="396" stroke="#2563eb" stroke-width="3"/>
+  <text x="180" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Cold Water</text>
+  <line x1="245" y1="396" x2="265" y2="396" stroke="#d97706" stroke-width="3"/>
+  <text x="270" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Hot Water</text>
+  <line x1="330" y1="396" x2="350" y2="396" stroke="#854d0e" stroke-width="3"/>
+  <text x="355" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Sanitary</text>
+  <rect x="405" y="389" width="22" height="12" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,2"/>
+  <text x="432" y="399" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Cable Tray</text>
+</svg>

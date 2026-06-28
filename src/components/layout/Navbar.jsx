@@ -8,8 +8,8 @@ const megaMenuCols = [
   {
     heading: 'Land Survey Drafting',
     slug: 'land-survey-drafting-services',
-    items: ['ALTA/NSPS', 'Topographical', 'Boundary Survey', 'Mortgage Survey', 'Aerial Survey', 'Wetland Delineation', 'Photogrammetry', 'GIS Mapping'],
-    slugs: ['alta-nsps-survey-drafting','topographical-survey-drafting','boundary-survey-drafting','mortgage-survey-drafting','aerial-survey-drafting','wetland-delineation-drafting','photogrammetry-drafting','gis-mapping-drafting'],
+    items: ['ALTA/NSPS', 'Topographical', 'Boundary Survey', 'Mortgage Survey', 'Aerial Survey', 'Wetland Delineation', 'Photogrammetry & Geospatial Mapping'],
+    slugs: ['alta-nsps-survey-drafting','topographical-survey-drafting','boundary-survey-drafting','mortgage-survey-drafting','aerial-survey-drafting','wetland-delineation-drafting','photogrammetry-drafting'],
   },
   {
     heading: 'BIM Services',
@@ -26,8 +26,8 @@ const megaMenuCols = [
   {
     heading: 'Building Services',
     slug: 'building-services',
-    items: ['Facility Management', 'MEP', 'HVAC', 'Electrical', 'Plumbing', 'Fire Protection', 'Structural Detailing'],
-    slugs: ['facility-management-drawings','mep-drafting','hvac-drafting','electrical-drafting','plumbing-drafting','fire-protection-drafting','structural-design-detailing'],
+    items: ['Facility Management', 'MEP', 'HVAC', 'Electrical', 'Plumbing', 'Fire Protection'],
+    slugs: ['facility-management-drawings','mep-drafting','hvac-drafting','electrical-drafting','plumbing-drafting','fire-protection-drafting'],
   },
 ]
 
@@ -41,6 +41,7 @@ const industrySlug = [
 ]
 
 const aboutDropdown = ['Our Story', 'Team', 'Certifications', 'Careers']
+const aboutSlugs = ['/about-us', '/about-us/team', '/about-us/certifications', '/about-us/careers']
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -185,7 +186,6 @@ export default function Navbar() {
             </div>
 
             <Link to="/portfolio"    className="nav-link">Portfolio</Link>
-            <Link to="/case-studies" className="nav-link">Case Studies</Link>
             <Link to="/blog"         className="nav-link">Blog</Link>
 
             {/* About dropdown */}
@@ -204,7 +204,7 @@ export default function Navbar() {
                     {aboutDropdown.map((item, i) => (
                       <li key={i}>
                         <Link
-                          to="/about-us"
+                          to={aboutSlugs[i]}
                           className="block px-5 py-2 text-[0.84rem] text-brand-body
                                      hover:text-navy hover:bg-brand-light transition-colors"
                         >
@@ -337,7 +337,6 @@ export default function Navbar() {
 
               {[
                 { label: 'Portfolio',    to: '/portfolio' },
-                { label: 'Case Studies', to: '/case-studies' },
                 { label: 'Blog',         to: '/blog' },
                 { label: 'About Us',     to: '/about-us' },
                 { label: 'Contact Us',   to: '/contact-us' },

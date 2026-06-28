@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">POINT CLOUD TO BIM</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SOFTWARE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">ReCap + Revit 2024</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">LOD</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">300 — 400</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Dividing line -->
+  <line x1="400" y1="40" x2="400" y2="424" stroke="#0A1F44" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <!-- LEFT PANEL: Point Cloud -->
+  <rect x="35" y="40" width="360" height="384" fill="#0d1b2a" rx="2"/>
+  <text x="215" y="58" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#4a7fc1" text-anchor="middle" letter-spacing="2">RAW POINT CLOUD</text>
+  <!-- Point cloud dots (various colors simulating LiDAR intensity) -->
+  <!-- Floor points (gray-white) -->
+  <g opacity="0.9">
+    <!-- Floor -->
+    <circle cx="70" cy="380" r="1.2" fill="#9ca3af"/><circle cx="88" cy="382" r="1" fill="#d1d5db"/>
+    <circle cx="105" cy="379" r="1.2" fill="#9ca3af"/><circle cx="122" cy="381" r="1" fill="#e5e7eb"/>
+    <circle cx="140" cy="380" r="1.2" fill="#9ca3af"/><circle cx="158" cy="382" r="1" fill="#d1d5db"/>
+    <circle cx="175" cy="379" r="1.2" fill="#e5e7eb"/><circle cx="192" cy="381" r="1" fill="#9ca3af"/>
+    <circle cx="210" cy="380" r="1.2" fill="#d1d5db"/><circle cx="228" cy="382" r="1" fill="#9ca3af"/>
+    <circle cx="245" cy="379" r="1.2" fill="#e5e7eb"/><circle cx="262" cy="381" r="1" fill="#d1d5db"/>
+    <circle cx="280" cy="380" r="1.2" fill="#9ca3af"/><circle cx="298" cy="382" r="1" fill="#e5e7eb"/>
+    <circle cx="315" cy="379" r="1.2" fill="#9ca3af"/><circle cx="332" cy="381" r="1" fill="#d1d5db"/>
+    <circle cx="350" cy="380" r="1.2" fill="#e5e7eb"/><circle cx="368" cy="382" r="1" fill="#9ca3af"/>
+    <circle cx="80" cy="373" r="1" fill="#d1d5db"/><circle cx="100" cy="375" r="1" fill="#9ca3af"/>
+    <circle cx="120" cy="374" r="1" fill="#e5e7eb"/><circle cx="140" cy="372" r="1" fill="#9ca3af"/>
+    <circle cx="160" cy="375" r="1" fill="#d1d5db"/><circle cx="180" cy="373" r="1" fill="#e5e7eb"/>
+    <circle cx="200" cy="374" r="1" fill="#9ca3af"/><circle cx="220" cy="372" r="1" fill="#d1d5db"/>
+    <circle cx="240" cy="375" r="1" fill="#e5e7eb"/><circle cx="260" cy="373" r="1" fill="#9ca3af"/>
+    <circle cx="280" cy="374" r="1" fill="#d1d5db"/><circle cx="300" cy="372" r="1" fill="#9ca3af"/>
+    <circle cx="320" cy="375" r="1" fill="#e5e7eb"/><circle cx="340" cy="373" r="1" fill="#d1d5db"/>
+    <circle cx="360" cy="374" r="1" fill="#9ca3af"/>
+    <!-- Left wall points (warm tones) -->
+    <circle cx="65" cy="368" r="1.2" fill="#f59e0b"/><circle cx="63" cy="352" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="336" r="1.2" fill="#f59e0b"/><circle cx="62" cy="320" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="304" r="1.2" fill="#f59e0b"/><circle cx="63" cy="288" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="272" r="1.2" fill="#f59e0b"/><circle cx="62" cy="256" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="240" r="1.2" fill="#f59e0b"/><circle cx="63" cy="224" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="208" r="1.2" fill="#f59e0b"/><circle cx="62" cy="192" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="176" r="1.2" fill="#f59e0b"/><circle cx="63" cy="160" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="144" r="1.2" fill="#f59e0b"/><circle cx="62" cy="128" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="112" r="1.2" fill="#f59e0b"/><circle cx="63" cy="96" r="1" fill="#fbbf24"/>
+    <circle cx="65" cy="80" r="1.2" fill="#f59e0b"/>
+    <!-- Right wall points -->
+    <circle cx="378" cy="368" r="1.2" fill="#f59e0b"/><circle cx="378" cy="350" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="332" r="1.2" fill="#f59e0b"/><circle cx="378" cy="314" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="296" r="1.2" fill="#f59e0b"/><circle cx="378" cy="278" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="260" r="1.2" fill="#f59e0b"/><circle cx="378" cy="242" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="224" r="1.2" fill="#f59e0b"/><circle cx="378" cy="206" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="188" r="1.2" fill="#f59e0b"/><circle cx="378" cy="170" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="152" r="1.2" fill="#f59e0b"/><circle cx="378" cy="134" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="116" r="1.2" fill="#f59e0b"/><circle cx="378" cy="98" r="1" fill="#fbbf24"/>
+    <circle cx="378" cy="80" r="1.2" fill="#f59e0b"/>
+    <!-- Ceiling points (cool tones) -->
+    <circle cx="70" cy="75" r="1.2" fill="#60a5fa"/><circle cx="90" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="110" cy="75" r="1.2" fill="#60a5fa"/><circle cx="130" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="150" cy="75" r="1.2" fill="#60a5fa"/><circle cx="170" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="190" cy="75" r="1.2" fill="#60a5fa"/><circle cx="210" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="230" cy="75" r="1.2" fill="#60a5fa"/><circle cx="250" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="270" cy="75" r="1.2" fill="#60a5fa"/><circle cx="290" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="310" cy="75" r="1.2" fill="#60a5fa"/><circle cx="330" cy="73" r="1" fill="#93c5fd"/>
+    <circle cx="350" cy="75" r="1.2" fill="#60a5fa"/><circle cx="370" cy="73" r="1" fill="#93c5fd"/>
+    <!-- Interior scattered points -->
+    <circle cx="100" cy="290" r="1" fill="#10b981"/><circle cx="150" cy="310" r="1" fill="#34d399"/>
+    <circle cx="200" cy="270" r="1" fill="#10b981"/><circle cx="250" cy="320" r="1" fill="#34d399"/>
+    <circle cx="300" cy="280" r="1" fill="#10b981"/><circle cx="350" cy="300" r="1" fill="#34d399"/>
+    <circle cx="120" cy="200" r="1" fill="#10b981"/><circle cx="180" cy="220" r="1" fill="#34d399"/>
+    <circle cx="240" cy="190" r="1" fill="#10b981"/><circle cx="320" cy="210" r="1" fill="#34d399"/>
+    <!-- Column scans -->
+    <circle cx="130" cy="365" r="1.5" fill="#ef4444"/><circle cx="128" cy="350" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="335" r="1.5" fill="#ef4444"/><circle cx="128" cy="320" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="305" r="1.5" fill="#ef4444"/><circle cx="128" cy="290" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="275" r="1.5" fill="#ef4444"/><circle cx="128" cy="260" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="245" r="1.5" fill="#ef4444"/><circle cx="128" cy="230" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="215" r="1.5" fill="#ef4444"/><circle cx="128" cy="200" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="185" r="1.5" fill="#ef4444"/><circle cx="128" cy="170" r="1.2" fill="#fca5a5"/>
+    <circle cx="130" cy="155" r="1.5" fill="#ef4444"/><circle cx="128" cy="140" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="365" r="1.5" fill="#ef4444"/><circle cx="308" cy="350" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="335" r="1.5" fill="#ef4444"/><circle cx="308" cy="320" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="305" r="1.5" fill="#ef4444"/><circle cx="308" cy="290" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="275" r="1.5" fill="#ef4444"/><circle cx="308" cy="260" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="245" r="1.5" fill="#ef4444"/><circle cx="308" cy="230" r="1.2" fill="#fca5a5"/>
+    <circle cx="310" cy="215" r="1.5" fill="#ef4444"/>
+  </g>
+  <!-- Scan data label -->
+  <rect x="42" y="398" width="350" height="18" fill="#0d1b2a"/>
+  <text x="50" y="411" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Scanner: FARO Focus 3D  |  Points: 248M  |  Accuracy: ±2mm</text>
+  <!-- ARROW in center -->
+  <polygon points="390,220 415,205 415,215 760,215 760,225 415,225 415,235" fill="#d97706"/>
+  <!-- RIGHT PANEL: BIM Model -->
+  <rect x="408" y="40" width="350" height="384" fill="#eef3f8" rx="2"/>
+  <text x="583" y="58" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle" letter-spacing="2">BIM MODEL (LOD 350)</text>
+  <!-- Clean BIM building representation -->
+  <!-- Floor slab -->
+  <rect x="440" y="370" width="290" height="12" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Left wall -->
+  <rect x="440" y="80" width="18" height="290" fill="#c5d5e8" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Right wall -->
+  <rect x="712" y="80" width="18" height="290" fill="#c5d5e8" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Ceiling -->
+  <rect x="440" y="68" width="290" height="14" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Column (structural) — left -->
+  <rect x="460" y="80" width="24" height="290" fill="#0A1F44" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="462" y="82" width="20" height="286" fill="#4a7fc1"/>
+  <!-- Column — right -->
+  <rect x="686" y="80" width="24" height="290" fill="#0A1F44" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="688" y="82" width="20" height="286" fill="#4a7fc1"/>
+  <!-- Windows -->
+  <rect x="500" y="110" width="55" height="80" fill="#a8c5e0" stroke="#0A1F44" stroke-width="1.2"/>
+  <line x1="527" y1="110" x2="527" y2="190" stroke="#0A1F44" stroke-width="0.6"/>
+  <line x1="500" y1="150" x2="555" y2="150" stroke="#0A1F44" stroke-width="0.6"/>
+  <rect x="565" y="110" width="55" height="80" fill="#a8c5e0" stroke="#0A1F44" stroke-width="1.2"/>
+  <line x1="592" y1="110" x2="592" y2="190" stroke="#0A1F44" stroke-width="0.6"/>
+  <line x1="565" y1="150" x2="620" y2="150" stroke="#0A1F44" stroke-width="0.6"/>
+  <rect x="630" y="110" width="55" height="80" fill="#a8c5e0" stroke="#0A1F44" stroke-width="1.2"/>
+  <line x1="657" y1="110" x2="657" y2="190" stroke="#0A1F44" stroke-width="0.6"/>
+  <line x1="630" y1="150" x2="685" y2="150" stroke="#0A1F44" stroke-width="0.6"/>
+  <!-- Door -->
+  <rect x="555" y="300" width="60" height="70" fill="#7fb3d4" stroke="#0A1F44" stroke-width="1.2"/>
+  <arc cx="555" cy="300" r="60" start="0" end="90"/>
+  <path d="M 555,300 Q 565,280 615,300" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Dimension annotations -->
+  <line x1="440" y1="55" x2="730" y2="55" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="440" y1="50" x2="440" y2="62" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="730" y1="50" x2="730" y2="62" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="585" y="52" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">14,500</text>
+  <line x1="424" y1="68" x2="424" y2="382" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="418" y1="68" x2="432" y2="68" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="418" y1="382" x2="432" y2="382" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="413" y="228" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" transform="rotate(-90,413,228)">9,600</text>
+  <!-- Accuracy note -->
+  <rect x="415" y="398" width="350" height="18" fill="#e8eef5" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="422" y="410" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">As-Built Accuracy: ±5mm  |  Format: .rvt .ifc .dwg  |  LOD 350</text>
+  <!-- Center label -->
+  <rect x="455" y="220" width="115" height="14" fill="none"/>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="6" fill="#d97706" text-anchor="middle">▶ SCAN-TO-BIM WORKFLOW</text>
+</svg>

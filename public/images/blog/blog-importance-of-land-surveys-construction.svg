@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">LAND SURVEY INSIGHTS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">Why Land Surveys Are Non-Negotiable Before Construction</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">September 15, 2021</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="360" y1="28" x2="360" y2="444"/>
+    <line x1="28" y1="240" x2="772" y2="240"/>
+  </g>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">LAND SURVEY INFOGRAPHIC  |  BOUNDARIES · LEGAL COMPLIANCE · TOPOGRAPHY · MODERN TECHNOLOGY</text>
+  <!-- Left: Survey plot diagram -->
+  <rect x="28" y="50" width="316" height="380" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="186" y="66" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">LAND SURVEY PLOT PLAN</text>
+  <!-- Property boundary -->
+  <polygon points="80,90 300,85 320,250 200,310 70,270" fill="#e8f4e8" stroke="#22a366" stroke-width="2"/>
+  <!-- Setback lines -->
+  <polygon points="100,108 284,104 302,240 200,292 90,256" fill="none" stroke="#F05A28" stroke-width="1" stroke-dasharray="6,3"/>
+  <!-- Survey monuments -->
+  <circle cx="80" cy="90" r="5" fill="#F05A28" stroke="#0A1F44" stroke-width="1"/>
+  <circle cx="300" cy="85" r="5" fill="#F05A28" stroke="#0A1F44" stroke-width="1"/>
+  <circle cx="320" cy="250" r="5" fill="#F05A28" stroke="#0A1F44" stroke-width="1"/>
+  <circle cx="200" cy="310" r="5" fill="#F05A28" stroke="#0A1F44" stroke-width="1"/>
+  <circle cx="70" cy="270" r="5" fill="#F05A28" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Monument labels -->
+  <text x="66" y="85" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">MON A</text>
+  <text x="303" y="82" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">MON B</text>
+  <text x="322" y="265" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">MON C</text>
+  <text x="196" y="322" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">MON D</text>
+  <text x="42" y="280" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">MON E</text>
+  <!-- Bearing & distance labels -->
+  <text x="190" y="80" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">N 88°42'15" E   220.35'</text>
+  <text x="335" y="168" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">S 02°15'42" E   165.20'</text>
+  <text x="75" y="188" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">N 04°10'05" W   184.44'</text>
+  <!-- Building envelope -->
+  <rect x="135" y="148" width="130" height="110" fill="#c8d8ea" stroke="#4a7fc1" stroke-width="1.5" opacity="0.7"/>
+  <text x="200" y="198" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" font-weight="bold">PROPOSED</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" font-weight="bold">BUILDING</text>
+  <!-- Easement -->
+  <rect x="80" y="90" width="18" height="180" fill="#fbbf24" opacity="0.3"/>
+  <text x="89" y="186" font-family="Arial, sans-serif" font-size="5" fill="#d97706" text-anchor="middle" transform="rotate(-90,89,186)">UTILITY EASEMENT</text>
+  <!-- Contour lines -->
+  <path d="M 100,320 Q 200,340 310,325" fill="none" stroke="#9ab3d4" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="110" y="316" font-family="Arial, sans-serif" font-size="5" fill="#9ab3d4">52m</text>
+  <path d="M 95,340 Q 200,360 315,342" fill="none" stroke="#9ab3d4" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="108" y="336" font-family="Arial, sans-serif" font-size="5" fill="#9ab3d4">50m</text>
+  <!-- Legend -->
+  <rect x="38" y="360" width="290" height="62" fill="#f0f4f8" stroke="#9ab3d4" stroke-width="0.5" rx="2"/>
+  <text x="183" y="374" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">LEGEND</text>
+  <circle cx="52" cy="384" r="4" fill="#F05A28"/>
+  <text x="60" y="387" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Survey Monument</text>
+  <rect x="136" y="380" width="16" height="8" fill="#22a366" opacity="0.5"/>
+  <text x="156" y="387" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Property Line</text>
+  <rect x="228" y="380" width="16" height="8" fill="none" stroke="#F05A28" stroke-dasharray="4,2"/>
+  <text x="248" y="387" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Setback</text>
+  <rect x="52" y="396" width="16" height="8" fill="#fbbf24" opacity="0.5"/>
+  <text x="72" y="403" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Utility Easement</text>
+  <rect x="164" y="396" width="16" height="8" fill="#c8d8ea" opacity="0.7"/>
+  <text x="184" y="403" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Building Envelope</text>
+  <!-- Right: Why it matters -->
+  <rect x="356" y="50" width="416" height="185" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="564" y="66" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">WHY LAND SURVEYS MATTER</text>
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <rect x="366" y="74" width="396" height="28" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.5" rx="2"/>
+    <text x="376" y="85" fill="#0A1F44" font-weight="bold">LEGAL PROTECTION</text>
+    <text x="376" y="96" fill="#6b7280">Defines property boundaries, preventing encroachment disputes &amp; litigation</text>
+    <rect x="366" y="106" width="396" height="28" fill="#e8f8f0" stroke="#22a366" stroke-width="0.5" rx="2"/>
+    <text x="376" y="117" fill="#0A1F44" font-weight="bold">REGULATORY COMPLIANCE</text>
+    <text x="376" y="128" fill="#6b7280">Confirms zoning setbacks, easements, and building envelope limits</text>
+    <rect x="366" y="138" width="396" height="28" fill="#fff8f0" stroke="#F05A28" stroke-width="0.5" rx="2"/>
+    <text x="376" y="149" fill="#0A1F44" font-weight="bold">DESIGN ACCURACY</text>
+    <text x="376" y="160" fill="#6b7280">Topographic data feeds architectural &amp; civil design decisions directly</text>
+    <rect x="366" y="170" width="396" height="28" fill="#fdf8ff" stroke="#7c3aed" stroke-width="0.5" rx="2"/>
+    <text x="376" y="181" fill="#0A1F44" font-weight="bold">PROPERTY VALUATION</text>
+    <text x="376" y="192" fill="#6b7280">Precisely measured parcels are more marketable and command higher prices</text>
+    <rect x="366" y="202" width="396" height="28" fill="#f0f8ff" stroke="#3b82f6" stroke-width="0.5" rx="2"/>
+    <text x="376" y="213" fill="#0A1F44" font-weight="bold">UTILITY IDENTIFICATION</text>
+    <text x="376" y="224" fill="#6b7280">Reveals underground services, avoiding costly strikes during construction</text>
+  </g>
+  <!-- Survey types (bottom right) -->
+  <rect x="356" y="244" width="200" height="186" fill="#0A1F44" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="456" y="260" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">SURVEY TYPES</text>
+  <g font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">
+    <rect x="368" y="268" width="6" height="6" fill="#F05A28" rx="1"/>
+    <text x="378" y="275">ALTA / NSPS Survey</text>
+    <rect x="368" y="282" width="6" height="6" fill="#4a7fc1" rx="1"/>
+    <text x="378" y="289">Topographic Survey</text>
+    <rect x="368" y="296" width="6" height="6" fill="#22a366" rx="1"/>
+    <text x="378" y="303">Boundary Survey</text>
+    <rect x="368" y="310" width="6" height="6" fill="#fbbf24" rx="1"/>
+    <text x="378" y="317">Mortgage Survey</text>
+    <rect x="368" y="324" width="6" height="6" fill="#7c3aed" rx="1"/>
+    <text x="378" y="331">Aerial &amp; Drone Survey</text>
+    <rect x="368" y="338" width="6" height="6" fill="#ef4444" rx="1"/>
+    <text x="378" y="345">Wetland Delineation</text>
+    <rect x="368" y="352" width="6" height="6" fill="#9ab3d4" rx="1"/>
+    <text x="378" y="359">Photogrammetric Survey</text>
+    <rect x="368" y="366" width="6" height="6" fill="#f97316" rx="1"/>
+    <text x="378" y="373">Construction Stakeout</text>
+    <rect x="368" y="380" width="6" height="6" fill="#06b6d4" rx="1"/>
+    <text x="378" y="387">As-Built Survey</text>
+    <text x="456" y="408" fill="#F05A28" text-anchor="middle">All drafting by GeoNectar</text>
+    <text x="456" y="422" fill="#9ab3d4" text-anchor="middle">geo-nectar.com</text>
+  </g>
+  <!-- Technology panel (bottom right) -->
+  <rect x="566" y="244" width="206" height="186" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="669" y="260" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">MODERN TECHNOLOGY</text>
+  <!-- Tech items -->
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <rect x="576" y="268" width="186" height="36" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.5" rx="2"/>
+    <text x="576" y="282" font-size="6" fill="#4a7fc1">  GPS / GNSS</text>
+    <text x="576" y="295" font-size="5.5" fill="#6b7280">  Sub-centimetre accuracy · RTK networks</text>
+    <text x="576" y="305" font-size="5.5" fill="#6b7280">  Real-time corrections · NGS datums</text>
+    <rect x="576" y="310" width="186" height="36" fill="#e8f8f0" stroke="#22a366" stroke-width="0.5" rx="2"/>
+    <text x="576" y="324" font-size="6" fill="#22a366">  Drone / UAV Survey</text>
+    <text x="576" y="337" font-size="5.5" fill="#6b7280">  GSD 2cm · 100ha/day coverage</text>
+    <text x="576" y="347" font-size="5.5" fill="#6b7280">  Photogrammetric point cloud output</text>
+    <rect x="576" y="352" width="186" height="36" fill="#fff8f0" stroke="#F05A28" stroke-width="0.5" rx="2"/>
+    <text x="576" y="366" font-size="6" fill="#F05A28">  3D Laser Scanning</text>
+    <text x="576" y="379" font-size="5.5" fill="#6b7280">  ±2mm accuracy · 2M pts/sec</text>
+    <text x="576" y="389" font-size="5.5" fill="#6b7280">  Leica RTC360 · Faro Focus</text>
+    <rect x="576" y="394" width="186" height="28" fill="#0A1F44" rx="2"/>
+    <text x="669" y="408" font-size="7" font-weight="bold" fill="#F05A28" text-anchor="middle">GeoNectar Survey Drafting</text>
+    <text x="669" y="419" font-size="6" fill="#c8d8ea" text-anchor="middle">Expert CAD production for all survey types</text>
+  </g>
+</svg>

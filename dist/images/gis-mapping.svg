@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">GIS MAPPING &amp; SPATIAL DATA</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:5000</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Map background -->
+  <rect x="40" y="40" width="530" height="384" fill="#eef3f8"/>
+  <!-- Parcels (color-coded) -->
+  <rect x="55" y="55" width="100" height="80" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="155" y="55" width="120" height="80" fill="#e0ecd8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="275" y="55" width="90" height="80" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="365" y="55" width="110" height="80" fill="#f5e8d8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="475" y="55" width="85" height="80" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="55" y="165" width="100" height="90" fill="#e0ecd8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="155" y="165" width="120" height="90" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="275" y="165" width="90" height="90" fill="#f5e8d8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="365" y="165" width="110" height="90" fill="#e0ecd8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="475" y="165" width="85" height="90" fill="#f0f0f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="55" y="285" width="100" height="75" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="155" y="285" width="120" height="75" fill="#f5e8d8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="275" y="285" width="200" height="75" fill="#e0ecd8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="475" y="285" width="85" height="75" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="55" y="380" width="505" height="38" fill="#c8d8ea" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Roads (thicker) -->
+  <rect x="134" y="40" width="16" height="384" fill="#d4c89e"/>
+  <rect x="254" y="40" width="16" height="384" fill="#d4c89e"/>
+  <rect x="344" y="40" width="16" height="384" fill="#d4c89e"/>
+  <rect x="454" y="40" width="16" height="384" fill="#d4c89e"/>
+  <rect x="40" y="134" width="530" height="16" fill="#d4c89e"/>
+  <rect x="40" y="254" width="530" height="16" fill="#d4c89e"/>
+  <rect x="40" y="370" width="530" height="16" fill="#d4c89e"/>
+  <!-- Road centerlines -->
+  <line x1="142" y1="40" x2="142" y2="424" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="262" y1="40" x2="262" y2="424" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="352" y1="40" x2="352" y2="424" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="462" y1="40" x2="462" y2="424" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="40" y1="142" x2="570" y2="142" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="40" y1="262" x2="570" y2="262" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <line x1="40" y1="378" x2="570" y2="378" stroke="white" stroke-width="1" stroke-dasharray="8,4"/>
+  <!-- Building footprints on parcels -->
+  <rect x="66" y="66" width="40" height="30" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="170" y="70" width="50" height="35" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="288" y="65" width="38" height="28" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="380" y="68" width="55" height="38" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="488" y="68" width="35" height="30" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="66" y="178" width="42" height="35" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="170" y="180" width="60" height="40" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="288" y="178" width="38" height="30" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="380" y="178" width="52" height="42" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="66" y="298" width="40" height="30" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="170" y="295" width="50" height="35" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="288" y="298" width="68" height="32" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Parcel IDs -->
+  <text x="85" y="105" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-A</text>
+  <text x="215" y="108" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-B</text>
+  <text x="320" y="108" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-C</text>
+  <text x="420" y="108" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-D</text>
+  <text x="518" y="108" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-E</text>
+  <!-- Coordinate labels -->
+  <text x="40" y="38" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">E 432500</text>
+  <text x="275" y="38" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">E 433000</text>
+  <text x="555" y="38" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">E 433500</text>
+  <text x="32" y="130" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">N 6850000</text>
+  <text x="32" y="250" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">N 6849500</text>
+  <text x="32" y="370" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">N 6849000</text>
+  <!-- GIS Layers panel (right side) -->
+  <rect x="580" y="40" width="180" height="270" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="580" y="40" width="180" height="18" fill="#0A1F44"/>
+  <text x="670" y="53" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">LAYER CONTROL</text>
+  <!-- Layer items -->
+  <rect x="589" y="65" width="10" height="10" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="605" y="74" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">✓ Building Footprints</text>
+  <rect x="589" y="81" width="10" height="10" fill="#d4c89e" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="605" y="90" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">✓ Roads</text>
+  <rect x="589" y="97" width="10" height="10" fill="#dde8f0" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="605" y="106" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">✓ Parcels (Residential)</text>
+  <rect x="589" y="113" width="10" height="10" fill="#e0ecd8" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="605" y="122" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">✓ Parcels (Commercial)</text>
+  <rect x="589" y="129" width="10" height="10" fill="#c8e0f0" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="605" y="138" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">✓ Water Bodies</text>
+  <rect x="589" y="145" width="10" height="10" fill="none" stroke="#d97706" stroke-width="1"/>
+  <text x="605" y="154" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">  Easements</text>
+  <rect x="589" y="161" width="10" height="10" fill="none" stroke="#6b7280" stroke-width="1"/>
+  <text x="605" y="170" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">  Contours</text>
+  <!-- Attribute table snippet -->
+  <rect x="580" y="320" width="180" height="100" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="580" y="320" width="180" height="16" fill="#0A1F44"/>
+  <text x="670" y="332" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">ATTRIBUTE TABLE</text>
+  <rect x="580" y="336" width="70" height="12" fill="#c8d8ea" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="650" y="336" width="55" height="12" fill="#c8d8ea" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="705" y="336" width="55" height="12" fill="#c8d8ea" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="615" y="346" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">PARCEL_ID</text>
+  <text x="677" y="346" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">AREA_m2</text>
+  <text x="732" y="346" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">ZONE</text>
+  <text x="615" y="360" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-A</text>
+  <text x="677" y="360" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">840.25</text>
+  <text x="732" y="360" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">R1</text>
+  <text x="615" y="373" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-B</text>
+  <text x="677" y="373" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">1020.50</text>
+  <text x="732" y="373" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">C1</text>
+  <text x="615" y="386" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">101-C</text>
+  <text x="677" y="386" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">756.80</text>
+  <text x="732" y="386" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">R1</text>
+  <!-- North arrow -->
+  <g transform="translate(670,415)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-14 -5,7 0,2 5,7" fill="#0A1F44"/>
+    <line x1="0" y1="-14" x2="0" y2="14" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-18" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- CRS label -->
+  <text x="580" y="432" font-family="Arial, sans-serif" font-size="5.5" fill="#6b7280">CRS: GDA2020 MGA Zone 55 (EPSG:7855)</text>
+</svg>

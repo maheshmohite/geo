@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">INDUSTRY NEWS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">GIS Mapping Trends: Real-Time Data &amp; 3D Visualization</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">May 15, 2022</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">GIS TRENDS INFOGRAPHIC  |  AI · IoT · 3D VISUALIZATION · REAL-TIME DATA · CLOUD GIS</text>
+  <!-- Header -->
+  <rect x="28" y="50" width="744" height="26" fill="#0A1F44" rx="2"/>
+  <text x="400" y="67" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle">GIS MAPPING IN 2022: KEY TRENDS RESHAPING GEOSPATIAL INTELLIGENCE</text>
+  <!-- Market growth (top left) -->
+  <rect x="28" y="84" width="240" height="170" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="148" y="99" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GIS MARKET GROWTH</text>
+  <!-- Growth chart -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <line x1="55" y1="108" x2="55" y2="228" stroke="#0A1F44" stroke-width="0.8"/>
+    <line x1="55" y1="228" x2="235" y2="228" stroke="#0A1F44" stroke-width="0.8"/>
+    <!-- Bars -->
+    <rect x="65" y="175" width="22" height="53" fill="#9ab3d4"/>
+    <text x="76" y="239" fill="#6b7280" text-anchor="middle">2020</text>
+    <text x="76" y="172" fill="#0A1F44" text-anchor="middle">$7B</text>
+    <rect x="97" y="162" width="22" height="66" fill="#4a7fc1"/>
+    <text x="108" y="239" fill="#6b7280" text-anchor="middle">2021</text>
+    <text x="108" y="159" fill="#0A1F44" text-anchor="middle">$8B</text>
+    <rect x="129" y="148" width="22" height="80" fill="#4a7fc1"/>
+    <text x="140" y="239" fill="#6b7280" text-anchor="middle">2022</text>
+    <text x="140" y="145" fill="#0A1F44" text-anchor="middle">$9B</text>
+    <rect x="161" y="130" width="22" height="98" fill="#F05A28"/>
+    <text x="172" y="239" fill="#6b7280" text-anchor="middle">2025</text>
+    <text x="172" y="127" fill="#0A1F44" text-anchor="middle">$12B</text>
+    <rect x="193" y="108" width="22" height="120" fill="#22a366" opacity="0.6" stroke="#22a366" stroke-dasharray="4,2"/>
+    <text x="204" y="239" fill="#22a366" text-anchor="middle">2030</text>
+    <text x="204" y="105" fill="#22a366" text-anchor="middle">$15B</text>
+  </g>
+  <rect x="55" y="242" width="180" height="10" fill="#F05A28" rx="1" opacity="0.2"/>
+  <text x="148" y="250" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#F05A28" text-anchor="middle">CAGR 8.7% through 2030</text>
+  <!-- Trend 1: Real-time Data -->
+  <rect x="280" y="84" width="240" height="170" fill="#0A1F44" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="400" y="99" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">REAL-TIME DATA INTEGRATION</text>
+  <!-- IoT Sources -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <!-- Central hub -->
+    <circle cx="400" cy="170" r="25" fill="#4a7fc1"/>
+    <text x="400" y="167" fill="#ffffff" text-anchor="middle" font-weight="bold">GIS</text>
+    <text x="400" y="177" fill="#ffffff" text-anchor="middle" font-size="5.5">PLATFORM</text>
+    <!-- IoT sources -->
+    <circle cx="340" cy="130" r="16" fill="#F05A28" opacity="0.9"/>
+    <text x="340" y="128" fill="#ffffff" text-anchor="middle" font-size="5.5">Weather</text>
+    <text x="340" y="138" fill="#ffffff" text-anchor="middle" font-size="5.5">Sensors</text>
+    <line x1="355" y1="140" x2="375" y2="155" stroke="#9ab3d4" stroke-width="1" stroke-dasharray="3,2"/>
+    <circle cx="460" cy="130" r="16" fill="#22a366" opacity="0.9"/>
+    <text x="460" y="128" fill="#ffffff" text-anchor="middle" font-size="5.5">Traffic</text>
+    <text x="460" y="138" fill="#ffffff" text-anchor="middle" font-size="5.5">Feeds</text>
+    <line x1="445" y1="140" x2="425" y2="155" stroke="#9ab3d4" stroke-width="1" stroke-dasharray="3,2"/>
+    <circle cx="330" cy="196" r="16" fill="#7c3aed" opacity="0.9"/>
+    <text x="330" y="194" fill="#ffffff" text-anchor="middle" font-size="5.5">Satellite</text>
+    <text x="330" y="204" fill="#ffffff" text-anchor="middle" font-size="5.5">Imagery</text>
+    <line x1="346" y1="196" x2="375" y2="186" stroke="#9ab3d4" stroke-width="1" stroke-dasharray="3,2"/>
+    <circle cx="470" cy="196" r="16" fill="#d97706" opacity="0.9"/>
+    <text x="470" y="194" fill="#ffffff" text-anchor="middle" font-size="5.5">SCADA</text>
+    <text x="470" y="204" fill="#ffffff" text-anchor="middle" font-size="5.5">Utility</text>
+    <line x1="454" y1="196" x2="425" y2="186" stroke="#9ab3d4" stroke-width="1" stroke-dasharray="3,2"/>
+    <circle cx="400" cy="228" r="16" fill="#ef4444" opacity="0.9"/>
+    <text x="400" y="226" fill="#ffffff" text-anchor="middle" font-size="5.5">Emergency</text>
+    <text x="400" y="236" fill="#ffffff" text-anchor="middle" font-size="5.5">Services</text>
+    <line x1="400" y1="195" x2="400" y2="212" stroke="#9ab3d4" stroke-width="1" stroke-dasharray="3,2"/>
+    <!-- Pulse rings on hub -->
+    <circle cx="400" cy="170" r="32" fill="none" stroke="#4a7fc1" stroke-width="0.5" opacity="0.5"/>
+    <circle cx="400" cy="170" r="39" fill="none" stroke="#4a7fc1" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  <text x="400" y="252" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">Live streaming spatial data → Predictive decisions</text>
+  <!-- Trend 2: AI in GIS -->
+  <rect x="532" y="84" width="240" height="170" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="652" y="99" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">AI &amp; MACHINE LEARNING IN GIS</text>
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <rect x="544" y="106" width="216" height="28" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.5" rx="2"/>
+    <text x="554" y="117" font-weight="bold" fill="#4a7fc1">Pattern Recognition</text>
+    <text x="554" y="127" fill="#6b7280">ML models detect land-use change from satellite imagery</text>
+    <rect x="544" y="138" width="216" height="28" fill="#e8f8f0" stroke="#22a366" stroke-width="0.5" rx="2"/>
+    <text x="554" y="149" font-weight="bold" fill="#22a366">Predictive Analytics</text>
+    <text x="554" y="159" fill="#6b7280">AI processes IoT streams for flood / wildfire prediction</text>
+    <rect x="544" y="170" width="216" height="28" fill="#fff8f0" stroke="#F05A28" stroke-width="0.5" rx="2"/>
+    <text x="554" y="181" font-weight="bold" fill="#F05A28">Automated Feature Extraction</text>
+    <text x="554" y="191" fill="#6b7280">Road / building / crop detection from aerial imagery</text>
+    <rect x="544" y="202" width="216" height="28" fill="#fdf8ff" stroke="#7c3aed" stroke-width="0.5" rx="2"/>
+    <text x="554" y="213" font-weight="bold" fill="#7c3aed">Natural Language Queries</text>
+    <text x="554" y="223" fill="#6b7280">"Show me flood risk zones near schools" → map output</text>
+    <rect x="544" y="234" width="216" height="16" fill="#0A1F44" rx="1"/>
+    <text x="652" y="245" font-size="6.5" fill="#F05A28" text-anchor="middle" font-weight="bold">From reactive mapping → predictive intelligence</text>
+  </g>
+  <!-- Trend 3: 3D Visualization -->
+  <rect x="28" y="264" width="370" height="176" fill="#0A1F44" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="213" y="280" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">3D GIS VISUALIZATION</text>
+  <!-- 3D city mock -->
+  <!-- Buildings (isometric) -->
+  <polygon points="100,370 130,350 150,360 120,380" fill="#4a7fc1" opacity="0.8"/>
+  <polygon points="130,350 150,340 170,350 150,360" fill="#6a9fd4" opacity="0.8"/>
+  <polygon points="150,360 170,350 170,370 150,380" fill="#2a5f91" opacity="0.8"/>
+  <polygon points="155,310 180,295 200,305 175,320" fill="#F05A28" opacity="0.9"/>
+  <polygon points="180,295 200,285 220,295 200,305" fill="#f07a48" opacity="0.9"/>
+  <polygon points="200,305 220,295 220,310 200,320" fill="#c04018" opacity="0.9"/>
+  <polygon points="60,340 90,326 105,334 75,348" fill="#22a366" opacity="0.8"/>
+  <polygon points="90,326 105,318 120,326 105,334" fill="#42c386" opacity="0.8"/>
+  <polygon points="105,334 120,326 120,340 105,348" fill="#128346" opacity="0.8"/>
+  <polygon points="210,355 240,338 258,348 228,365" fill="#7c3aed" opacity="0.8"/>
+  <polygon points="240,338 258,330 275,338 258,348" fill="#9c5aed" opacity="0.8"/>
+  <polygon points="258,348 275,338 275,352 258,362" fill="#5c1acd" opacity="0.8"/>
+  <!-- Road grid -->
+  <line x1="60" y1="380" x2="350" y2="380" stroke="#9ab3d4" stroke-width="2" opacity="0.5"/>
+  <line x1="145" y1="320" x2="145" y2="430" stroke="#9ab3d4" stroke-width="1.5" opacity="0.5"/>
+  <line x1="230" y1="330" x2="230" y2="430" stroke="#9ab3d4" stroke-width="1.5" opacity="0.5"/>
+  <!-- Data overlays -->
+  <circle cx="100" cy="360" r="4" fill="#ef4444" opacity="0.8"/>
+  <circle cx="180" cy="348" r="4" fill="#ef4444" opacity="0.8"/>
+  <circle cx="145" cy="350" r="6" fill="none" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+  <circle cx="145" cy="350" r="12" fill="none" stroke="#ef4444" stroke-width="0.5" opacity="0.4"/>
+  <!-- Labels -->
+  <text x="213" y="415" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">Digital Twin City Model — ArcGIS Urban / Cesium 3D</text>
+  <!-- Feature callouts -->
+  <g font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4">
+    <text x="300" y="300">Building heights</text>
+    <text x="300" y="312">Zoning layers</text>
+    <text x="300" y="324">Utility networks</text>
+    <text x="300" y="336">Real-time sensors</text>
+    <text x="300" y="348">Shadow analysis</text>
+    <text x="300" y="360">Flood risk zones</text>
+    <text x="300" y="372">Traffic overlays</text>
+    <text x="300" y="384">Emergency routing</text>
+  </g>
+  <text x="213" y="432" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#F05A28" text-anchor="middle">GeoNectar delivers GIS mapping &amp; drafting for all platforms</text>
+  <!-- Trend 4: Cloud GIS + Applications -->
+  <rect x="410" y="264" width="362" height="176" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="591" y="280" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GIS APPLICATIONS BY SECTOR</text>
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <!-- Application bars -->
+    <text x="420" y="298" fill="#6b7280">Urban Planning</text>
+    <rect x="516" y="288" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="288" width="207" height="12" fill="#4a7fc1" rx="2"/>
+    <text x="725" y="298" fill="#4a7fc1">90%</text>
+    <text x="420" y="316" fill="#6b7280">Env. Management</text>
+    <rect x="516" y="306" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="306" width="195" height="12" fill="#22a366" rx="2"/>
+    <text x="725" y="316" fill="#22a366">85%</text>
+    <text x="420" y="334" fill="#6b7280">Transport/Infra</text>
+    <rect x="516" y="324" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="324" width="184" height="12" fill="#F05A28" rx="2"/>
+    <text x="725" y="334" fill="#F05A28">80%</text>
+    <text x="420" y="352" fill="#6b7280">Public Health</text>
+    <rect x="516" y="342" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="342" width="161" height="12" fill="#7c3aed" rx="2"/>
+    <text x="725" y="352" fill="#7c3aed">70%</text>
+    <text x="420" y="370" fill="#6b7280">Agriculture</text>
+    <rect x="516" y="360" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="360" width="149" height="12" fill="#d97706" rx="2"/>
+    <text x="725" y="370" fill="#d97706">65%</text>
+    <text x="420" y="388" fill="#6b7280">Disaster Response</text>
+    <rect x="516" y="378" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="378" width="138" height="12" fill="#ef4444" rx="2"/>
+    <text x="725" y="388" fill="#ef4444">60%</text>
+    <text x="420" y="408" fill="#6b7280">Telecom Rollout</text>
+    <rect x="516" y="398" width="230" height="12" fill="#e0e8f0" rx="2"/>
+    <rect x="516" y="398" width="115" height="12" fill="#06b6d4" rx="2"/>
+    <text x="725" y="408" fill="#06b6d4">50%</text>
+    <text x="591" y="428" fill="#0A1F44" text-anchor="middle" font-size="6">% of organisations using GIS as primary spatial decision tool (2022)</text>
+  </g>
+</svg>

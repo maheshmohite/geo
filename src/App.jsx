@@ -6,6 +6,9 @@ import CookieConsent from './components/ui/CookieConsent'
 // Pages
 import HomePage             from './pages/HomePage'
 import AboutPage            from './pages/AboutPage'
+import TeamPage             from './pages/TeamPage'
+import CertificationsPage  from './pages/CertificationsPage'
+import CareersPage         from './pages/CareersPage'
 import ServicesPage         from './pages/ServicesPage'
 import ServiceCategoryPage  from './pages/ServiceCategoryPage'
 import SubServicePage       from './pages/SubServicePage'
@@ -29,6 +32,9 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/"                                              element={<HomePage />} />
           <Route path="/about-us"                                      element={<AboutPage />} />
+          <Route path="/about-us/team"                                element={<TeamPage />} />
+          <Route path="/about-us/certifications"                      element={<CertificationsPage />} />
+          <Route path="/about-us/careers"                             element={<CareersPage />} />
 
           {/* Services */}
           <Route path="/services"                                      element={<ServicesPage />} />
@@ -43,9 +49,9 @@ export default function App() {
           <Route path="/portfolio"                                     element={<PortfolioPage />} />
           <Route path="/portfolio/:slug"                               element={<PortfolioPage />} />
 
-          {/* Case Studies */}
-          <Route path="/case-studies"                                  element={<CaseStudiesPage />} />
-          <Route path="/case-studies/:slug"                            element={<CaseStudyDetailPage />} />
+          {/* Case Studies — hidden */}
+          {/* <Route path="/case-studies"      element={<CaseStudiesPage />} /> */}
+          {/* <Route path="/case-studies/:slug" element={<CaseStudyDetailPage />} /> */}
 
           {/* Blog */}
           <Route path="/blog"                                          element={<BlogPage />} />

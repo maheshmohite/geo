@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">BIM &amp; DIGITAL TWIN</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">Scan to BIM: Turning Old Buildings into Smart Models</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">September 15, 2022</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="400" y1="28" x2="400" y2="444"/>
+    <line x1="28" y1="260" x2="772" y2="260"/>
+  </g>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">SCAN TO BIM INFOGRAPHIC  |  POINT CLOUD · AS-BUILT · DIGITAL TWIN · HERITAGE · RENOVATION</text>
+  <!-- Header -->
+  <rect x="28" y="50" width="744" height="26" fill="#0A1F44" rx="2"/>
+  <text x="400" y="67" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle">SCAN TO BIM WORKFLOW — GEO-NECTAR POINT CLOUD TO INTELLIGENT MODEL SERVICES</text>
+  <!-- PANEL 1: Workflow (top, full width) -->
+  <rect x="28" y="84" width="744" height="96" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="400" y="99" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">CONVERSION WORKFLOW — EXISTING BUILDING TO BIM MODEL</text>
+  <!-- Step 1 -->
+  <rect x="40" y="106" width="106" height="60" fill="#4a7fc1" rx="3"/>
+  <text x="93" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">STEP 1</text>
+  <text x="93" y="134" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">3D Laser Scan</text>
+  <text x="93" y="144" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">Leica RTC360</text>
+  <text x="93" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">±2mm accuracy</text>
+  <text x="93" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#fbbf24" text-anchor="middle">360° coverage</text>
+  <!-- Arrow -->
+  <polygon points="148,136 155,136 151,130 163,136 151,142 155,136 148,136" fill="#F05A28"/>
+  <!-- Step 2 -->
+  <rect x="165" y="106" width="106" height="60" fill="#F05A28" rx="3"/>
+  <text x="218" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">STEP 2</text>
+  <text x="218" y="134" font-family="Arial, sans-serif" font-size="6" fill="#fcd9c8" text-anchor="middle">Point Cloud</text>
+  <text x="218" y="144" font-family="Arial, sans-serif" font-size="6" fill="#fcd9c8" text-anchor="middle">Processing</text>
+  <text x="218" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#fcd9c8" text-anchor="middle">Registration &amp;</text>
+  <text x="218" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#fcd9c8" text-anchor="middle">noise filtering</text>
+  <polygon points="273,136 280,136 276,130 288,136 276,142 280,136 273,136" fill="#F05A28"/>
+  <!-- Step 3 -->
+  <rect x="290" y="106" width="106" height="60" fill="#22a366" rx="3"/>
+  <text x="343" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">STEP 3</text>
+  <text x="343" y="134" font-family="Arial, sans-serif" font-size="6" fill="#c8f0dc" text-anchor="middle">BIM Modelling</text>
+  <text x="343" y="144" font-family="Arial, sans-serif" font-size="6" fill="#c8f0dc" text-anchor="middle">in Revit</text>
+  <text x="343" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#c8f0dc" text-anchor="middle">LOD 200–400</text>
+  <text x="343" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#c8f0dc" text-anchor="middle">As-built accuracy</text>
+  <polygon points="398,136 405,136 401,130 413,136 401,142 405,136 398,136" fill="#F05A28"/>
+  <!-- Step 4 -->
+  <rect x="415" y="106" width="106" height="60" fill="#7c3aed" rx="3"/>
+  <text x="468" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">STEP 4</text>
+  <text x="468" y="134" font-family="Arial, sans-serif" font-size="6" fill="#e0c8f8" text-anchor="middle">QA vs Cloud</text>
+  <text x="468" y="144" font-family="Arial, sans-serif" font-size="6" fill="#e0c8f8" text-anchor="middle">Deviation check</text>
+  <text x="468" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#e0c8f8" text-anchor="middle">Heat map review</text>
+  <text x="468" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#e0c8f8" text-anchor="middle">±5mm tolerance</text>
+  <polygon points="523,136 530,136 526,130 538,136 526,142 530,136 523,136" fill="#F05A28"/>
+  <!-- Step 5 -->
+  <rect x="540" y="106" width="106" height="60" fill="#d97706" rx="3"/>
+  <text x="593" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">STEP 5</text>
+  <text x="593" y="134" font-family="Arial, sans-serif" font-size="6" fill="#fef3c7" text-anchor="middle">Deliverable</text>
+  <text x="593" y="144" font-family="Arial, sans-serif" font-size="6" fill="#fef3c7" text-anchor="middle">Package</text>
+  <text x="593" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#fef3c7" text-anchor="middle">.RVT / .IFC / .NWD</text>
+  <text x="593" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#fef3c7" text-anchor="middle">DWG / PDF sets</text>
+  <polygon points="648,136 655,136 651,130 663,136 651,142 655,136 648,136" fill="#F05A28"/>
+  <!-- Step 6 -->
+  <rect x="665" y="106" width="96" height="60" fill="#0A1F44" rx="3"/>
+  <text x="713" y="122" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#F05A28" text-anchor="middle">DIGITAL</text>
+  <text x="713" y="132" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#F05A28" text-anchor="middle">TWIN</text>
+  <text x="713" y="144" font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4" text-anchor="middle">Live model sync</text>
+  <text x="713" y="154" font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4" text-anchor="middle">IoT connected</text>
+  <text x="713" y="164" font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4" text-anchor="middle">FM ready</text>
+  <!-- Bottom 3 panels -->
+  <!-- Panel 2: Point Cloud viz -->
+  <rect x="28" y="190" width="238" height="260" fill="#0a1a2e" stroke="#4a7fc1" stroke-width="0.8"/>
+  <text x="147" y="206" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">POINT CLOUD DATA</text>
+  <!-- Dense point cloud simulation -->
+  <g opacity="0.85">
+    <!-- Floor level -->
+    <g fill="#fbbf24">
+      <circle cx="50" cy="350" r="1.5"/><circle cx="60" cy="352" r="1.5"/><circle cx="70" cy="349" r="1.5"/><circle cx="80" cy="351" r="1.5"/><circle cx="90" cy="350" r="1.5"/><circle cx="100" cy="352" r="1.5"/><circle cx="110" cy="349" r="1.5"/><circle cx="120" cy="351" r="1.5"/><circle cx="130" cy="350" r="1.5"/><circle cx="140" cy="352" r="1.5"/><circle cx="150" cy="350" r="1.5"/><circle cx="160" cy="351" r="1.5"/><circle cx="170" cy="350" r="1.5"/><circle cx="180" cy="352" r="1.5"/><circle cx="190" cy="350" r="1.5"/><circle cx="200" cy="351" r="1.5"/><circle cx="210" cy="350" r="1.5"/><circle cx="220" cy="352" r="1.5"/><circle cx="230" cy="350" r="1.5"/><circle cx="240" cy="351" r="1.5"/><circle cx="250" cy="350" r="1.5"/>
+    </g>
+    <!-- Left wall -->
+    <g fill="#4a7fc1">
+      <circle cx="50" cy="210" r="1.5"/><circle cx="52" cy="225" r="1.5"/><circle cx="50" cy="240" r="1.5"/><circle cx="52" cy="255" r="1.5"/><circle cx="50" cy="270" r="1.5"/><circle cx="52" cy="285" r="1.5"/><circle cx="50" cy="300" r="1.5"/><circle cx="52" cy="315" r="1.5"/><circle cx="50" cy="330" r="1.5"/><circle cx="52" cy="345" r="1.5"/>
+    </g>
+    <!-- Right wall -->
+    <g fill="#4a7fc1">
+      <circle cx="250" cy="210" r="1.5"/><circle cx="252" cy="225" r="1.5"/><circle cx="250" cy="240" r="1.5"/><circle cx="252" cy="255" r="1.5"/><circle cx="250" cy="270" r="1.5"/><circle cx="252" cy="285" r="1.5"/><circle cx="250" cy="300" r="1.5"/><circle cx="252" cy="315" r="1.5"/><circle cx="250" cy="330" r="1.5"/><circle cx="252" cy="345" r="1.5"/>
+    </g>
+    <!-- Ceiling -->
+    <g fill="#ef4444">
+      <circle cx="50" cy="210" r="1.5"/><circle cx="65" cy="209" r="1.5"/><circle cx="80" cy="211" r="1.5"/><circle cx="95" cy="210" r="1.5"/><circle cx="110" cy="209" r="1.5"/><circle cx="125" cy="211" r="1.5"/><circle cx="140" cy="210" r="1.5"/><circle cx="155" cy="209" r="1.5"/><circle cx="170" cy="211" r="1.5"/><circle cx="185" cy="210" r="1.5"/><circle cx="200" cy="209" r="1.5"/><circle cx="215" cy="211" r="1.5"/><circle cx="230" cy="210" r="1.5"/><circle cx="245" cy="209" r="1.5"/>
+    </g>
+    <!-- Middle objects / column -->
+    <g fill="#22a366">
+      <circle cx="147" cy="220" r="1.5"/><circle cx="153" cy="222" r="1.5"/><circle cx="147" cy="235" r="1.5"/><circle cx="153" cy="237" r="1.5"/><circle cx="147" cy="250" r="1.5"/><circle cx="153" cy="252" r="1.5"/><circle cx="147" cy="265" r="1.5"/><circle cx="153" cy="267" r="1.5"/><circle cx="147" cy="280" r="1.5"/><circle cx="153" cy="282" r="1.5"/><circle cx="147" cy="295" r="1.5"/><circle cx="153" cy="297" r="1.5"/><circle cx="147" cy="310" r="1.5"/><circle cx="153" cy="312" r="1.5"/><circle cx="147" cy="325" r="1.5"/><circle cx="153" cy="327" r="1.5"/><circle cx="147" cy="340" r="1.5"/>
+    </g>
+    <!-- Scattered interior -->
+    <g fill="#f97316">
+      <circle cx="80" cy="320" r="1.5"/><circle cx="100" cy="305" r="1.5"/><circle cx="120" cy="318" r="1.5"/><circle cx="170" cy="308" r="1.5"/><circle cx="195" cy="325" r="1.5"/><circle cx="215" cy="312" r="1.5"/>
+    </g>
+  </g>
+  <text x="147" y="378" font-family="Arial, sans-serif" font-size="6.5" fill="#9ab3d4" text-anchor="middle">Billions of measurement points</text>
+  <text x="147" y="391" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle">captured in minutes</text>
+  <rect x="50" y="400" width="188" height="32" fill="#1a2f5a" rx="2"/>
+  <text x="144" y="413" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">ACCURACY: ±2mm  |  360° COVERAGE</text>
+  <text x="144" y="425" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle">LEICA RTC360 · FARO FOCUS · MATTERPORT</text>
+  <!-- Panel 3: Use Cases -->
+  <rect x="278" y="190" width="240" height="260" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="398" y="206" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">KEY USE CASES</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="290" y="214" width="216" height="44" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.5" rx="2"/>
+    <text x="300" y="228" font-size="7" font-weight="bold" fill="#4a7fc1">Heritage Preservation</text>
+    <text x="300" y="240" font-size="5.5" fill="#6b7280">Document historic structures before restoration.</text>
+    <text x="300" y="250" font-size="5.5" fill="#6b7280">Preserve intricate architectural details digitally.</text>
+    <rect x="290" y="262" width="216" height="44" fill="#e8f8f0" stroke="#22a366" stroke-width="0.5" rx="2"/>
+    <text x="300" y="276" font-size="7" font-weight="bold" fill="#22a366">Renovation &amp; Refurbishment</text>
+    <text x="300" y="288" font-size="5.5" fill="#6b7280">As-built model eliminates guesswork during design.</text>
+    <text x="300" y="298" font-size="5.5" fill="#6b7280">Clash detection before a wall is touched.</text>
+    <rect x="290" y="310" width="216" height="44" fill="#fff8f0" stroke="#F05A28" stroke-width="0.5" rx="2"/>
+    <text x="300" y="324" font-size="7" font-weight="bold" fill="#F05A28">Facility Management</text>
+    <text x="300" y="336" font-size="5.5" fill="#6b7280">Live BIM model for maintenance teams.</text>
+    <text x="300" y="346" font-size="5.5" fill="#6b7280">Asset tracking, space utilisation, MEP as-built.</text>
+    <rect x="290" y="358" width="216" height="44" fill="#fdf8ff" stroke="#7c3aed" stroke-width="0.5" rx="2"/>
+    <text x="300" y="372" font-size="7" font-weight="bold" fill="#7c3aed">Smart City / Digital Twin</text>
+    <text x="300" y="384" font-size="5.5" fill="#6b7280">BIM + IoT = live city intelligence platform.</text>
+    <text x="300" y="394" font-size="5.5" fill="#6b7280">Bridges physical &amp; digital infrastructure.</text>
+  </g>
+  <rect x="290" y="408" width="216" height="32" fill="#0A1F44" rx="2"/>
+  <text x="398" y="421" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#F05A28" text-anchor="middle">GeoNectar Scan to BIM</text>
+  <text x="398" y="432" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">Revit · Navisworks · Civil 3D · AutoCAD</text>
+  <!-- Panel 4: LOD & deliverables -->
+  <rect x="530" y="190" width="242" height="260" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="651" y="206" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">LOD CAPABILITY &amp; DELIVERABLES</text>
+  <g font-family="Arial, sans-serif" font-size="6">
+    <text x="544" y="222" fill="#6b7280">LOD</text>
+    <text x="580" y="222" fill="#6b7280">Detail Level</text>
+    <text x="710" y="222" fill="#6b7280" text-anchor="end">Scan Accuracy</text>
+    <line x1="544" y1="225" x2="762" y2="225" stroke="#e0e8f0" stroke-width="0.5"/>
+    <rect x="544" y="229" width="210" height="14" fill="#e8f0f8" rx="1"/>
+    <text x="550" y="239" font-weight="bold" fill="#4a7fc1">LOD 200</text>
+    <text x="588" y="239" fill="#6b7280">Generic forms, volumes</text>
+    <text x="752" y="239" fill="#9ab3d4" text-anchor="end">±50mm</text>
+    <rect x="544" y="246" width="210" height="14" fill="#e8f0f8" rx="1"/>
+    <text x="550" y="256" font-weight="bold" fill="#4a7fc1">LOD 300</text>
+    <text x="588" y="256" fill="#6b7280">Precise geometry, openings</text>
+    <text x="752" y="256" fill="#9ab3d4" text-anchor="end">±10mm</text>
+    <rect x="544" y="263" width="210" height="14" fill="#e8f8f0" rx="1"/>
+    <text x="550" y="273" font-weight="bold" fill="#22a366">LOD 350</text>
+    <text x="588" y="273" fill="#6b7280">Interfaces, connections</text>
+    <text x="752" y="273" fill="#22a366" text-anchor="end">±5mm</text>
+    <rect x="544" y="280" width="210" height="14" fill="#e8f8f0" rx="1"/>
+    <text x="550" y="290" font-weight="bold" fill="#22a366">LOD 400</text>
+    <text x="588" y="290" fill="#6b7280">Fabrication &amp; shop drawings</text>
+    <text x="752" y="290" fill="#22a366" text-anchor="end">±2mm</text>
+    <rect x="544" y="297" width="210" height="14" fill="#e8f8f0" rx="1"/>
+    <text x="550" y="307" font-weight="bold" fill="#F05A28">LOD 500</text>
+    <text x="588" y="307" fill="#6b7280">As-built, verified in field</text>
+    <text x="752" y="307" fill="#F05A28" text-anchor="end">±2mm</text>
+    <!-- Deliverable list -->
+    <text x="544" y="326" font-weight="bold" fill="#0A1F44">DELIVERABLE FORMATS</text>
+    <text x="544" y="340" fill="#6b7280">Revit (.RVT) — Native BIM model</text>
+    <text x="544" y="353" fill="#6b7280">IFC — Open BIM interchange</text>
+    <text x="544" y="366" fill="#6b7280">Navisworks (.NWD) — Coordination</text>
+    <text x="544" y="379" fill="#6b7280">AutoCAD DWG — Plan / Section sets</text>
+    <text x="544" y="392" fill="#6b7280">E57 / LAS — Point cloud archive</text>
+    <text x="544" y="405" fill="#6b7280">PDF — Drawing issue sets</text>
+  </g>
+  <rect x="544" y="412" width="210" height="28" fill="#0A1F44" rx="2"/>
+  <text x="649" y="424" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#F05A28" text-anchor="middle">GeoNectar Scan to BIM</text>
+  <text x="649" y="434" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">services@geo-nectar.com</text>
+</svg>

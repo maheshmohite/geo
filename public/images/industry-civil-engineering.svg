@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">INDUSTRY</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">CIVIL ENGINEERING</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">ROAD DESIGN — PLAN &amp; SECTION</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:1000 / 1:100V</text>
+  <text x="700" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="700" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <text x="55" y="56" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">ARTERIAL ROAD UPGRADE  |  CH 0+000 TO CH 2+400  |  DESIGN SPEED: 80 km/h  |  AusRoads 2016</text>
+  <!-- Divider line between plan and section -->
+  <line x1="40" y1="245" x2="760" y2="245" stroke="#0A1F44" stroke-width="1.5"/>
+  <text x="55" y="241" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">PLAN VIEW — HORIZONTAL ALIGNMENT</text>
+  <text x="55" y="257" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">LONGITUDINAL SECTION — VERTICAL ALIGNMENT</text>
+  <!-- PLAN VIEW (top half: y 63-245) -->
+  <!-- Road boundary (carriageway) -->
+  <rect x="55" y="90" width="700" height="120" fill="#e8e8e8" stroke="#6b7280" stroke-width="1"/>
+  <!-- Median strip -->
+  <rect x="55" y="142" width="700" height="18" fill="#c8d4b8" stroke="#6b7280" stroke-width="0.5"/>
+  <text x="400" y="154" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">MEDIAN — 5.0m</text>
+  <!-- Lane markings -->
+  <g stroke="#ffffff" stroke-width="2" stroke-dasharray="20,10">
+    <line x1="55" y1="111" x2="755" y2="111"/>
+    <line x1="55" y1="172" x2="755" y2="172"/>
+  </g>
+  <!-- Kerb lines -->
+  <line x1="55" y1="90" x2="755" y2="90" stroke="#0A1F44" stroke-width="2"/>
+  <line x1="55" y1="210" x2="755" y2="210" stroke="#0A1F44" stroke-width="2"/>
+  <!-- Footpath -->
+  <rect x="55" y="73" width="700" height="17" fill="#d4c8b8" stroke="#6b7280" stroke-width="0.5"/>
+  <text x="400" y="84" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">FOOTPATH — 2.5m</text>
+  <rect x="55" y="210" width="700" height="17" fill="#d4c8b8" stroke="#6b7280" stroke-width="0.5"/>
+  <text x="400" y="221" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">FOOTPATH — 2.5m</text>
+  <!-- Centreline -->
+  <line x1="55" y1="151" x2="755" y2="151" stroke="#ef4444" stroke-width="1" stroke-dasharray="12,5"/>
+  <text x="400" y="147" font-family="Arial, sans-serif" font-size="6" fill="#ef4444" text-anchor="middle">CENTRELINE</text>
+  <!-- Chainage marks -->
+  <g stroke="#0A1F44" stroke-width="0.8">
+    <line x1="55" y1="85" x2="55" y2="230"/>
+    <line x1="200" y1="85" x2="200" y2="230"/>
+    <line x1="345" y1="85" x2="345" y2="230"/>
+    <line x1="490" y1="85" x2="490" y2="230"/>
+    <line x1="635" y1="85" x2="635" y2="230"/>
+    <line x1="755" y1="85" x2="755" y2="230"/>
+  </g>
+  <text x="55" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 0+000</text>
+  <text x="200" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 0+400</text>
+  <text x="345" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 0+800</text>
+  <text x="490" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 1+200</text>
+  <text x="635" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 1+600</text>
+  <text x="755" y="83" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">CH 2+000</text>
+  <!-- Road widths annotation -->
+  <line x1="760" y1="90" x2="760" y2="210" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="755" y1="90" x2="765" y2="90" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="755" y1="210" x2="765" y2="210" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="768" y="155" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" transform="rotate(-90,768,155)">TOTAL — 24.0m</text>
+  <!-- LONGITUDINAL SECTION (bottom half: y 255-430) -->
+  <!-- Section axes -->
+  <line x1="55" y1="415" x2="755" y2="415" stroke="#0A1F44" stroke-width="1.5"/>
+  <line x1="55" y1="260" x2="55" y2="415" stroke="#0A1F44" stroke-width="1.5"/>
+  <!-- Existing ground profile (brown irregular) -->
+  <polyline points="55,380 120,370 200,360 280,345 340,338 400,340 450,350 510,345 580,335 635,330 700,325 755,320" fill="none" stroke="#7c3a00" stroke-width="2"/>
+  <!-- Proposed grade (red line) -->
+  <polyline points="55,385 200,370 340,355 490,345 635,338 755,330" fill="none" stroke="#ef4444" stroke-width="2.5"/>
+  <!-- Cut/Fill shading -->
+  <polygon points="55,370 55,385 200,370 200,370" fill="#7fb3d4" opacity="0.3"/>
+  <polygon points="340,338 340,355 490,345 490,345 400,340" fill="#d4e8a8" opacity="0.4"/>
+  <!-- Chainage marks (section) -->
+  <g stroke="#0A1F44" stroke-width="0.5">
+    <line x1="55" y1="415" x2="55" y2="420"/><text x="55" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">0+000</text>
+    <line x1="200" y1="415" x2="200" y2="420"/><text x="200" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">0+400</text>
+    <line x1="345" y1="415" x2="345" y2="420"/><text x="345" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">0+800</text>
+    <line x1="490" y1="415" x2="490" y2="420"/><text x="490" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">1+200</text>
+    <line x1="635" y1="415" x2="635" y2="420"/><text x="635" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">1+600</text>
+    <line x1="755" y1="415" x2="755" y2="420"/><text x="755" y="425" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">2+000</text>
+  </g>
+  <!-- RL labels -->
+  <text x="42" y="382" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">RL 50</text>
+  <text x="42" y="345" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">RL 55</text>
+  <text x="42" y="305" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">RL 60</text>
+  <text x="42" y="265" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="end">RL 65</text>
+  <!-- Grade labels -->
+  <text x="130" y="375" font-family="Arial, sans-serif" font-size="6" fill="#ef4444">+2.0%</text>
+  <text x="415" y="350" font-family="Arial, sans-serif" font-size="6" fill="#ef4444">-0.8%</text>
+  <text x="680" y="335" font-family="Arial, sans-serif" font-size="6" fill="#ef4444">-1.2%</text>
+  <!-- Section legend -->
+  <line x1="600" y1="265" x2="620" y2="265" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="625" y="269" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Proposed Grade</text>
+  <line x1="600" y1="278" x2="620" y2="278" stroke="#7c3a00" stroke-width="2"/>
+  <text x="625" y="282" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Existing Ground</text>
+  <rect x="600" y="288" width="20" height="8" fill="#7fb3d4" opacity="0.3" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="625" y="296" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Cut Zone</text>
+  <rect x="600" y="301" width="20" height="8" fill="#d4e8a8" opacity="0.4" stroke="#22a366" stroke-width="0.5"/>
+  <text x="625" y="309" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Fill Zone</text>
+</svg>

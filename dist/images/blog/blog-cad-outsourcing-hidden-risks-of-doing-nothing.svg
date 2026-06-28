@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">OUTSOURCING TIPS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">CAD Outsourcing Risks: What You Lose by Not Acting</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">May 15, 2021</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">CAD OUTSOURCING RISK INFOGRAPHIC  |  HIDDEN COSTS · CAPACITY · OPPORTUNITY COST</text>
+  <!-- Warning banner -->
+  <rect x="28" y="50" width="744" height="30" fill="#ef4444" rx="2"/>
+  <text x="400" y="65" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">⚠  WHAT YOUR FIRM LOSES EVERY DAY BY NOT OUTSOURCING CAD DRAFTING</text>
+  <text x="400" y="76" font-family="Arial, sans-serif" font-size="6.5" fill="#fecaca" text-anchor="middle">The true cost is not in the outsourcing — it is in the in-house bottleneck</text>
+  <!-- Risk 1: Fixed Costs -->
+  <rect x="28" y="90" width="228" height="162" fill="#fff5f5" stroke="#ef4444" stroke-width="1" rx="3"/>
+  <rect x="28" y="90" width="228" height="20" fill="#ef4444" rx="3"/>
+  <rect x="28" y="100" width="228" height="10" fill="#ef4444"/>
+  <text x="142" y="106" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">LOCKED-IN FIXED COSTS</text>
+  <!-- Cost breakdown -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <text x="44" y="125" fill="#0A1F44">ANNUAL IN-HOUSE DRAFTER COST:</text>
+    <rect x="44" y="130" width="110" height="10" fill="#ef4444" opacity="0.7" rx="1"/>
+    <text x="158" y="139" fill="#ef4444">$65k  Salary</text>
+    <rect x="44" y="144" width="55" height="10" fill="#d97706" opacity="0.7" rx="1"/>
+    <text x="103" y="153" fill="#d97706">$22k  Benefits</text>
+    <rect x="44" y="158" width="42" height="10" fill="#7c3aed" opacity="0.7" rx="1"/>
+    <text x="90" y="167" fill="#7c3aed">$15k  Software</text>
+    <rect x="44" y="172" width="24" height="10" fill="#3b82f6" opacity="0.7" rx="1"/>
+    <text x="72" y="181" fill="#3b82f6">$8k  Training</text>
+    <rect x="44" y="186" width="18" height="10" fill="#22a366" opacity="0.7" rx="1"/>
+    <text x="66" y="195" fill="#22a366">$6k  Space</text>
+    <line x1="44" y1="200" x2="200" y2="200" stroke="#ef4444" stroke-width="0.8"/>
+    <text x="44" y="212" font-size="7" font-weight="bold" fill="#ef4444">TOTAL: ~$116k/yr per drafter</text>
+    <text x="44" y="225" fill="#22a366">GeoNectar: ~$45k/yr equivalent</text>
+    <text x="44" y="237" font-weight="bold" fill="#22a366">SAVING: $71k per drafter/year</text>
+  </g>
+  <!-- Risk 2: Overloaded Teams -->
+  <rect x="268" y="90" width="228" height="162" fill="#fff8f0" stroke="#d97706" stroke-width="1" rx="3"/>
+  <rect x="268" y="90" width="228" height="20" fill="#d97706" rx="3"/>
+  <rect x="268" y="100" width="228" height="10" fill="#d97706"/>
+  <text x="382" y="106" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">OVERLOADED TEAMS</text>
+  <!-- Capacity gauge -->
+  <circle cx="382" cy="168" r="55" fill="none" stroke="#e0e8f0" stroke-width="12" stroke-dasharray="173 345"/>
+  <circle cx="382" cy="168" r="55" fill="none" stroke="#22a366" stroke-width="12" stroke-dasharray="104 345" stroke-dashoffset="0"/>
+  <circle cx="382" cy="168" r="55" fill="none" stroke="#d97706" stroke-width="12" stroke-dasharray="52 345" stroke-dashoffset="-104"/>
+  <circle cx="382" cy="168" r="55" fill="none" stroke="#ef4444" stroke-width="12" stroke-dasharray="17 345" stroke-dashoffset="-156"/>
+  <text x="382" y="162" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ef4444" text-anchor="middle">130%</text>
+  <text x="382" y="176" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">team capacity</text>
+  <g font-family="Arial, sans-serif" font-size="6">
+    <rect x="278" y="216" width="8" height="8" fill="#22a366" rx="1"/>
+    <text x="290" y="223" fill="#6b7280">0–80%: Healthy</text>
+    <rect x="278" y="228" width="8" height="8" fill="#d97706" rx="1"/>
+    <text x="290" y="235" fill="#6b7280">80–100%: Strained</text>
+    <rect x="352" y="216" width="8" height="8" fill="#ef4444" rx="1"/>
+    <text x="364" y="223" fill="#6b7280">100%+: Crisis</text>
+    <text x="382" y="242" fill="#ef4444" text-anchor="middle" font-weight="bold">Missed deadlines = lost contracts</text>
+  </g>
+  <!-- Risk 3: Limited Skills -->
+  <rect x="508" y="90" width="264" height="162" fill="#fdf8ff" stroke="#7c3aed" stroke-width="1" rx="3"/>
+  <rect x="508" y="90" width="264" height="20" fill="#7c3aed" rx="3"/>
+  <rect x="508" y="100" width="264" height="10" fill="#7c3aed"/>
+  <text x="640" y="106" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">LIMITED SKILL ACCESS</text>
+  <text x="525" y="126" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">IN-HOUSE (3-person team) CAN COVER:</text>
+  <!-- Radar chart simulation with bars -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <text x="525" y="142" fill="#6b7280">ALTA Surveying</text>
+    <rect x="635" y="134" width="120" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="635" y="134" width="30" height="8" fill="#ef4444" rx="1"/>
+    <text x="758" y="141" fill="#ef4444">25%</text>
+    <text x="525" y="156" fill="#6b7280">BIM LOD 400+</text>
+    <rect x="635" y="148" width="120" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="635" y="148" width="18" height="8" fill="#ef4444" rx="1"/>
+    <text x="758" y="155" fill="#ef4444">15%</text>
+    <text x="525" y="170" fill="#6b7280">Structural Steel</text>
+    <rect x="635" y="162" width="120" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="635" y="162" width="36" height="8" fill="#d97706" rx="1"/>
+    <text x="758" y="169" fill="#d97706">30%</text>
+    <text x="525" y="184" fill="#6b7280">GIS / ESRI</text>
+    <rect x="635" y="176" width="120" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="635" y="176" width="12" height="8" fill="#ef4444" rx="1"/>
+    <text x="758" y="183" fill="#ef4444">10%</text>
+    <text x="525" y="198" fill="#6b7280">Point Cloud BIM</text>
+    <rect x="635" y="190" width="120" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="635" y="190" width="24" height="8" fill="#ef4444" rx="1"/>
+    <text x="758" y="197" fill="#ef4444">20%</text>
+  </g>
+  <text x="640" y="232" font-family="Arial, sans-serif" font-size="7" fill="#22a366" text-anchor="middle">GeoNectar: 100% capability in all disciplines</text>
+  <text x="640" y="244" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">50+ specialists across all AEC verticals</text>
+  <!-- Bottom: Opportunity Cost -->
+  <rect x="28" y="264" width="744" height="176" fill="#0A1F44" rx="3"/>
+  <text x="400" y="281" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle">THE BIGGEST RISK: OPPORTUNITY COST</text>
+  <text x="400" y="294" font-family="Arial, sans-serif" font-size="6.5" fill="#9ab3d4" text-anchor="middle">Every hour your PE spends on drafting is an hour not spent on high-value engineering, client relationships, or winning new work</text>
+  <!-- 4 opportunity cost boxes -->
+  <rect x="44" y="304" width="162" height="80" fill="#1a2f5a" stroke="#4a7fc1" stroke-width="0.8" rx="2"/>
+  <text x="125" y="320" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle" font-weight="bold">PROJECTS NOT BID</text>
+  <text x="125" y="336" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ef4444" text-anchor="middle">40%</text>
+  <text x="125" y="350" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">of RFPs declined due to</text>
+  <text x="125" y="362" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">bandwidth constraints</text>
+  <text x="125" y="376" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">= Revenue never captured</text>
+  <rect x="218" y="304" width="162" height="80" fill="#1a2f5a" stroke="#d97706" stroke-width="0.8" rx="2"/>
+  <text x="299" y="320" font-family="Arial, sans-serif" font-size="7" fill="#d97706" text-anchor="middle" font-weight="bold">ERRORS &amp; REWORK</text>
+  <text x="299" y="336" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#d97706" text-anchor="middle">8–12%</text>
+  <text x="299" y="350" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">rework rate on stretched</text>
+  <text x="299" y="362" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">in-house teams</text>
+  <text x="299" y="376" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">GeoNectar: &lt;1%</text>
+  <rect x="392" y="304" width="162" height="80" fill="#1a2f5a" stroke="#7c3aed" stroke-width="0.8" rx="2"/>
+  <text x="473" y="320" font-family="Arial, sans-serif" font-size="7" fill="#7c3aed" text-anchor="middle" font-weight="bold">GROWTH STALLED</text>
+  <text x="473" y="336" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7c3aed" text-anchor="middle">2×</text>
+  <text x="473" y="350" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">outsourcing firms grow</text>
+  <text x="473" y="362" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">faster than in-house-only</text>
+  <text x="473" y="376" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">Industry benchmark 2023</text>
+  <rect x="566" y="304" width="190" height="80" fill="#1a2f5a" stroke="#F05A28" stroke-width="0.8" rx="2"/>
+  <text x="661" y="320" font-family="Arial, sans-serif" font-size="7" fill="#F05A28" text-anchor="middle" font-weight="bold">COMPETITIVE EROSION</text>
+  <text x="661" y="340" font-family="Arial, sans-serif" font-size="8" fill="#c8d8ea" text-anchor="middle">Rivals who outsource</text>
+  <text x="661" y="352" font-family="Arial, sans-serif" font-size="8" fill="#c8d8ea" text-anchor="middle">submit more bids,</text>
+  <text x="661" y="364" font-family="Arial, sans-serif" font-size="8" fill="#c8d8ea" text-anchor="middle">win more contracts,</text>
+  <text x="661" y="376" font-family="Arial, sans-serif" font-size="8" fill="#F05A28" text-anchor="middle">and grow market share.</text>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#F05A28" text-anchor="middle">The cost of inaction compounds every quarter. Act now — services@geo-nectar.com</text>
+</svg>

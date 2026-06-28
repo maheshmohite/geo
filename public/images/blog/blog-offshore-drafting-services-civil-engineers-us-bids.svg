@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="20" y="20" width="760" height="465" fill="none" stroke="#0A1F44" stroke-width="0.4"/>
+  <!-- Title block bottom -->
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">OUTSOURCING TIPS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">Offshore Drafting for US Civil Engineering Bids</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">May 15, 2020</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="310" y1="28" x2="310" y2="444"/>
+    <line x1="540" y1="28" x2="540" y2="444"/>
+    <line x1="28" y1="230" x2="772" y2="230"/>
+  </g>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">OFFSHORE DRAFTING INFOGRAPHIC  |  USA — INDIA  |  OVERNIGHT TURNAROUND  |  US JURISDICTION STANDARDS</text>
+  <!-- PANEL 1: Globe / Connection (left) -->
+  <rect x="28" y="50" width="268" height="385" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="162" y="67" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GLOBAL DELIVERY MODEL</text>
+  <!-- Globe outline -->
+  <circle cx="162" cy="165" r="85" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <!-- Latitude lines -->
+  <ellipse cx="162" cy="165" rx="85" ry="30" fill="none" stroke="#9ab3d4" stroke-width="0.5"/>
+  <ellipse cx="162" cy="165" rx="85" ry="55" fill="none" stroke="#9ab3d4" stroke-width="0.5"/>
+  <ellipse cx="162" cy="165" rx="85" ry="78" fill="none" stroke="#9ab3d4" stroke-width="0.5"/>
+  <!-- Meridians -->
+  <ellipse cx="162" cy="165" rx="30" ry="85" fill="none" stroke="#9ab3d4" stroke-width="0.5"/>
+  <ellipse cx="162" cy="165" rx="60" ry="85" fill="none" stroke="#9ab3d4" stroke-width="0.5"/>
+  <!-- USA marker -->
+  <circle cx="108" cy="148" r="8" fill="#F05A28"/>
+  <text x="108" y="152" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">USA</text>
+  <!-- India marker -->
+  <circle cx="210" cy="180" r="8" fill="#22a366"/>
+  <text x="210" y="184" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">IND</text>
+  <!-- Connection arc -->
+  <path d="M 115,148 Q 162,110 202,180" fill="none" stroke="#F05A28" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="199,175 206,183 198,184" fill="#F05A28"/>
+  <!-- Labels -->
+  <text x="90" y="135" font-family="Arial, sans-serif" font-size="6" fill="#F05A28" text-anchor="middle">Texas · Florida</text>
+  <text x="90" y="144" font-family="Arial, sans-serif" font-size="6" fill="#F05A28" text-anchor="middle">California · NY</text>
+  <text x="228" y="196" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle">Pune · Hyderabad</text>
+  <text x="228" y="205" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle">Bangalore</text>
+  <!-- Time-zone info -->
+  <rect x="44" y="264" width="232" height="56" fill="#0A1F44" rx="3"/>
+  <text x="160" y="278" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle" letter-spacing="1">TIME-ZONE ADVANTAGE</text>
+  <text x="84" y="296" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#F05A28" text-anchor="middle">5:00 PM</text>
+  <text x="84" y="308" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">US EOD</text>
+  <text x="84" y="316" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">Redlines sent</text>
+  <text x="160" y="296" font-family="Arial, sans-serif" font-size="12" fill="#4a7fc1" text-anchor="middle">→</text>
+  <text x="236" y="296" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#22a366" text-anchor="middle">9:00 AM</text>
+  <text x="236" y="308" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">US Next Day</text>
+  <text x="236" y="316" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">Drawings ready</text>
+  <!-- Jurisdiction badges -->
+  <text x="55" y="342" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">US JURISDICTION STANDARDS:</text>
+  <rect x="44" y="348" width="55" height="18" fill="#4a7fc1" rx="2"/>
+  <text x="71" y="360" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">CalTrans</text>
+  <rect x="104" y="348" width="48" height="18" fill="#4a7fc1" rx="2"/>
+  <text x="128" y="360" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">FDOT</text>
+  <rect x="157" y="348" width="48" height="18" fill="#0A1F44" rx="2"/>
+  <text x="181" y="360" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">TXDOT</text>
+  <rect x="210" y="348" width="56" height="18" fill="#0A1F44" rx="2"/>
+  <text x="238" y="360" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">AASHTO</text>
+  <rect x="44" y="372" width="55" height="18" fill="#22a366" rx="2"/>
+  <text x="71" y="384" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">NYDOT</text>
+  <rect x="104" y="372" width="55" height="18" fill="#22a366" rx="2"/>
+  <text x="131" y="384" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">VDOT</text>
+  <rect x="164" y="372" width="60" height="18" fill="#22a366" rx="2"/>
+  <text x="194" y="384" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">PENNDOT</text>
+  <!-- PANEL 2: Bid Workflow (middle) -->
+  <rect x="318" y="50" width="208" height="385" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="422" y="67" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">BID PROPOSAL WORKFLOW</text>
+  <!-- Workflow steps -->
+  <g font-family="Arial, sans-serif">
+    <!-- Step 1 -->
+    <rect x="335" y="76" width="172" height="52" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.8" rx="2"/>
+    <circle cx="355" cy="102" r="12" fill="#4a7fc1"/>
+    <text x="355" y="106" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">01</text>
+    <text x="375" y="90" font-size="7" font-weight="bold" fill="#0A1F44">RFP Received</text>
+    <text x="375" y="101" font-size="6" fill="#6b7280">PE reviews scope &amp;</text>
+    <text x="375" y="111" font-size="6" fill="#6b7280">prepares redlines</text>
+    <!-- Arrow -->
+    <line x1="422" y1="128" x2="422" y2="137" stroke="#4a7fc1" stroke-width="1.5"/>
+    <polygon points="418,136 422,143 426,136" fill="#4a7fc1"/>
+    <!-- Step 2 -->
+    <rect x="335" y="144" width="172" height="52" fill="#fff8f0" stroke="#F05A28" stroke-width="0.8" rx="2"/>
+    <circle cx="355" cy="170" r="12" fill="#F05A28"/>
+    <text x="355" y="174" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">02</text>
+    <text x="375" y="158" font-size="7" font-weight="bold" fill="#0A1F44">GeoNectar Receives</text>
+    <text x="375" y="169" font-size="6" fill="#6b7280">Redlines + spec files</text>
+    <text x="375" y="179" font-size="6" fill="#6b7280">sent 5 PM US time</text>
+    <line x1="422" y1="196" x2="422" y2="205" stroke="#F05A28" stroke-width="1.5"/>
+    <polygon points="418,204 422,211 426,204" fill="#F05A28"/>
+    <!-- Step 3 -->
+    <rect x="335" y="212" width="172" height="52" fill="#e8f8f0" stroke="#22a366" stroke-width="0.8" rx="2"/>
+    <circle cx="355" cy="238" r="12" fill="#22a366"/>
+    <text x="355" y="242" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">03</text>
+    <text x="375" y="226" font-size="7" font-weight="bold" fill="#0A1F44">Overnight Drafting</text>
+    <text x="375" y="237" font-size="6" fill="#6b7280">CAD team produces</text>
+    <text x="375" y="247" font-size="6" fill="#6b7280">bid-formatted drawings</text>
+    <line x1="422" y1="264" x2="422" y2="273" stroke="#22a366" stroke-width="1.5"/>
+    <polygon points="418,272 422,279 426,272" fill="#22a366"/>
+    <!-- Step 4 -->
+    <rect x="335" y="280" width="172" height="52" fill="#fdf8ff" stroke="#7c3aed" stroke-width="0.8" rx="2"/>
+    <circle cx="355" cy="306" r="12" fill="#7c3aed"/>
+    <text x="355" y="310" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">04</text>
+    <text x="375" y="294" font-size="7" font-weight="bold" fill="#0A1F44">QA Review</text>
+    <text x="375" y="305" font-size="6" fill="#6b7280">Multi-stage check vs.</text>
+    <text x="375" y="315" font-size="6" fill="#6b7280">jurisdiction standard</text>
+    <line x1="422" y1="332" x2="422" y2="341" stroke="#7c3aed" stroke-width="1.5"/>
+    <polygon points="418,340 422,347 426,340" fill="#7c3aed"/>
+    <!-- Step 5 -->
+    <rect x="335" y="348" width="172" height="52" fill="#f0f8ff" stroke="#0A1F44" stroke-width="1.2" rx="2"/>
+    <circle cx="355" cy="374" r="12" fill="#0A1F44"/>
+    <text x="355" y="378" font-size="9" font-weight="bold" fill="#F05A28" text-anchor="middle">05</text>
+    <text x="375" y="362" font-size="7" font-weight="bold" fill="#0A1F44">Delivered 9 AM</text>
+    <text x="375" y="373" font-size="6" fill="#6b7280">Bid-ready drawings</text>
+    <text x="375" y="383" font-size="6" fill="#22a366">✓ Zero correction rounds</text>
+  </g>
+  <!-- PANEL 3: Results (right) -->
+  <rect x="548" y="50" width="224" height="385" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="660" y="67" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">BUSINESS IMPACT</text>
+  <!-- KPI boxes -->
+  <rect x="560" y="76" width="200" height="55" fill="#0A1F44" rx="3"/>
+  <text x="660" y="92" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle" letter-spacing="1">MORE BIDS SUBMITTED</text>
+  <text x="660" y="115" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F05A28" text-anchor="middle">3×</text>
+  <text x="660" y="127" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">bid capacity per month</text>
+  <rect x="560" y="138" width="200" height="55" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.8" rx="3"/>
+  <text x="660" y="154" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle" letter-spacing="1">COST REDUCTION</text>
+  <text x="660" y="178" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4a7fc1" text-anchor="middle">60%</text>
+  <text x="660" y="189" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">vs. local drafting staff</text>
+  <rect x="560" y="200" width="200" height="55" fill="#e8f8f0" stroke="#22a366" stroke-width="0.8" rx="3"/>
+  <text x="660" y="216" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle" letter-spacing="1">TURNAROUND TIME</text>
+  <text x="660" y="240" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#22a366" text-anchor="middle">24h</text>
+  <text x="660" y="251" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">overnight delivery</text>
+  <!-- PE Time freed chart -->
+  <rect x="560" y="264" width="200" height="90" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5" rx="2"/>
+  <text x="660" y="279" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" font-weight="bold">PE TIME REDISTRIBUTION</text>
+  <!-- Before -->
+  <text x="580" y="295" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">BEFORE</text>
+  <rect x="580" y="299" width="80" height="10" fill="#ef4444" rx="1"/>
+  <text x="665" y="308" font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">65% Drafting</text>
+  <rect x="580" y="312" width="30" height="10" fill="#22a366" rx="1"/>
+  <text x="665" y="321" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">35% Engineering</text>
+  <!-- After -->
+  <text x="580" y="337" font-family="Arial, sans-serif" font-size="6" fill="#22a366">AFTER</text>
+  <rect x="580" y="341" width="10" height="10" fill="#ef4444" rx="1"/>
+  <text x="665" y="350" font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">10% Oversight</text>
+  <rect x="593" y="341" width="68" height="10" fill="#22a366" rx="1"/>
+  <text x="665" y="362" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">90% High-value work</text>
+  <!-- Bottom note -->
+  <rect x="560" y="362" width="200" height="68" fill="#0A1F44" rx="3"/>
+  <text x="660" y="378" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle" letter-spacing="1">GEO-NECTAR ADVANTAGE</text>
+  <text x="660" y="394" font-family="Arial, sans-serif" font-size="6.5" fill="#ffffff" text-anchor="middle">✓ US jurisdiction formatting</text>
+  <text x="660" y="406" font-family="Arial, sans-serif" font-size="6.5" fill="#ffffff" text-anchor="middle">✓ Dedicated bid-support teams</text>
+  <text x="660" y="418" font-family="Arial, sans-serif" font-size="6.5" fill="#ffffff" text-anchor="middle">✓ No correction rounds</text>
+  <text x="660" y="428" font-family="Arial, sans-serif" font-size="6.5" fill="#F05A28" text-anchor="middle">services@geo-nectar.com</text>
+</svg>

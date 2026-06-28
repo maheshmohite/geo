@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">ARCHITECTURAL DRAFTING SERVICES</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">FLOOR PLAN — LEVEL 1</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:100</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Light grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="160" x2="760" y2="160"/>
+    <line x1="40" y1="290" x2="760" y2="290"/>
+  </g>
+  <!-- Floor plan — outer walls (thick) -->
+  <rect x="55" y="55" width="580" height="360" fill="#eef3f8" stroke="#0A1F44" stroke-width="5"/>
+  <!-- Interior walls -->
+  <line x1="240" y1="55" x2="240" y2="310" stroke="#0A1F44" stroke-width="4"/>
+  <line x1="55" y1="200" x2="635" y2="200" stroke="#0A1F44" stroke-width="4"/>
+  <line x1="420" y1="200" x2="420" y2="415" stroke="#0A1F44" stroke-width="4"/>
+  <line x1="240" y1="310" x2="420" y2="310" stroke="#0A1F44" stroke-width="4"/>
+  <line x1="420" y1="55" x2="420" y2="200" stroke="#0A1F44" stroke-width="3"/>
+  <!-- Doors -->
+  <!-- Door at Room 1 -->
+  <path d="M 240,285 Q 216,285 216,260" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="216" y1="285" x2="240" y2="285" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Door at Room 2 -->
+  <path d="M 420,180 Q 420,156 445,156" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="420" y1="156" x2="420" y2="180" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Door at Room 3 -->
+  <path d="M 420,390 Q 396,390 396,366" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="396" y1="390" x2="420" y2="390" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Door at Room 4 -->
+  <path d="M 240,180 Q 216,180 216,156" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="216" y1="180" x2="240" y2="180" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Entry door -->
+  <path d="M 340,415 Q 340,391 316,391" fill="none" stroke="#0A1F44" stroke-width="1.2"/>
+  <line x1="316" y1="415" x2="340" y2="415" stroke="#0A1F44" stroke-width="1.2"/>
+  <!-- Windows (thin double line on walls) -->
+  <!-- North windows -->
+  <rect x="80" y="53" width="60" height="6" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="80" y1="56" x2="140" y2="56" stroke="#0A1F44" stroke-width="0.4"/>
+  <rect x="270" y="53" width="50" height="6" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="450" y="53" width="80" height="6" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- East windows -->
+  <rect x="633" y="90" width="5" height="50" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="633" y="240" width="5" height="50" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="633" y="340" width="5" height="50" fill="#a8c5e0" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Room labels -->
+  <text x="145" y="120" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">LIVING</text>
+  <text x="145" y="135" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">ROOM</text>
+  <text x="145" y="148" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">9.2 × 7.5m</text>
+  <text x="520" y="120" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">DINING</text>
+  <text x="520" y="135" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">ROOM</text>
+  <text x="520" y="148" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">5.5 × 7.5m</text>
+  <text x="145" y="260" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">BEDROOM</text>
+  <text x="145" y="275" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">01</text>
+  <text x="145" y="290" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">9.2 × 5.5m</text>
+  <text x="327" y="362" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">BATHROOM</text>
+  <text x="327" y="378" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">6.0 × 3.2m</text>
+  <text x="520" y="305" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">BEDROOM</text>
+  <text x="520" y="320" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">02</text>
+  <text x="520" y="335" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle">5.5 × 6.2m</text>
+  <!-- Dimension lines — top -->
+  <line x1="55" y1="44" x2="635" y2="44" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="55" y1="39" x2="55" y2="50" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="635" y1="39" x2="635" y2="50" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="345" y="42" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" font-weight="bold">29,000</text>
+  <!-- Dimension lines — right -->
+  <line x1="648" y1="55" x2="648" y2="415" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="643" y1="55" x2="655" y2="55" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="643" y1="415" x2="655" y2="415" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="665" y="238" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" transform="rotate(90,665,238)" font-weight="bold">18,000</text>
+  <!-- Sub-dimension lines -->
+  <line x1="55" y1="47" x2="240" y2="47" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="147" y="45" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">9,250</text>
+  <line x1="240" y1="47" x2="420" y2="47" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="330" y="45" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">9,000</text>
+  <line x1="420" y1="47" x2="635" y2="47" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="527" y="45" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">10,750</text>
+  <!-- North arrow -->
+  <g transform="translate(720,90)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-16 -5,8 0,2 5,8" fill="#0A1F44"/>
+    <line x1="0" y1="-16" x2="0" y2="16" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Drawing stamp -->
+  <rect x="660" y="125" width="100" height="70" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <text x="710" y="138" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">DRAWING NO.</text>
+  <text x="710" y="151" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">A-100</text>
+  <text x="710" y="163" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">REVISION</text>
+  <text x="710" y="175" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">Rev D</text>
+  <text x="710" y="187" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1" text-anchor="middle">FOR CONSTRUCTION</text>
+</svg>

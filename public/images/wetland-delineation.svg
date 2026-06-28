@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">WETLAND DELINEATION MAP</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1" = 100'</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="720" y1="40" x2="720" y2="424"/>
+    <line x1="40" y1="130" x2="760" y2="130"/>
+    <line x1="40" y1="230" x2="760" y2="230"/>
+    <line x1="40" y1="330" x2="760" y2="330"/>
+  </g>
+  <!-- Upland background (light green-gray) -->
+  <rect x="40" y="40" width="720" height="384" fill="#f0f5f0"/>
+  <!-- Wetland area (organic irregular polygon) -->
+  <path d="M 120,200 C 130,140 180,90 260,80 C 340,70 400,100 450,140 C 500,180 530,240 520,300 C 510,360 460,400 390,410 C 320,420 240,400 190,360 C 140,320 110,260 120,200 Z" fill="#c8e0f0" stroke="#4a7fc1" stroke-width="2.5"/>
+  <!-- Wetland label -->
+  <text x="310" y="240" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2563eb" text-anchor="middle">WETLAND A</text>
+  <text x="310" y="255" font-family="Arial, sans-serif" font-size="7.5" fill="#4a7fc1" text-anchor="middle">AREA = 4.28 ACRES ±</text>
+  <text x="310" y="268" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">PEM / PSS (USACE Section 404)</text>
+  <!-- Secondary wetland (smaller) -->
+  <path d="M 560,80 C 580,60 640,70 660,100 C 680,130 670,180 640,200 C 610,220 560,210 540,185 C 520,160 540,100 560,80 Z" fill="#c8e0f0" stroke="#4a7fc1" stroke-width="2"/>
+  <text x="605" y="145" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2563eb" text-anchor="middle">WETLAND B</text>
+  <text x="605" y="158" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle">0.65 AC ±</text>
+  <!-- Wetland boundary flags along main wetland -->
+  <g fill="#d97706" stroke="#d97706">
+    <line x1="140" y1="195" x2="140" y2="210" stroke-width="1.2"/>
+    <rect x="137" y="183" width="10" height="7" fill="#d97706"/>
+    <line x1="175" y1="125" x2="175" y2="140" stroke-width="1.2"/>
+    <rect x="172" y="113" width="10" height="7" fill="#d97706"/>
+    <line x1="248" y1="80" x2="248" y2="95" stroke-width="1.2"/>
+    <rect x="245" y="68" width="10" height="7" fill="#d97706"/>
+    <line x1="370" y1="72" x2="370" y2="87" stroke-width="1.2"/>
+    <rect x="367" y="60" width="10" height="7" fill="#d97706"/>
+    <line x1="468" y1="120" x2="468" y2="135" stroke-width="1.2"/>
+    <rect x="465" y="108" width="10" height="7" fill="#d97706"/>
+    <line x1="520" y1="255" x2="520" y2="270" stroke-width="1.2"/>
+    <rect x="517" y="243" width="10" height="7" fill="#d97706"/>
+    <line x1="440" y1="400" x2="440" y2="415" stroke-width="1.2"/>
+    <rect x="437" y="388" width="10" height="7" fill="#d97706"/>
+    <line x1="290" y1="415" x2="290" y2="430" stroke-width="1.2"/>
+    <rect x="287" y="403" width="10" height="7" fill="#d97706"/>
+  </g>
+  <!-- Flag labels -->
+  <text x="151" y="197" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">DP-01</text>
+  <text x="186" y="127" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">DP-02</text>
+  <text x="259" y="82" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">DP-03</text>
+  <text x="381" y="74" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">DP-04</text>
+  <text x="479" y="122" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">DP-05</text>
+  <!-- Buffer zone (100' buffer around wetland) -->
+  <path d="M 55,195 C 65,100 140,35 265,25 C 390,15 475,60 540,120 C 605,180 640,270 630,340 C 620,410 560,455 460,462 C 360,469 255,445 185,395 C 115,345 45,290 55,195 Z" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="638" y="320" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">100' BUFFER</text>
+  <!-- Vegetation symbols (small v marks) -->
+  <g stroke="#2d6a2d" stroke-width="1" fill="none">
+    <path d="M 550,340 L 555,325 L 560,340"/><line x1="555" y1="325" x2="555" y2="345"/>
+    <path d="M 580,360 L 585,345 L 590,360"/><line x1="585" y1="345" x2="585" y2="365"/>
+    <path d="M 610,330 L 615,315 L 620,330"/><line x1="615" y1="315" x2="615" y2="335"/>
+    <path d="M 640,350 L 645,335 L 650,350"/><line x1="645" y1="335" x2="645" y2="355"/>
+    <path d="M 665,300 L 670,285 L 675,300"/><line x1="670" y1="285" x2="670" y2="305"/>
+    <path d="M 690,260 L 695,245 L 700,260"/><line x1="695" y1="245" x2="695" y2="265"/>
+    <path d="M 660,380 L 665,365 L 670,380"/><line x1="665" y1="365" x2="665" y2="385"/>
+    <path d="M 690,380 L 695,365 L 700,380"/><line x1="695" y1="365" x2="695" y2="385"/>
+    <path d="M 690,150 L 695,135 L 700,150"/><line x1="695" y1="135" x2="695" y2="155"/>
+    <path d="M 710,200 L 715,185 L 720,200"/><line x1="715" y1="185" x2="715" y2="205"/>
+  </g>
+  <!-- North arrow -->
+  <g transform="translate(710,88)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,9 0,3 6,9" fill="#0A1F44"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Legend -->
+  <rect x="555" y="230" width="185" height="130" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="555" y="230" width="185" height="16" fill="#0A1F44"/>
+  <text x="647" y="242" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">LEGEND</text>
+  <rect x="565" y="252" width="18" height="12" fill="#c8e0f0" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="589" y="262" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Wetland Boundary</text>
+  <line x1="565" y1="278" x2="583" y2="278" stroke="#d97706" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="589" y="282" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">100' Buffer Zone</text>
+  <line x1="567" y1="296" x2="567" y2="304" stroke="#d97706" stroke-width="1.2"/>
+  <rect x="565" y="290" width="7" height="5" fill="#d97706"/>
+  <text x="589" y="302" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Delineation Flag</text>
+  <rect x="565" y="308" width="18" height="12" fill="#f0f5f0" stroke="#6b7280" stroke-width="1"/>
+  <text x="589" y="318" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Upland Area</text>
+  <path d="M 565,332 L 570,322 L 575,332" stroke="#2d6a2d" stroke-width="1" fill="none"/>
+  <text x="589" y="336" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Wetland Vegetation</text>
+</svg>

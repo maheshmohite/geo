@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="1160" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="1144" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <!-- Title block -->
+  <rect x="28" y="432" width="1144" height="48" fill="#0A1F44"/>
+  <line x1="400" y1="432" x2="400" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="700" y1="432" x2="700" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="960" y1="432" x2="960" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">CATEGORY</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">LAND SURVEY DRAFTING SERVICES</text>
+  <text x="44" y="476" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="416" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SERVICES</text>
+  <text x="416" y="463" font-family="Arial, sans-serif" font-size="7.5" fill="#ffffff">ALTA/NSPS · TOPO · BOUNDARY · MORTGAGE</text>
+  <text x="416" y="475" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">AERIAL · GIS · PHOTOGRAMMETRY · WETLAND</text>
+  <text x="716" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">STANDARDS</text>
+  <text x="716" y="463" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">ALTA/NSPS · GDA2020 · FEMA</text>
+  <text x="976" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SOFTWARE</text>
+  <text x="976" y="463" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">AutoCAD · Civil 3D · ArcGIS</text>
+  <!-- Light grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="300" y1="40" x2="300" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="900" y1="40" x2="900" y2="424"/>
+    <line x1="40" y1="180" x2="1160" y2="180"/>
+    <line x1="40" y1="310" x2="1160" y2="310"/>
+  </g>
+  <!-- Header text -->
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">LAND SURVEY DRAFTING — COMPREHENSIVE MULTI-DISCIPLINE SURVEY SERVICES  |  USA · AUSTRALIA · CANADA · NEW ZEALAND</text>
+  <!-- PANEL 1: Traverse Control Network (left third) -->
+  <rect x="40" y="65" width="370" height="360" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="225" y="82" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">CONTROL TRAVERSE NETWORK</text>
+  <!-- Survey grid (panel 1) -->
+  <g stroke="#c8d8ea" stroke-width="0.5" opacity="0.4">
+    <line x1="40" y1="130" x2="410" y2="130"/><line x1="40" y1="200" x2="410" y2="200"/>
+    <line x1="40" y1="270" x2="410" y2="270"/><line x1="40" y1="340" x2="410" y2="340"/>
+    <line x1="120" y1="65" x2="120" y2="425"/><line x1="225" y1="65" x2="225" y2="425"/>
+    <line x1="335" y1="65" x2="335" y2="425"/>
+  </g>
+  <!-- Traverse stations and lines -->
+  <g stroke="#4a7fc1" stroke-width="2">
+    <line x1="100" y1="370" x2="155" y2="120"/>
+    <line x1="155" y1="120" x2="300" y2="98"/>
+    <line x1="300" y1="98" x2="390" y2="200"/>
+    <line x1="390" y1="200" x2="360" y2="360"/>
+    <line x1="360" y1="360" x2="200" y2="400"/>
+    <line x1="200" y1="400" x2="100" y2="370"/>
+  </g>
+  <!-- Check legs -->
+  <line x1="155" y1="120" x2="390" y2="200" stroke="#d97706" stroke-width="1" stroke-dasharray="6,3"/>
+  <!-- Stations -->
+  <g fill="#f8fafc" stroke="#0A1F44" stroke-width="1.5">
+    <polygon points="100,355 93,370 107,370"/><circle cx="100" cy="370" r="3.5" fill="#0A1F44"/>
+    <polygon points="155,105 148,120 162,120"/><circle cx="155" cy="120" r="3.5" fill="#0A1F44"/>
+    <polygon points="300,83 293,98 307,98"/><circle cx="300" cy="98" r="3.5" fill="#0A1F44"/>
+    <polygon points="390,185 383,200 397,200"/><circle cx="390" cy="200" r="3.5" fill="#0A1F44"/>
+    <polygon points="360,345 353,360 367,360"/><circle cx="360" cy="360" r="3.5" fill="#0A1F44"/>
+    <polygon points="200,385 193,400 207,400"/><circle cx="200" cy="400" r="3.5" fill="#0A1F44"/>
+  </g>
+  <!-- Station labels -->
+  <text x="112" y="367" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">A</text>
+  <text x="167" y="118" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">B</text>
+  <text x="312" y="95" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">C</text>
+  <text x="395" y="196" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">D</text>
+  <text x="368" y="356" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">E</text>
+  <text x="208" y="397" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44">F</text>
+  <!-- Bearing annotations -->
+  <text x="112" y="240" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1" transform="rotate(-80,112,240)">B 12°18'  d=256m</text>
+  <text x="225" y="107" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1">B 79°42'  d=150m</text>
+  <!-- North arrow -->
+  <g transform="translate(375,105)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-12 -4,6 0,2 4,6" fill="#0A1F44"/>
+    <text x="0" y="-16" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- GNSS symbol -->
+  <g transform="translate(245,250)">
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#ef4444" stroke-width="1.5"/>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#ef4444" stroke-width="1"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#ef4444" stroke-width="1"/>
+  </g>
+  <text x="256" y="248" font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">GNSS BASE</text>
+  <!-- PANEL 2: Topographic Survey (middle third) -->
+  <rect x="420" y="65" width="370" height="360" fill="#f0f8f0" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="605" y="82" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">TOPOGRAPHIC SURVEY</text>
+  <!-- Contour lines -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M430,200 C470,185 510,178 560,180 C610,182 660,188 700,195 C740,202 770,210 785,215" stroke="#22a366" stroke-width="1.2"/>
+    <path d="M428,230 C470,210 520,200 570,205 C620,210 670,220 710,228 C745,234 772,240 785,245" stroke="#22a366" stroke-width="1.2"/>
+    <path d="M426,265 C468,245 525,232 580,236 C632,240 680,252 720,263 C752,270 775,277 785,280" stroke="#22a366" stroke-width="1.2"/>
+    <path d="M424,300 C465,282 528,266 587,272 C642,278 690,292 728,302 C760,310 778,318 785,320" stroke="#22a366" stroke-width="1.5" stroke-dasharray="1,0"/>
+    <path d="M422,340 C462,318 530,302 595,308 C653,314 700,330 740,344 C766,352 780,360 785,363" stroke="#22a366" stroke-width="1.2"/>
+    <path d="M420,378 C460,357 534,340 603,347 C664,353 712,372 750,386 C775,395 783,402 785,405" stroke="#22a366" stroke-width="1.5" stroke-dasharray="1,0"/>
+    <path d="M430,160 C475,150 525,145 575,148 C630,152 678,160 715,168 C748,174 770,180 785,183" stroke="#22a366" stroke-width="1.2"/>
+    <path d="M435,120 C485,112 540,108 593,112 C645,116 690,125 725,133 C755,140 775,146 785,150" stroke="#22a366" stroke-width="1.5" stroke-dasharray="1,0"/>
+  </g>
+  <!-- Contour labels -->
+  <text x="505" y="177" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">102</text>
+  <text x="505" y="202" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">100</text>
+  <text x="505" y="232" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">98</text>
+  <text x="505" y="268" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">96</text>
+  <text x="505" y="302" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366" font-weight="bold">95</text>
+  <text x="505" y="342" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">93</text>
+  <!-- Spot elevations -->
+  <g font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">
+    <text x="490" y="148">×103.25</text>
+    <text x="620" y="175">×101.80</text>
+    <text x="540" y="320">×95.42</text>
+    <text x="700" y="290">×96.65</text>
+    <text x="470" y="380">×93.10</text>
+  </g>
+  <!-- Stream/drain -->
+  <path d="M420,370 C460,355 500,340 540,330 C580,320 610,315 650,318 C690,321 730,330 785,350" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="540" y="344" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">DRAIN</text>
+  <!-- Benchmark -->
+  <g transform="translate(640,390)">
+    <polygon points="0,-10 -8,5 8,5" fill="#0A1F44"/>
+    <circle cx="0" cy="5" r="3" fill="#0A1F44"/>
+  </g>
+  <text x="652" y="388" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">BM RL 93.485</text>
+  <!-- Contour interval note -->
+  <text x="430" y="416" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">CONTOUR INTERVAL: 2.0m  |  DATUM: AHD71</text>
+  <!-- PANEL 3: GIS / Aerial Survey (right third) -->
+  <rect x="800" y="65" width="360" height="360" fill="#f0f4f8" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="980" y="82" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">GIS MAPPING &amp; AERIAL</text>
+  <!-- GIS parcel grid -->
+  <g stroke="#9ab3d4" stroke-width="0.8" fill="none">
+    <rect x="812" y="90" width="80" height="70" fill="#eef3f8"/>
+    <rect x="894" y="90" width="80" height="70" fill="#f5f0e8"/>
+    <rect x="976" y="90" width="80" height="70" fill="#eef3f8"/>
+    <rect x="1058" y="90" width="90" height="70" fill="#f5f0e8"/>
+    <rect x="812" y="162" width="80" height="70" fill="#f5f0e8"/>
+    <rect x="894" y="162" width="80" height="70" fill="#eef3f8"/>
+    <rect x="976" y="162" width="80" height="70" fill="#f5f0e8"/>
+    <rect x="1058" y="162" width="90" height="70" fill="#eef3f8"/>
+    <rect x="812" y="234" width="80" height="70" fill="#eef3f8"/>
+    <rect x="894" y="234" width="80" height="70" fill="#c8e8b8" opacity="0.6"/>
+    <rect x="976" y="234" width="80" height="70" fill="#eef3f8"/>
+    <rect x="1058" y="234" width="90" height="70" fill="#f5f0e8"/>
+    <rect x="812" y="306" width="80" height="70" fill="#f5f0e8"/>
+    <rect x="894" y="306" width="80" height="70" fill="#eef3f8"/>
+    <rect x="976" y="306" width="80" height="70" fill="#f5f0e8"/>
+    <rect x="1058" y="306" width="90" height="70" fill="#eef3f8"/>
+  </g>
+  <!-- Parcel IDs -->
+  <text x="852" y="130" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 1</text>
+  <text x="934" y="130" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 2</text>
+  <text x="1016" y="130" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 3</text>
+  <text x="1103" y="130" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 4</text>
+  <text x="852" y="200" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 5</text>
+  <text x="934" y="200" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 6</text>
+  <text x="1016" y="200" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 7</text>
+  <text x="1103" y="200" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">LOT 8</text>
+  <text x="934" y="270" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle">PARK</text>
+  <!-- Road -->
+  <rect x="812" y="376" width="336" height="14" fill="#c8c8c8" stroke="#6b7280" stroke-width="0.5"/>
+  <text x="980" y="386" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44" text-anchor="middle">MAIN ROAD</text>
+  <!-- Flight coverage indicator (camera positions) -->
+  <g stroke="#d97706" fill="none" stroke-width="1">
+    <rect x="840" y="100" width="24" height="18" rx="2"/>
+    <line x1="840" y1="100" x2="820" y2="88"/>
+    <line x1="864" y1="100" x2="880" y2="88"/>
+    <rect x="970" y="100" width="24" height="18" rx="2"/>
+    <line x1="970" y1="100" x2="950" y2="88"/>
+    <line x1="994" y1="100" x2="1010" y2="88"/>
+    <rect x="1100" y="100" width="24" height="18" rx="2"/>
+    <line x1="1100" y1="100" x2="1085" y2="88"/>
+    <line x1="1124" y1="100" x2="1138" y2="88"/>
+  </g>
+  <!-- Attribute table snippet -->
+  <rect x="808" y="395" width="344" height="24" fill="#f8fafc" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="808" y="395" width="344" height="10" fill="#0A1F44"/>
+  <text x="980" y="403" font-family="Arial, sans-serif" font-size="5.5" font-weight="bold" fill="#ffffff" text-anchor="middle">ATTRIBUTE TABLE  |  SHP LAYER: CADASTRE_PARCELS</text>
+  <text x="818" y="414" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">FID   PARCEL_ID    AREA(m²)    ZONING   OWNER</text>
+</svg>

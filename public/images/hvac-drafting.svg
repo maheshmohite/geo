@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">HVAC DRAFTING SERVICES</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">DUCTWORK LAYOUT PLAN</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:100</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="200" y1="40" x2="200" y2="424"/>
+    <line x1="400" y1="40" x2="400" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="200" x2="760" y2="200"/>
+    <line x1="40" y1="320" x2="760" y2="320"/>
+  </g>
+  <!-- Room boundary -->
+  <rect x="42" y="42" width="718" height="380" fill="#f0f8ff" stroke="#0A1F44" stroke-width="1.5"/>
+  <text x="52" y="56" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">LEVEL 1 — DUCTWORK LAYOUT PLAN  |  CEILING SPACE ZONE</text>
+  <!-- Structural grid (column positions) -->
+  <g stroke="#d97706" stroke-width="0.6" stroke-dasharray="4,2" opacity="0.5">
+    <line x1="200" y1="42" x2="200" y2="422"/>
+    <line x1="400" y1="42" x2="400" y2="422"/>
+    <line x1="600" y1="42" x2="600" y2="422"/>
+  </g>
+  <circle cx="200" cy="48" r="8" fill="#0A1F44"/>
+  <circle cx="400" cy="48" r="8" fill="#0A1F44"/>
+  <circle cx="600" cy="48" r="8" fill="#0A1F44"/>
+  <text x="200" y="52" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="400" y="52" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="600" y="52" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">D</text>
+  <!-- AHU unit (top left) -->
+  <rect x="52" y="65" width="110" height="80" fill="#c8dff0" stroke="#4a7fc1" stroke-width="2" rx="4"/>
+  <rect x="57" y="70" width="100" height="12" fill="#0A1F44" rx="2"/>
+  <text x="107" y="80" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">AHU-L1-01</text>
+  <!-- Fan symbol -->
+  <circle cx="107" cy="117" rx="25" r="22" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <line x1="107" y1="95" x2="107" y2="139" stroke="#0A1F44" stroke-width="1.2"/>
+  <line x1="85" y1="117" x2="129" y2="117" stroke="#0A1F44" stroke-width="1.2"/>
+  <text x="107" y="121" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle">FAN</text>
+  <!-- Main supply duct (horizontal — from AHU) -->
+  <rect x="162" y="82" width="556" height="38" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="2"/>
+  <text x="440" y="105" font-family="Arial, sans-serif" font-size="8" fill="#0A1F44" text-anchor="middle" font-weight="bold">800 × 400 SA — MAIN SUPPLY DUCT</text>
+  <!-- Branch ducts (vertical drops) -->
+  <!-- Branch at 250 -->
+  <rect x="242" y="120" width="28" height="140" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="256" y="195" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle" transform="rotate(-90,256,195)">400 × 200 SA</text>
+  <!-- Reducer at branch -->
+  <polygon points="242,120 270,120 265,130 247,130" fill="#9ab8d0" stroke="#4a7fc1" stroke-width="0.8"/>
+  <!-- Branch at 450 -->
+  <rect x="442" y="120" width="28" height="140" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="456" y="195" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle" transform="rotate(-90,456,195)">400 × 200 SA</text>
+  <polygon points="442,120 470,120 465,130 447,130" fill="#9ab8d0" stroke="#4a7fc1" stroke-width="0.8"/>
+  <!-- Branch at 640 -->
+  <rect x="632" y="120" width="28" height="140" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="646" y="195" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle" transform="rotate(-90,646,195)">300 × 200 SA</text>
+  <polygon points="632,120 660,120 655,130 637,130" fill="#9ab8d0" stroke="#4a7fc1" stroke-width="0.8"/>
+  <!-- Supply grilles (at bottom of branches) -->
+  <!-- Grille at 256 -->
+  <rect x="238" y="260" width="36" height="20" fill="#dde8f5" stroke="#4a7fc1" stroke-width="1.5"/>
+  <g stroke="#4a7fc1" stroke-width="0.5">
+    <line x1="242" y1="260" x2="242" y2="280"/><line x1="248" y1="260" x2="248" y2="280"/>
+    <line x1="254" y1="260" x2="254" y2="280"/><line x1="260" y1="260" x2="260" y2="280"/>
+    <line x1="266" y1="260" x2="266" y2="280"/><line x1="272" y1="260" x2="272" y2="280"/>
+  </g>
+  <text x="256" y="292" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle">SA-01 600L/s</text>
+  <!-- Grille at 456 -->
+  <rect x="438" y="260" width="36" height="20" fill="#dde8f5" stroke="#4a7fc1" stroke-width="1.5"/>
+  <g stroke="#4a7fc1" stroke-width="0.5">
+    <line x1="442" y1="260" x2="442" y2="280"/><line x1="448" y1="260" x2="448" y2="280"/>
+    <line x1="454" y1="260" x2="454" y2="280"/><line x1="460" y1="260" x2="460" y2="280"/>
+    <line x1="466" y1="260" x2="466" y2="280"/><line x1="472" y1="260" x2="472" y2="280"/>
+  </g>
+  <text x="456" y="292" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle">SA-02 600L/s</text>
+  <!-- Grille at 646 -->
+  <rect x="630" y="260" width="32" height="20" fill="#dde8f5" stroke="#4a7fc1" stroke-width="1.5"/>
+  <g stroke="#4a7fc1" stroke-width="0.5">
+    <line x1="634" y1="260" x2="634" y2="280"/><line x1="640" y1="260" x2="640" y2="280"/>
+    <line x1="646" y1="260" x2="646" y2="280"/><line x1="652" y1="260" x2="652" y2="280"/>
+    <line x1="658" y1="260" x2="658" y2="280"/>
+  </g>
+  <text x="646" y="292" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" text-anchor="middle">SA-03 450L/s</text>
+  <!-- Return air duct (horizontal — bottom of plan) -->
+  <rect x="52" y="330" width="600" height="30" fill="#e0f0e8" stroke="#22a366" stroke-width="1.5"/>
+  <text x="352" y="349" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">600 × 300 RA — RETURN AIR DUCT</text>
+  <!-- Return air grilles (top of RA duct) -->
+  <rect x="180" y="320" width="32" height="12" fill="#e0f0e8" stroke="#22a366" stroke-width="1.2"/>
+  <text x="196" y="316" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366" text-anchor="middle">RA-01</text>
+  <rect x="360" y="320" width="32" height="12" fill="#e0f0e8" stroke="#22a366" stroke-width="1.2"/>
+  <text x="376" y="316" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366" text-anchor="middle">RA-02</text>
+  <rect x="540" y="320" width="32" height="12" fill="#e0f0e8" stroke="#22a366" stroke-width="1.2"/>
+  <text x="556" y="316" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366" text-anchor="middle">RA-03</text>
+  <!-- Return air connection to AHU -->
+  <rect x="52" y="145" width="36" height="185" fill="#e0f0e8" stroke="#22a366" stroke-width="1.5"/>
+  <text x="70" y="240" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle" transform="rotate(-90,70,240)">600×300 RA</text>
+  <!-- Legend -->
+  <rect x="52" y="370" width="700" height="50" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="52" y="370" width="700" height="14" fill="#0A1F44"/>
+  <text x="402" y="381" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">HVAC LEGEND</text>
+  <rect x="62" y="389" width="25" height="14" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="93" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Supply Air (SA)</text>
+  <rect x="175" y="389" width="25" height="14" fill="#e0f0e8" stroke="#22a366" stroke-width="1.5"/>
+  <text x="206" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Return Air (RA)</text>
+  <rect x="290" y="392" width="20" height="8" fill="#dde8f5" stroke="#4a7fc1" stroke-width="1"/>
+  <g stroke="#4a7fc1" stroke-width="0.4"><line x1="293" y1="392" x2="293" y2="400"/><line x1="297" y1="392" x2="297" y2="400"/><line x1="301" y1="392" x2="301" y2="400"/><line x1="305" y1="392" x2="305" y2="400"/></g>
+  <text x="316" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Diffuser/Grille</text>
+  <rect x="410" y="389" width="50" height="14" fill="#c8dff0" stroke="#4a7fc1" stroke-width="2" rx="2"/>
+  <text x="416" y="400" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Air Handling Unit</text>
+  <line x1="520" y1="396" x2="545" y2="396" stroke="#d97706" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="550" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Grid / Column Line</text>
+  <circle cx="680" cy="396" r="6" fill="#0A1F44"/>
+  <text x="692" y="400" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Grid Ref.</text>
+</svg>

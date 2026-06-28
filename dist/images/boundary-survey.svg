@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <!-- Drawing sheet -->
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <!-- Title block -->
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">BOUNDARY SURVEY PLAN</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1" = 40'</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid lines -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="720" y1="40" x2="720" y2="424"/>
+    <line x1="40" y1="130" x2="760" y2="130"/>
+    <line x1="40" y1="230" x2="760" y2="230"/>
+    <line x1="40" y1="330" x2="760" y2="330"/>
+  </g>
+  <!-- Property boundary polygon -->
+  <polygon points="145,72 625,58 672,392 108,405" fill="#e8eef5" stroke="#0A1F44" stroke-width="2.5"/>
+  <!-- Interior lot label -->
+  <text x="390" y="235" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">LOT 12, BLOCK 4</text>
+  <text x="390" y="250" font-family="Arial, sans-serif" font-size="8" fill="#4a7fc1" text-anchor="middle">AREA = 1.847 ACRES ± (80,432 SQ FT ±)</text>
+  <!-- Bearing/distance annotations — North side -->
+  <line x1="145" y1="84" x2="625" y2="70" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="145" y1="78" x2="145" y2="92" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="625" y1="64" x2="625" y2="78" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="385" y="95" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">N 87°42'15" E   480.25'</text>
+  <!-- South side -->
+  <line x1="108" y1="417" x2="672" y2="405" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="108" y1="410" x2="108" y2="422" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="672" y1="399" x2="672" y2="413" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="390" y="424" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">S 86°55'40" W   558.10'</text>
+  <!-- West side -->
+  <line x1="115" y1="72" x2="82" y2="405" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="110" y1="72" x2="122" y2="72" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="77" y1="405" x2="89" y2="405" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="80" y="240" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" transform="rotate(-90,80,240)" font-weight="bold">S 02°18'00" W   334.10'</text>
+  <!-- East side -->
+  <line x1="697" y1="392" x2="700" y2="58" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="691" y1="392" x2="701" y2="392" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="693" y1="58" x2="703" y2="58" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="715" y="225" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" transform="rotate(90,715,225)" font-weight="bold">N 01°52'30" E   335.80'</text>
+  <!-- Monument symbols at corners -->
+  <g stroke="#0A1F44" stroke-width="1.5" fill="none">
+    <rect x="138" y="65" width="13" height="13"/>
+    <line x1="138" y1="65" x2="151" y2="78"/><line x1="151" y1="65" x2="138" y2="78"/>
+    <rect x="618" y="51" width="13" height="13"/>
+    <line x1="618" y1="51" x2="631" y2="64"/><line x1="631" y1="51" x2="618" y2="64"/>
+    <rect x="101" y="398" width="13" height="13"/>
+    <line x1="101" y1="398" x2="114" y2="411"/><line x1="114" y1="398" x2="101" y2="411"/>
+    <rect x="665" y="385" width="13" height="13"/>
+    <line x1="665" y1="385" x2="678" y2="398"/><line x1="678" y1="385" x2="665" y2="398"/>
+  </g>
+  <!-- Monument labels -->
+  <text x="125" y="64" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">IPS</text>
+  <text x="633" y="52" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">IPS</text>
+  <text x="88" y="397" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">IPF</text>
+  <text x="680" y="386" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">IPF</text>
+  <!-- Adjoining property labels -->
+  <text x="75" y="200" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle" transform="rotate(-90,75,200)">ADJOINING OWNER (LOT 11)</text>
+  <text x="730" y="200" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle" transform="rotate(90,730,200)">ADJOINING OWNER (LOT 13)</text>
+  <text x="390" y="52" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">MAIN AVENUE — 60' PUBLIC RIGHT-OF-WAY</text>
+  <!-- Right-of-way line -->
+  <rect x="90" y="403" width="615" height="15" fill="none" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="8,3"/>
+  <text x="390" y="415" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle">ROW LINE</text>
+  <!-- North arrow -->
+  <g transform="translate(710,95)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,9 0,3 6,9" fill="#0A1F44"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Legend -->
+  <rect x="555" y="130" width="170" height="90" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="555" y="130" width="170" height="16" fill="#0A1F44"/>
+  <text x="640" y="142" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">LEGEND</text>
+  <rect x="565" y="152" width="10" height="10" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+  <line x1="565" y1="152" x2="575" y2="162" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="575" y1="152" x2="565" y2="162" stroke="#0A1F44" stroke-width="1"/>
+  <text x="581" y="161" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Iron Pin Set (IPS)</text>
+  <rect x="565" y="168" width="10" height="10" fill="#e8eef5" stroke="#0A1F44" stroke-width="1.5"/>
+  <line x1="565" y1="168" x2="575" y2="178" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="575" y1="168" x2="565" y2="178" stroke="#0A1F44" stroke-width="1"/>
+  <text x="581" y="177" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Iron Pin Found (IPF)</text>
+  <line x1="565" y1="186" x2="590" y2="186" stroke="#0A1F44" stroke-width="2.5"/>
+  <text x="596" y="190" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Property Line</text>
+  <line x1="565" y1="202" x2="590" y2="202" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="6,2"/>
+  <text x="596" y="206" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Right-of-Way</text>
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">LAND DEVELOPMENT PLAN</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:1000</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">LOTS</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">42 RESIDENTIAL</text>
+  <text x="700" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="700" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="150" y1="40" x2="150" y2="424"/>
+    <line x1="300" y1="40" x2="300" y2="424"/>
+    <line x1="450" y1="40" x2="450" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="140" x2="760" y2="140"/>
+    <line x1="40" y1="280" x2="760" y2="280"/>
+  </g>
+  <!-- Existing road at top -->
+  <rect x="40" y="40" width="720" height="28" fill="#d4c89e" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="40" y1="54" x2="760" y2="54" stroke="white" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="400" y="52" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle">MAIN ROAD — 20m RESERVE</text>
+  <!-- ROW line -->
+  <line x1="40" y1="68" x2="760" y2="68" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="8,3"/>
+  <!-- New street (horizontal, center) -->
+  <rect x="40" y="225" width="720" height="28" fill="#d4c89e" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="40" y1="239" x2="760" y2="239" stroke="white" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="400" y="238" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">ACACIA STREET — 15m RESERVE</text>
+  <!-- New street (vertical, center) -->
+  <rect x="355" y="68" width="28" height="360" fill="#d4c89e" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="369" y1="68" x2="369" y2="428" stroke="white" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="369" y="175" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle" transform="rotate(90,369,175)">BANKSIA DRIVE — 15m RESERVE</text>
+  <!-- LOTS — Top Left quadrant -->
+  <!-- Row 1 TL -->
+  <rect x="68" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="107" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L1</text>
+  <text x="107" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">450m²</text>
+  <rect x="148" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="187" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L2</text>
+  <text x="187" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">450m²</text>
+  <rect x="228" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="267" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L3</text>
+  <text x="267" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">500m²</text>
+  <!-- Row 2 TL -->
+  <rect x="68" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="107" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L4</text>
+  <text x="107" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <rect x="148" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="187" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L5</text>
+  <text x="187" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <rect x="228" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="267" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L6</text>
+  <text x="267" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <!-- Lots TR quadrant (right of center road, above center street) -->
+  <rect x="392" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="431" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L10</text>
+  <text x="431" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">450m²</text>
+  <rect x="472" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="511" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L11</text>
+  <text x="511" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">450m²</text>
+  <rect x="552" y="80" width="78" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="591" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L12</text>
+  <text x="591" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">450m²</text>
+  <rect x="632" y="80" width="88" height="62" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="676" y="107" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L13</text>
+  <text x="676" y="120" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">480m²</text>
+  <rect x="392" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="431" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L14</text>
+  <text x="431" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <rect x="472" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="511" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L15</text>
+  <text x="511" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <rect x="552" y="143" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="591" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L16</text>
+  <text x="591" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">520m²</text>
+  <rect x="632" y="143" width="88" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="676" y="178" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L17</text>
+  <text x="676" y="191" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">580m²</text>
+  <!-- Bottom section lots (below center street) -->
+  <rect x="68" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="107" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L20</text>
+  <rect x="148" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="187" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L21</text>
+  <rect x="228" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="267" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L22</text>
+  <rect x="68" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="107" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L23</text>
+  <rect x="148" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="187" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L24</text>
+  <rect x="228" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="267" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L25</text>
+  <!-- More bottom lots right side -->
+  <rect x="392" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="431" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L30</text>
+  <rect x="472" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="511" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L31</text>
+  <rect x="552" y="262" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="591" y="297" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L32</text>
+  <!-- Open space / park -->
+  <rect x="632" y="262" width="88" height="145" fill="#d4e8c8" stroke="#22a366" stroke-width="1.5"/>
+  <text x="676" y="332" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#22a366" text-anchor="middle">OPEN</text>
+  <text x="676" y="345" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#22a366" text-anchor="middle">SPACE</text>
+  <text x="676" y="360" font-family="Arial, sans-serif" font-size="6.5" fill="#22a366" text-anchor="middle">2,100m²</text>
+  <!-- More bottom lots -->
+  <rect x="392" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="431" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L33</text>
+  <rect x="472" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="511" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L34</text>
+  <rect x="552" y="335" width="78" height="72" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="591" y="372" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">L35</text>
+  <!-- Bottom lots last row -->
+  <rect x="68" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="107" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L40</text>
+  <rect x="148" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="187" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L41</text>
+  <rect x="228" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="267" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L42</text>
+  <rect x="392" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="431" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L43</text>
+  <rect x="472" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="511" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L44</text>
+  <rect x="552" y="408" width="78" height="16" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="591" y="420" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">L45</text>
+  <!-- North arrow -->
+  <g transform="translate(720,95)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-14 -5,7 0,2 5,7" fill="#0A1F44"/>
+    <line x1="0" y1="-14" x2="0" y2="14" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-18" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Legend -->
+  <rect x="660" y="130" width="100" height="90" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="660" y="130" width="100" height="14" fill="#0A1F44"/>
+  <text x="710" y="141" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">LEGEND</text>
+  <rect x="668" y="148" width="12" height="10" fill="#e8f0e8" stroke="#0A1F44" stroke-width="1"/>
+  <text x="685" y="157" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Residential Lot</text>
+  <rect x="668" y="163" width="12" height="10" fill="#d4e8c8" stroke="#22a366" stroke-width="1.2"/>
+  <text x="685" y="172" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Open Space</text>
+  <rect x="668" y="178" width="12" height="10" fill="#d4c89e"/>
+  <text x="685" y="187" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Road Reserve</text>
+  <line x1="668" y1="200" x2="680" y2="200" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="5,2"/>
+  <text x="685" y="204" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">ROW Boundary</text>
+</svg>

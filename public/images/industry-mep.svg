@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">INDUSTRY</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">MEP CONSULTANTS</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">SERVICES COORDINATION PLAN</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:100</text>
+  <text x="700" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="700" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <text x="55" y="56" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">COORDINATED MEP PLAN — CEILING VOID  |  EL. +2800 TO +3500  |  CLASH-FREE COORDINATION</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="200" y1="40" x2="200" y2="424"/>
+    <line x1="400" y1="40" x2="400" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="170" x2="760" y2="170"/>
+    <line x1="40" y1="300" x2="760" y2="300"/>
+  </g>
+  <!-- Floor plan boundary -->
+  <rect x="42" y="63" width="590" height="360" fill="#f0f8ff" stroke="#0A1F44" stroke-width="1.5"/>
+  <!-- Structural grid (faint) -->
+  <g stroke="#9ab3d4" stroke-width="2" opacity="0.25">
+    <line x1="200" y1="63" x2="200" y2="423"/>
+    <line x1="400" y1="63" x2="400" y2="423"/>
+    <line x1="42" y1="170" x2="632" y2="170"/>
+    <line x1="42" y1="300" x2="632" y2="300"/>
+  </g>
+  <!-- Grid circle markers -->
+  <circle cx="200" cy="63" r="7" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <text x="200" y="67" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">B</text>
+  <circle cx="400" cy="63" r="7" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <text x="400" y="67" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">C</text>
+  <circle cx="42" cy="170" r="7" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <text x="42" y="174" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">2</text>
+  <circle cx="42" cy="300" r="7" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <text x="42" y="304" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44" text-anchor="middle">3</text>
+  <!-- HVAC DUCTWORK — main supply duct -->
+  <rect x="55" y="82" width="565" height="38" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="2" rx="1"/>
+  <text x="337" y="105" font-family="Arial, sans-serif" font-size="7.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">1000×500 SA DUCT</text>
+  <!-- Branch ducts -->
+  <rect x="178" y="120" width="26" height="100" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <rect x="375" y="120" width="26" height="100" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <rect x="555" y="120" width="26" height="100" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5"/>
+  <!-- Diffusers -->
+  <g fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1">
+    <rect x="160" y="222" width="60" height="20" rx="2"/>
+    <rect x="358" y="222" width="60" height="20" rx="2"/>
+    <rect x="538" y="222" width="60" height="20" rx="2"/>
+  </g>
+  <text x="190" y="235" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1" text-anchor="middle">SAG 600×300</text>
+  <text x="388" y="235" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1" text-anchor="middle">SAG 600×300</text>
+  <text x="568" y="235" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1" text-anchor="middle">SAG 600×300</text>
+  <!-- Return air duct -->
+  <rect x="55" y="300" width="565" height="26" fill="#e0f0e8" stroke="#22a366" stroke-width="1.5" rx="1"/>
+  <text x="337" y="317" font-family="Arial, sans-serif" font-size="7" fill="#22a366" text-anchor="middle">700×300 RA DUCT</text>
+  <!-- PLUMBING PIPES (horizontal) -->
+  <line x1="55" y1="148" x2="632" y2="148" stroke="#2563eb" stroke-width="4"/>
+  <text x="160" y="144" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">CWS DN50</text>
+  <line x1="55" y1="158" x2="500" y2="158" stroke="#d97706" stroke-width="3"/>
+  <text x="160" y="154" font-family="Arial, sans-serif" font-size="6" fill="#d97706">HWS DN32</text>
+  <line x1="55" y1="168" x2="632" y2="168" stroke="#7c3a00" stroke-width="5"/>
+  <text x="160" y="165" font-family="Arial, sans-serif" font-size="6" fill="#7c3a00">SAN DN100</text>
+  <!-- Vertical plumbing drops -->
+  <line x1="120" y1="120" x2="120" y2="290" stroke="#2563eb" stroke-width="3"/>
+  <line x1="290" y1="120" x2="290" y2="290" stroke="#2563eb" stroke-width="3"/>
+  <line x1="480" y1="120" x2="480" y2="290" stroke="#7c3a00" stroke-width="4"/>
+  <!-- Electrical cable tray -->
+  <rect x="55" y="348" width="560" height="18" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="10,4"/>
+  <text x="337" y="361" font-family="Arial, sans-serif" font-size="7" fill="#d97706" text-anchor="middle">800W CABLE TRAY — HV + LV + DATA</text>
+  <!-- Fire sprinkler main -->
+  <line x1="55" y1="260" x2="632" y2="260" stroke="#ef4444" stroke-width="3"/>
+  <text x="337" y="256" font-family="Arial, sans-serif" font-size="6" fill="#ef4444" text-anchor="middle">SP MAIN DN100</text>
+  <!-- Sprinkler heads -->
+  <g stroke="#ef4444" fill="none" stroke-width="1">
+    <circle cx="120" cy="274" r="5"/><line x1="120" y1="260" x2="120" y2="269"/>
+    <circle cx="220" cy="274" r="5"/><line x1="220" y1="260" x2="220" y2="269"/>
+    <circle cx="320" cy="274" r="5"/><line x1="320" y1="260" x2="320" y2="269"/>
+    <circle cx="420" cy="274" r="5"/><line x1="420" y1="260" x2="420" y2="269"/>
+    <circle cx="520" cy="274" r="5"/><line x1="520" y1="260" x2="520" y2="269"/>
+  </g>
+  <!-- AHU unit (top left) -->
+  <rect x="55" y="380" width="100" height="40" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1.5" rx="2"/>
+  <text x="105" y="397" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">AHU-01</text>
+  <text x="105" y="408" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">25 kW / 2000 L/s</text>
+  <!-- Clash zones -->
+  <circle cx="200" cy="160" r="12" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="215" y="158" font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">CLASH</text>
+  <circle cx="400" cy="262" r="12" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="415" y="260" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">REVIEW</text>
+  <!-- Services elevation panel (right) -->
+  <rect x="640" y="63" width="118" height="280" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="640" y="63" width="118" height="16" fill="#0A1F44"/>
+  <text x="699" y="75" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">SERVICES ELEVATION</text>
+  <!-- Elevation scale -->
+  <line x1="658" y1="84" x2="658" y2="330" stroke="#0A1F44" stroke-width="1"/>
+  <line x1="655" y1="84" x2="663" y2="84" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="668" y="88" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">+3500 Slab Soffit</text>
+  <!-- Services bands -->
+  <rect x="680" y="93" width="28" height="14" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1"/>
+  <text x="714" y="103" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1">SA Duct</text>
+  <line x1="655" y1="112" x2="663" y2="112" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="668" y="116" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">+3300</text>
+  <line x1="680" y1="121" x2="708" y2="121" stroke="#2563eb" stroke-width="3"/>
+  <text x="714" y="125" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb">CWS</text>
+  <line x1="680" y1="131" x2="708" y2="131" stroke="#d97706" stroke-width="3"/>
+  <text x="714" y="135" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">HWS</text>
+  <line x1="680" y1="141" x2="708" y2="141" stroke="#7c3a00" stroke-width="5"/>
+  <text x="714" y="145" font-family="Arial, sans-serif" font-size="5.5" fill="#7c3a00">SAN</text>
+  <line x1="655" y1="152" x2="663" y2="152" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="668" y="156" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">+3100</text>
+  <line x1="680" y1="161" x2="708" y2="161" stroke="#ef4444" stroke-width="3"/>
+  <text x="714" y="165" font-family="Arial, sans-serif" font-size="5.5" fill="#ef4444">FP Main</text>
+  <rect x="680" y="170" width="28" height="10" fill="none" stroke="#d97706" stroke-width="1.2" stroke-dasharray="5,2"/>
+  <text x="714" y="178" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">C/Tray</text>
+  <rect x="680" y="185" width="28" height="10" fill="#e0f0e8" stroke="#22a366" stroke-width="1.2"/>
+  <text x="714" y="193" font-family="Arial, sans-serif" font-size="5.5" fill="#22a366">RA Duct</text>
+  <line x1="655" y1="200" x2="663" y2="200" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="668" y="204" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">+2800 FFL</text>
+  <!-- Discipline key -->
+  <text x="655" y="222" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#0A1F44">DISCIPLINE KEY</text>
+  <rect x="655" y="228" width="10" height="10" fill="#c8e0f8" stroke="#4a7fc1" stroke-width="1"/>
+  <text x="671" y="237" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Mech/HVAC</text>
+  <line x1="655" y1="247" x2="665" y2="247" stroke="#2563eb" stroke-width="3"/>
+  <text x="671" y="251" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Plumbing (CWS)</text>
+  <line x1="655" y1="260" x2="665" y2="260" stroke="#7c3a00" stroke-width="4"/>
+  <text x="671" y="264" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Sanitary</text>
+  <rect x="655" y="271" width="12" height="8" fill="none" stroke="#d97706" stroke-width="1.2" stroke-dasharray="5,2"/>
+  <text x="671" y="279" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Electrical Tray</text>
+  <line x1="655" y1="288" x2="665" y2="288" stroke="#ef4444" stroke-width="3"/>
+  <text x="671" y="292" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Fire Protection</text>
+  <!-- Clash summary panel -->
+  <rect x="640" y="360" width="118" height="65" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="640" y="360" width="118" height="14" fill="#0A1F44"/>
+  <text x="699" y="371" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">CLASH SUMMARY</text>
+  <text x="650" y="385" font-family="Arial, sans-serif" font-size="6" fill="#ef4444">Hard Clashes: 3 (resolved)</text>
+  <text x="650" y="396" font-family="Arial, sans-serif" font-size="6" fill="#d97706">Soft Clashes: 7 (review)</text>
+  <text x="650" y="407" font-family="Arial, sans-serif" font-size="6" fill="#22a366">Cleared: 28</text>
+  <text x="650" y="418" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Total: 38 items</text>
+</svg>

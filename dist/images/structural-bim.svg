@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">STRUCTURAL BIM MODEL</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SOFTWARE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Revit Structure 2024</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">LOD</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">300 — 350</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid lines -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="150" x2="760" y2="150"/>
+    <line x1="40" y1="280" x2="760" y2="280"/>
+  </g>
+  <!-- Column grid lines (structural) -->
+  <!-- Vertical grid lines -->
+  <line x1="160" y1="55" x2="160" y2="415" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <line x1="310" y1="55" x2="310" y2="415" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <line x1="460" y1="55" x2="460" y2="415" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <line x1="610" y1="55" x2="610" y2="415" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <!-- Horizontal grid lines -->
+  <line x1="80" y1="100" x2="700" y2="100" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <line x1="80" y1="220" x2="700" y2="220" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <line x1="80" y1="340" x2="700" y2="340" stroke="#d97706" stroke-width="0.8" stroke-dasharray="6,3" opacity="0.7"/>
+  <!-- Grid labels (top) -->
+  <circle cx="160" cy="52" r="10" fill="#0A1F44"/>
+  <circle cx="310" cy="52" r="10" fill="#0A1F44"/>
+  <circle cx="460" cy="52" r="10" fill="#0A1F44"/>
+  <circle cx="610" cy="52" r="10" fill="#0A1F44"/>
+  <text x="160" y="56" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="310" y="56" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">B</text>
+  <text x="460" y="56" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">C</text>
+  <text x="610" y="56" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">D</text>
+  <!-- Grid labels (left) -->
+  <circle cx="78" cy="100" r="10" fill="#0A1F44"/>
+  <circle cx="78" cy="220" r="10" fill="#0A1F44"/>
+  <circle cx="78" cy="340" r="10" fill="#0A1F44"/>
+  <text x="78" y="104" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="78" y="224" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="78" y="344" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  <!-- COLUMNS (UC section — double line) at each intersection -->
+  <!-- Row 1 -->
+  <rect x="152" y="92" width="16" height="16" fill="#0A1F44" stroke="#0A1F44"/>
+  <rect x="154" y="94" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="302" y="92" width="16" height="16" fill="#0A1F44" stroke="#0A1F44"/>
+  <rect x="304" y="94" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="452" y="92" width="16" height="16" fill="#0A1F44" stroke="#0A1F44"/>
+  <rect x="454" y="94" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="602" y="92" width="16" height="16" fill="#0A1F44" stroke="#0A1F44"/>
+  <rect x="604" y="94" width="12" height="12" fill="#4a7fc1"/>
+  <!-- Row 2 -->
+  <rect x="152" y="212" width="16" height="16" fill="#0A1F44"/>
+  <rect x="154" y="214" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="302" y="212" width="16" height="16" fill="#0A1F44"/>
+  <rect x="304" y="214" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="452" y="212" width="16" height="16" fill="#0A1F44"/>
+  <rect x="454" y="214" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="602" y="212" width="16" height="16" fill="#0A1F44"/>
+  <rect x="604" y="214" width="12" height="12" fill="#4a7fc1"/>
+  <!-- Row 3 -->
+  <rect x="152" y="332" width="16" height="16" fill="#0A1F44"/>
+  <rect x="154" y="334" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="302" y="332" width="16" height="16" fill="#0A1F44"/>
+  <rect x="304" y="334" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="452" y="332" width="16" height="16" fill="#0A1F44"/>
+  <rect x="454" y="334" width="12" height="12" fill="#4a7fc1"/>
+  <rect x="602" y="332" width="16" height="16" fill="#0A1F44"/>
+  <rect x="604" y="334" width="12" height="12" fill="#4a7fc1"/>
+  <!-- Beams (horizontal — thick line with I-beam indication) -->
+  <!-- Row 1 beams -->
+  <rect x="168" y="96" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="168" y1="98" x2="302" y2="98" stroke="#0A1F44" stroke-width="0.4"/>
+  <line x1="168" y1="102" x2="302" y2="102" stroke="#0A1F44" stroke-width="0.4"/>
+  <rect x="318" y="96" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="318" y1="98" x2="452" y2="98" stroke="#0A1F44" stroke-width="0.4"/>
+  <line x1="318" y1="102" x2="452" y2="102" stroke="#0A1F44" stroke-width="0.4"/>
+  <rect x="468" y="96" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="468" y1="98" x2="602" y2="98" stroke="#0A1F44" stroke-width="0.4"/>
+  <line x1="468" y1="102" x2="602" y2="102" stroke="#0A1F44" stroke-width="0.4"/>
+  <!-- Row 2 beams -->
+  <rect x="168" y="216" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="318" y="216" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="468" y="216" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Row 3 beams -->
+  <rect x="168" y="336" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="318" y="336" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="468" y="336" width="134" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Vertical beams between rows -->
+  <rect x="155" y="108" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="155" y="228" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="305" y="108" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="305" y="228" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="455" y="108" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="455" y="228" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="605" y="108" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="605" y="228" width="8" height="104" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Diagonal bracing -->
+  <line x1="160" y1="100" x2="310" y2="220" stroke="#d97706" stroke-width="1.5"/>
+  <line x1="460" y1="100" x2="610" y2="220" stroke="#d97706" stroke-width="1.5"/>
+  <line x1="310" y1="220" x2="160" y2="340" stroke="#d97706" stroke-width="1.5"/>
+  <line x1="610" y1="220" x2="460" y2="340" stroke="#d97706" stroke-width="1.5"/>
+  <!-- Section annotations -->
+  <text x="235" y="94" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">610UB101</text>
+  <text x="385" y="94" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">610UB101</text>
+  <text x="535" y="94" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">610UB101</text>
+  <text x="148" y="162" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="end">310UC97</text>
+  <!-- Structure info -->
+  <rect x="630" y="70" width="130" height="130" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="630" y="70" width="130" height="16" fill="#0A1F44"/>
+  <text x="695" y="82" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">STRUCTURE</text>
+  <text x="640" y="98" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Type: Steel Frame</text>
+  <text x="640" y="111" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Storeys: 2</text>
+  <text x="640" y="124" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Bay: 7.5m × 6.0m</text>
+  <text x="640" y="137" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Columns: 12</text>
+  <text x="640" y="150" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Beams: 24</text>
+  <text x="640" y="163" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Bracing: SCBF</text>
+  <text x="640" y="176" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Standard: AS 4100</text>
+  <!-- Legend -->
+  <rect x="630" y="215" width="130" height="90" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="630" y="215" width="130" height="14" fill="#0A1F44"/>
+  <text x="695" y="225" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">LEGEND</text>
+  <rect x="638" y="232" width="10" height="10" fill="#0A1F44"/>
+  <rect x="640" y="234" width="6" height="6" fill="#4a7fc1"/>
+  <text x="654" y="241" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Column (UC)</text>
+  <rect x="638" y="248" width="20" height="8" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="664" y="257" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Beam (UB)</text>
+  <line x1="638" y1="272" x2="660" y2="284" stroke="#d97706" stroke-width="1.5"/>
+  <text x="664" y="280" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Bracing</text>
+  <line x1="638" y1="294" x2="660" y2="294" stroke="#d97706" stroke-width="0.8" stroke-dasharray="5,2"/>
+  <text x="664" y="298" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Grid Line</text>
+</svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">BIM &amp; DIGITAL TWIN</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">BIM for Sustainable Design: Green Building Goals</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">May 15, 2023</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">BIM SUSTAINABILITY INFOGRAPHIC  |  ENERGY MODELLING · LEED · SOLAR · MATERIAL WASTE · GREEN DESIGN</text>
+  <!-- Header -->
+  <rect x="28" y="50" width="744" height="26" fill="#22a366" rx="2"/>
+  <text x="400" y="67" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle">BIM FOR SUSTAINABLE DESIGN — GEO-NECTAR GREEN BUILDING BIM SERVICES</text>
+  <!-- KPI row -->
+  <rect x="28" y="84" width="744" height="76" fill="#0A1F44" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="400" y="99" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" text-anchor="middle" letter-spacing="1">KEY PERFORMANCE OUTCOMES — BIM-DRIVEN SUSTAINABLE DESIGN</text>
+  <!-- KPI boxes -->
+  <rect x="44" y="104" width="128" height="48" fill="#1a3a2a" stroke="#22a366" stroke-width="0.8" rx="2"/>
+  <text x="108" y="120" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">ENERGY SAVINGS</text>
+  <text x="108" y="138" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#22a366" text-anchor="middle">25%</text>
+  <text x="108" y="148" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">at design stage</text>
+  <rect x="184" y="104" width="128" height="48" fill="#1a2f4a" stroke="#4a7fc1" stroke-width="0.8" rx="2"/>
+  <text x="248" y="120" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">LIGHTING DEMAND</text>
+  <text x="248" y="138" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#4a7fc1" text-anchor="middle">30%</text>
+  <text x="248" y="148" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">reduced via solar model</text>
+  <rect x="324" y="104" width="128" height="48" fill="#3a2010" stroke="#F05A28" stroke-width="0.8" rx="2"/>
+  <text x="388" y="120" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">MATERIAL WASTE</text>
+  <text x="388" y="138" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#F05A28" text-anchor="middle">20%</text>
+  <text x="388" y="148" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">reduction via BIM takeoff</text>
+  <rect x="464" y="104" width="128" height="48" fill="#3a1a3a" stroke="#7c3aed" stroke-width="0.8" rx="2"/>
+  <text x="528" y="120" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">CARBON REDUCTION</text>
+  <text x="528" y="138" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#7c3aed" text-anchor="middle">18%</text>
+  <text x="528" y="148" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">embodied carbon cut</text>
+  <rect x="604" y="104" width="152" height="48" fill="#3a2800" stroke="#fbbf24" stroke-width="0.8" rx="2"/>
+  <text x="680" y="120" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">LEED POINTS ACHIEVABLE</text>
+  <text x="680" y="138" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#fbbf24" text-anchor="middle">60+</text>
+  <text x="680" y="148" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">from BIM simulations alone</text>
+  <!-- Bottom 3 panels -->
+  <!-- Energy Modeling -->
+  <rect x="28" y="170" width="238" height="270" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="147" y="186" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">ENERGY MODELLING</text>
+  <!-- Building thermal diagram -->
+  <rect x="60" y="194" width="160" height="110" fill="#e8f8f0" stroke="#22a366" stroke-width="1.5"/>
+  <!-- Windows -->
+  <rect x="70" y="204" width="30" height="20" fill="#87ceeb" stroke="#4a7fc1" stroke-width="1"/>
+  <rect x="108" y="204" width="30" height="20" fill="#87ceeb" stroke="#4a7fc1" stroke-width="1"/>
+  <rect x="148" y="204" width="30" height="20" fill="#87ceeb" stroke="#4a7fc1" stroke-width="1"/>
+  <!-- Door -->
+  <rect x="108" y="274" width="28" height="30" fill="#c8a875" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Thermal arrows (heat flow) -->
+  <g fill="#ef4444" opacity="0.7">
+    <polygon points="74,194 78,186 82,194"/>
+    <polygon points="114,194 118,186 122,194"/>
+    <polygon points="154,194 158,186 162,194"/>
+  </g>
+  <g fill="#4a7fc1" opacity="0.6">
+    <polygon points="46,240 38,236 38,244"/>
+    <polygon points="46,260 38,256 38,264"/>
+  </g>
+  <!-- Heat arrows out -->
+  <g fill="#22a366" opacity="0.7">
+    <polygon points="194,240 202,236 202,244"/>
+  </g>
+  <text x="147" y="330" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">Thermal simulation results:</text>
+  <!-- Energy chart -->
+  <g font-family="Arial, sans-serif" font-size="5.5">
+    <text x="44" y="346" fill="#6b7280">Heating load</text>
+    <rect x="115" y="337" width="80" height="10" fill="#e0e8f0" rx="1"/>
+    <rect x="115" y="337" width="60" height="10" fill="#ef4444" rx="1"/>
+    <text x="196" y="346" fill="#ef4444">120 kWh/m²</text>
+    <text x="44" y="362" fill="#6b7280">Cooling load</text>
+    <rect x="115" y="353" width="80" height="10" fill="#e0e8f0" rx="1"/>
+    <rect x="115" y="353" width="45" height="10" fill="#3b82f6" rx="1"/>
+    <text x="196" y="362" fill="#3b82f6">90 kWh/m²</text>
+    <text x="44" y="378" fill="#6b7280">Lighting</text>
+    <rect x="115" y="369" width="80" height="10" fill="#e0e8f0" rx="1"/>
+    <rect x="115" y="369" width="24" height="10" fill="#fbbf24" rx="1"/>
+    <text x="196" y="378" fill="#fbbf24">48 kWh/m²</text>
+    <text x="44" y="394" fill="#22a366">BIM Optimised</text>
+    <rect x="115" y="385" width="80" height="10" fill="#e0e8f0" rx="1"/>
+    <rect x="115" y="385" width="35" height="10" fill="#22a366" rx="1"/>
+    <text x="196" y="394" fill="#22a366">70 kWh/m²</text>
+  </g>
+  <text x="147" y="415" font-family="Arial, sans-serif" font-size="6" fill="#22a366" text-anchor="middle" font-weight="bold">25% energy reduction achieved</text>
+  <text x="147" y="427" font-family="Arial, sans-serif" font-size="5.5" fill="#6b7280" text-anchor="middle">via Revit Energy Analysis + IES</text>
+  <!-- Solar + Materials -->
+  <rect x="278" y="170" width="234" height="270" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="395" y="186" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">SOLAR + MATERIAL STRATEGY</text>
+  <!-- Solar diagram -->
+  <circle cx="395" cy="234" r="30" fill="#fbbf24" opacity="0.8"/>
+  <g stroke="#fbbf24" stroke-width="2" opacity="0.6">
+    <line x1="395" y1="196" x2="395" y2="188"/>
+    <line x1="425" y1="210" x2="432" y2="204"/>
+    <line x1="430" y1="234" x2="438" y2="234"/>
+    <line x1="425" y1="258" x2="432" y2="264"/>
+    <line x1="365" y1="210" x2="358" y2="204"/>
+    <line x1="360" y1="234" x2="352" y2="234"/>
+  </g>
+  <!-- Solar rays hitting building -->
+  <line x1="395" y1="264" x2="360" y2="310" stroke="#fbbf24" stroke-width="2" opacity="0.7"/>
+  <line x1="395" y1="264" x2="395" y2="316" stroke="#fbbf24" stroke-width="2" opacity="0.5"/>
+  <line x1="395" y1="264" x2="430" y2="310" stroke="#fbbf24" stroke-width="2" opacity="0.4"/>
+  <!-- Building silhouette -->
+  <rect x="348" y="310" width="94" height="52" fill="#c8d8ea" stroke="#0A1F44" stroke-width="1"/>
+  <!-- PV panels on roof -->
+  <rect x="355" y="304" width="82" height="8" fill="#4a7fc1" stroke="#0A1F44" stroke-width="0.5"/>
+  <line x1="375" y1="304" x2="375" y2="312" stroke="#0A1F44" stroke-width="0.5"/>
+  <line x1="395" y1="304" x2="395" y2="312" stroke="#0A1F44" stroke-width="0.5"/>
+  <line x1="415" y1="304" x2="415" y2="312" stroke="#0A1F44" stroke-width="0.5"/>
+  <text x="395" y="296" font-family="Arial, sans-serif" font-size="5.5" fill="#fbbf24" text-anchor="middle">PV Array — 48 panels</text>
+  <!-- Material breakdown -->
+  <rect x="290" y="376" width="210" height="52" fill="#0A1F44" rx="2"/>
+  <text x="395" y="390" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle" font-weight="bold">BIM MATERIAL STRATEGY</text>
+  <g font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea">
+    <text x="300" y="403">✓  Recycled steel aggregates</text>
+    <text x="300" y="413">✓  Low-e glazing specification</text>
+    <text x="300" y="423">✓  High-perf insulation (R30+)</text>
+    <text x="440" y="403">✓  Waste -20% via BIM takeoff</text>
+    <text x="440" y="413">✓  Mass timber where applicable</text>
+    <text x="440" y="423">✓  Carbon calc per element</text>
+  </g>
+  <!-- LEED pathway -->
+  <rect x="524" y="170" width="248" height="270" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="648" y="186" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">LEED CERTIFICATION PATH</text>
+  <!-- LEED categories -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <text x="536" y="202" fill="#6b7280">LEED CATEGORY</text>
+    <text x="736" y="202" fill="#6b7280" text-anchor="end">POINTS (MAX)</text>
+    <line x1="536" y1="205" x2="760" y2="205" stroke="#e0e8f0" stroke-width="0.5"/>
+    <rect x="536" y="208" width="216" height="12" fill="#e8f8f0" rx="1"/>
+    <text x="540" y="217" fill="#22a366">Sustainable Sites</text>
+    <rect x="700" y="210" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="210" width="32" height="8" fill="#22a366" rx="1"/>
+    <text x="754" y="217" fill="#22a366" text-anchor="end">26 pts</text>
+    <rect x="536" y="223" width="216" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="540" y="232" fill="#4a7fc1">Water Efficiency</text>
+    <rect x="700" y="225" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="225" width="26" height="8" fill="#4a7fc1" rx="1"/>
+    <text x="754" y="232" fill="#4a7fc1" text-anchor="end">10 pts</text>
+    <rect x="536" y="238" width="216" height="12" fill="#fff8f0" rx="1"/>
+    <text x="540" y="247" fill="#F05A28">Energy &amp; Atmosphere</text>
+    <rect x="700" y="240" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="240" width="52" height="8" fill="#F05A28" rx="1"/>
+    <text x="754" y="247" fill="#F05A28" text-anchor="end">33 pts ★</text>
+    <rect x="536" y="253" width="216" height="12" fill="#fdf8ff" rx="1"/>
+    <text x="540" y="262" fill="#7c3aed">Materials &amp; Resources</text>
+    <rect x="700" y="255" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="255" width="38" height="8" fill="#7c3aed" rx="1"/>
+    <text x="754" y="262" fill="#7c3aed" text-anchor="end">13 pts</text>
+    <rect x="536" y="268" width="216" height="12" fill="#f0f8ff" rx="1"/>
+    <text x="540" y="277" fill="#3b82f6">Indoor Env. Quality</text>
+    <rect x="700" y="270" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="270" width="44" height="8" fill="#3b82f6" rx="1"/>
+    <text x="754" y="277" fill="#3b82f6" text-anchor="end">15 pts</text>
+    <rect x="536" y="283" width="216" height="12" fill="#f8f8e8" rx="1"/>
+    <text x="540" y="292" fill="#d97706">Innovation in Design</text>
+    <rect x="700" y="285" width="52" height="8" fill="#e0e8f0" rx="1"/>
+    <rect x="700" y="285" width="16" height="8" fill="#d97706" rx="1"/>
+    <text x="754" y="292" fill="#d97706" text-anchor="end">6 pts</text>
+  </g>
+  <!-- LEED tier chart -->
+  <rect x="536" y="303" width="216" height="72" fill="#0A1F44" rx="2"/>
+  <text x="644" y="318" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle" font-weight="bold">LEED CERTIFICATION TIERS</text>
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <rect x="546" y="325" width="12" height="10" fill="#cd7f32" rx="1"/>
+    <text x="562" y="333" fill="#c8d8ea">Certified (40–49 pts)</text>
+    <rect x="546" y="339" width="12" height="10" fill="#c0c0c0" rx="1"/>
+    <text x="562" y="347" fill="#c8d8ea">Silver (50–59 pts)</text>
+    <rect x="652" y="325" width="12" height="10" fill="#ffd700" rx="1"/>
+    <text x="668" y="333" fill="#c8d8ea">Gold (60–79 pts)</text>
+    <rect x="652" y="339" width="12" height="10" fill="#4a7fc1" rx="1"/>
+    <text x="668" y="347" fill="#c8d8ea">Platinum (80+ pts)</text>
+    <text x="644" y="366" fill="#22a366" text-anchor="middle">BIM simulations → Gold/Platinum feasible</text>
+  </g>
+  <rect x="536" y="382" width="216" height="48" fill="#22a366" rx="2"/>
+  <text x="644" y="397" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">GeoNectar BIM Services</text>
+  <text x="644" y="409" font-family="Arial, sans-serif" font-size="6" fill="#ffffff" text-anchor="middle">Support LEED documentation, energy</text>
+  <text x="644" y="421" font-family="Arial, sans-serif" font-size="6" fill="#ffffff" text-anchor="middle">modelling, and material calculations</text>
+</svg>

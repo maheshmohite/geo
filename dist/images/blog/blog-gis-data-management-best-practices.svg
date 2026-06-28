@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">LAND SURVEY INSIGHTS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">GIS Data Management: Best Practices</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">January 15, 2022</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">GIS DATA MANAGEMENT INFOGRAPHIC  |  VALIDATION · METADATA · QUALITY CONTROL · WORKFLOW</text>
+  <!-- Header -->
+  <rect x="28" y="50" width="744" height="26" fill="#0A1F44" rx="2"/>
+  <text x="400" y="67" font-family="Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle">GIS DATA QUALITY MANAGEMENT FRAMEWORK — GEO-NECTAR GEOSPATIAL SERVICES</text>
+  <!-- Data Flow Pipeline (top) -->
+  <rect x="28" y="84" width="744" height="110" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="400" y="99" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GIS DATA LIFECYCLE — INTAKE TO DELIVERY</text>
+  <!-- Pipeline stages -->
+  <g font-family="Arial, sans-serif">
+    <!-- Stage 1 -->
+    <rect x="42" y="106" width="90" height="48" fill="#4a7fc1" rx="3"/>
+    <text x="87" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">DATA INTAKE</text>
+    <text x="87" y="134" font-size="5.5" fill="#c8d8ea" text-anchor="middle">GPS · Drone</text>
+    <text x="87" y="144" font-size="5.5" fill="#c8d8ea" text-anchor="middle">LiDAR · Survey</text>
+    <text x="87" y="154" font-size="5.5" fill="#c8d8ea" text-anchor="middle">Satellite / API</text>
+    <!-- Arrow -->
+    <polygon points="133,130 140,130 136,124 148,130 136,136 140,130 133,130" fill="#F05A28"/>
+    <!-- Stage 2 -->
+    <rect x="150" y="106" width="90" height="48" fill="#F05A28" rx="3"/>
+    <text x="195" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">VALIDATION</text>
+    <text x="195" y="134" font-size="5.5" fill="#fcd9c8" text-anchor="middle">Schema check</text>
+    <text x="195" y="144" font-size="5.5" fill="#fcd9c8" text-anchor="middle">Topology rules</text>
+    <text x="195" y="154" font-size="5.5" fill="#fcd9c8" text-anchor="middle">CRS verification</text>
+    <!-- Arrow -->
+    <polygon points="241,130 248,130 244,124 256,130 244,136 248,130 241,130" fill="#F05A28"/>
+    <!-- Stage 3 -->
+    <rect x="258" y="106" width="90" height="48" fill="#22a366" rx="3"/>
+    <text x="303" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">CLEANING</text>
+    <text x="303" y="134" font-size="5.5" fill="#c8f0dc" text-anchor="middle">Remove duplicates</text>
+    <text x="303" y="144" font-size="5.5" fill="#c8f0dc" text-anchor="middle">Gap fill / snap</text>
+    <text x="303" y="154" font-size="5.5" fill="#c8f0dc" text-anchor="middle">Attribute align</text>
+    <!-- Arrow -->
+    <polygon points="349,130 356,130 352,124 364,130 352,136 356,130 349,130" fill="#F05A28"/>
+    <!-- Stage 4 -->
+    <rect x="366" y="106" width="90" height="48" fill="#7c3aed" rx="3"/>
+    <text x="411" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">ENRICHMENT</text>
+    <text x="411" y="134" font-size="5.5" fill="#e0c8f8" text-anchor="middle">Metadata tagging</text>
+    <text x="411" y="144" font-size="5.5" fill="#e0c8f8" text-anchor="middle">Coordinate system</text>
+    <text x="411" y="154" font-size="5.5" fill="#e0c8f8" text-anchor="middle">Version history</text>
+    <!-- Arrow -->
+    <polygon points="457,130 464,130 460,124 472,130 460,136 464,130 457,130" fill="#F05A28"/>
+    <!-- Stage 5 -->
+    <rect x="474" y="106" width="90" height="48" fill="#d97706" rx="3"/>
+    <text x="519" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">QA REVIEW</text>
+    <text x="519" y="134" font-size="5.5" fill="#fef3c7" text-anchor="middle">Auto-monitoring</text>
+    <text x="519" y="144" font-size="5.5" fill="#fef3c7" text-anchor="middle">Visual QC check</text>
+    <text x="519" y="154" font-size="5.5" fill="#fef3c7" text-anchor="middle">Client sign-off</text>
+    <!-- Arrow -->
+    <polygon points="565,130 572,130 568,124 580,130 568,136 572,130 565,130" fill="#F05A28"/>
+    <!-- Stage 6 -->
+    <rect x="582" y="106" width="90" height="48" fill="#0A1F44" rx="3"/>
+    <text x="627" y="122" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle">DELIVERY</text>
+    <text x="627" y="134" font-size="5.5" fill="#9ab3d4" text-anchor="middle">SHP / GDB</text>
+    <text x="627" y="144" font-size="5.5" fill="#9ab3d4" text-anchor="middle">GeoJSON / KML</text>
+    <text x="627" y="154" font-size="5.5" fill="#9ab3d4" text-anchor="middle">WFS / WMS / API</text>
+    <!-- Feedback arrow -->
+    <path d="M 672,130 Q 720,90 720,78 Q 720,66 400,66 Q 80,66 80,78 Q 80,90 42,130" fill="none" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="400" y="78" font-size="5.5" fill="#4a7fc1" text-anchor="middle">Continuous monitoring feedback loop</text>
+  </g>
+  <!-- Bottom 3 panels -->
+  <!-- Panel 1: Validation Checkpoints -->
+  <rect x="28" y="204" width="242" height="236" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="149" y="220" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">VALIDATION CHECKPOINTS</text>
+  <g font-family="Arial, sans-serif" font-size="6">
+    <rect x="40" y="228" width="218" height="22" fill="#e8f0f8" stroke="#4a7fc1" stroke-width="0.5" rx="1"/>
+    <text x="50" y="238" font-weight="bold" fill="#4a7fc1">CHECK 1: Geometry Integrity</text>
+    <text x="50" y="247" fill="#6b7280">Self-intersections · Null geometry · Invalid polygons</text>
+    <rect x="40" y="254" width="218" height="22" fill="#e8f8f0" stroke="#22a366" stroke-width="0.5" rx="1"/>
+    <text x="50" y="264" font-weight="bold" fill="#22a366">CHECK 2: Coordinate Reference System</text>
+    <text x="50" y="273" fill="#6b7280">EPSG validation · Datum consistency · Projection check</text>
+    <rect x="40" y="280" width="218" height="22" fill="#fff8f0" stroke="#F05A28" stroke-width="0.5" rx="1"/>
+    <text x="50" y="290" font-weight="bold" fill="#F05A28">CHECK 3: Attribute Completeness</text>
+    <text x="50" y="299" fill="#6b7280">Null fields · Domain violations · Value range check</text>
+    <rect x="40" y="306" width="218" height="22" fill="#fdf8ff" stroke="#7c3aed" stroke-width="0.5" rx="1"/>
+    <text x="50" y="316" font-weight="bold" fill="#7c3aed">CHECK 4: Topology Rules</text>
+    <text x="50" y="325" fill="#6b7280">Must not overlap · Must not gap · Snapping tolerance</text>
+    <rect x="40" y="332" width="218" height="22" fill="#f0f8ff" stroke="#3b82f6" stroke-width="0.5" rx="1"/>
+    <text x="50" y="342" font-weight="bold" fill="#3b82f6">CHECK 5: Temporal Consistency</text>
+    <text x="50" y="351" fill="#6b7280">Date fields · Version history · Change log tracking</text>
+    <rect x="40" y="358" width="218" height="22" fill="#f8f8e8" stroke="#d97706" stroke-width="0.5" rx="1"/>
+    <text x="50" y="368" font-weight="bold" fill="#d97706">CHECK 6: Source Accuracy</text>
+    <text x="50" y="377" fill="#6b7280">Positional accuracy · RMSE threshold · Ground truth</text>
+  </g>
+  <rect x="40" y="388" width="218" height="40" fill="#0A1F44" rx="2"/>
+  <text x="149" y="403" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#F05A28" text-anchor="middle">GeoNectar QA Standard</text>
+  <text x="149" y="415" font-family="Arial, sans-serif" font-size="6" fill="#c8d8ea" text-anchor="middle">6-checkpoint validation on every dataset</text>
+  <text x="149" y="426" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">RMSE &lt; 0.3m positional threshold</text>
+  <!-- Panel 2: Metadata Standards -->
+  <rect x="282" y="204" width="238" height="236" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="401" y="220" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">METADATA STANDARDS</text>
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <text x="295" y="238" fill="#6b7280">Required metadata fields (ISO 19115):</text>
+    <rect x="295" y="244" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="253" fill="#0A1F44">Title &amp; Abstract</text>
+    <text x="490" y="253" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="259" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="268" fill="#0A1F44">Coordinate Reference System</text>
+    <text x="490" y="268" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="274" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="283" fill="#0A1F44">Spatial Resolution / Scale</text>
+    <text x="490" y="283" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="289" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="298" fill="#0A1F44">Date Created / Modified</text>
+    <text x="490" y="298" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="304" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="313" fill="#0A1F44">Data Source &amp; Lineage</text>
+    <text x="490" y="313" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="319" width="210" height="12" fill="#e8f0f8" rx="1"/>
+    <text x="300" y="328" fill="#0A1F44">Units of Measurement</text>
+    <text x="490" y="328" fill="#22a366" text-anchor="end">✓ Required</text>
+    <rect x="295" y="334" width="210" height="12" fill="#fff0e8" rx="1"/>
+    <text x="300" y="343" fill="#0A1F44">Thematic Keywords</text>
+    <text x="490" y="343" fill="#d97706" text-anchor="end">Recommended</text>
+    <rect x="295" y="349" width="210" height="12" fill="#fff0e8" rx="1"/>
+    <text x="300" y="358" fill="#0A1F44">Access &amp; Use Constraints</text>
+    <text x="490" y="358" fill="#d97706" text-anchor="end">Recommended</text>
+    <rect x="295" y="364" width="210" height="12" fill="#fff0e8" rx="1"/>
+    <text x="300" y="373" fill="#0A1F44">Point of Contact</text>
+    <text x="490" y="373" fill="#d97706" text-anchor="end">Recommended</text>
+  </g>
+  <rect x="295" y="384" width="210" height="44" fill="#0A1F44" rx="2"/>
+  <text x="400" y="398" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" text-anchor="middle">STANDARDS COMPLIANCE</text>
+  <text x="400" y="412" font-family="Arial, sans-serif" font-size="6.5" fill="#ffffff" text-anchor="middle">ISO 19115 · FGDC · OGC</text>
+  <text x="400" y="424" font-family="Arial, sans-serif" font-size="6" fill="#F05A28" text-anchor="middle">geo-nectar.com</text>
+  <!-- Panel 3: Quality Impact -->
+  <rect x="532" y="204" width="240" height="236" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="652" y="220" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">QUALITY IMPACT</text>
+  <!-- Good vs Bad data -->
+  <rect x="544" y="228" width="216" height="70" fill="#e8f8f0" stroke="#22a366" stroke-width="0.8" rx="2"/>
+  <text x="652" y="242" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#22a366" text-anchor="middle">WELL-MANAGED GIS DATA</text>
+  <g font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">
+    <text x="554" y="256">✓  Reliable spatial analysis</text>
+    <text x="554" y="267">✓  Confident infrastructure decisions</text>
+    <text x="554" y="278">✓  Audit-ready documentation</text>
+    <text x="554" y="289">✓  Interoperable across systems</text>
+  </g>
+  <rect x="544" y="304" width="216" height="70" fill="#fff5f5" stroke="#ef4444" stroke-width="0.8" rx="2"/>
+  <text x="652" y="318" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ef4444" text-anchor="middle">POOR GIS DATA QUALITY</text>
+  <g font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">
+    <text x="554" y="332">✗  Flawed spatial analysis outputs</text>
+    <text x="554" y="343">✗  Misinformed planning decisions</text>
+    <text x="554" y="354">✗  Costly re-survey requirements</text>
+    <text x="554" y="365">✗  Legal &amp; regulatory exposure</text>
+  </g>
+  <!-- Cost of poor data -->
+  <rect x="544" y="380" width="216" height="48" fill="#0A1F44" rx="2"/>
+  <text x="652" y="395" font-family="Arial, sans-serif" font-size="6.5" fill="#9ab3d4" text-anchor="middle">COST OF BAD GIS DATA</text>
+  <text x="652" y="408" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">$9.7M</text>
+  <text x="652" y="420" font-family="Arial, sans-serif" font-size="5.5" fill="#c8d8ea" text-anchor="middle">avg. annual loss per organisation (Gartner)</text>
+</svg>

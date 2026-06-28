@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <!-- Drawing sheet -->
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <!-- Title block -->
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">MORTGAGE / LOCATION SURVEY</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1" = 30'</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid lines -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="720" y1="40" x2="720" y2="424"/>
+    <line x1="40" y1="130" x2="760" y2="130"/>
+    <line x1="40" y1="230" x2="760" y2="230"/>
+    <line x1="40" y1="330" x2="760" y2="330"/>
+  </g>
+  <!-- Street at bottom -->
+  <rect x="40" y="395" width="720" height="32" fill="#f0f4f8" stroke="#4a7fc1" stroke-width="1"/>
+  <line x1="40" y1="411" x2="760" y2="411" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="12,6"/>
+  <text x="400" y="408" font-family="Arial, sans-serif" font-size="7.5" fill="#4a7fc1" text-anchor="middle">OAK STREET — 50' RIGHT-OF-WAY</text>
+  <!-- Property lot boundary -->
+  <rect x="130" y="60" width="540" height="335" fill="#eef2f7" stroke="#0A1F44" stroke-width="2.5"/>
+  <!-- Setback lines (dashed) -->
+  <rect x="155" y="85" width="490" height="285" fill="none" stroke="#d97706" stroke-width="1" stroke-dasharray="8,4"/>
+  <!-- Setback labels -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706" text-anchor="middle">25' FRONT SETBACK</text>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706" text-anchor="middle">25' REAR SETBACK</text>
+  <text x="148" y="230" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706" text-anchor="middle" transform="rotate(-90,148,230)">10' SIDE</text>
+  <text x="654" y="230" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706" text-anchor="middle" transform="rotate(90,654,230)">10' SIDE</text>
+  <!-- House footprint -->
+  <rect x="200" y="120" width="310" height="190" fill="#dde6f0" stroke="#0A1F44" stroke-width="2"/>
+  <text x="355" y="210" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">DWELLING</text>
+  <text x="355" y="225" font-family="Arial, sans-serif" font-size="7.5" fill="#4a7fc1" text-anchor="middle">1 STOREY — BRICK VENEER</text>
+  <text x="355" y="240" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">FF ELEV. = 102.45 m</text>
+  <!-- Porch / step -->
+  <rect x="325" y="310" width="60" height="18" fill="none" stroke="#0A1F44" stroke-width="1.2"/>
+  <text x="355" y="323" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">STEP</text>
+  <!-- Garage -->
+  <rect x="510" y="130" width="100" height="75" fill="#dde6f0" stroke="#0A1F44" stroke-width="1.5"/>
+  <text x="560" y="168" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GARAGE</text>
+  <!-- Driveway -->
+  <rect x="534" y="205" width="52" height="190" fill="#e0e8f0" stroke="#6b7280" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="560" y="310" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280" text-anchor="middle" transform="rotate(90,560,310)">DRIVEWAY</text>
+  <!-- Lot dimensions -->
+  <line x1="130" y1="50" x2="670" y2="50" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="130" y1="45" x2="130" y2="58" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="670" y1="45" x2="670" y2="58" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="400" y="47" font-family="Arial, sans-serif" font-size="8" fill="#0A1F44" text-anchor="middle" font-weight="bold">540.00' ← LOT WIDTH →</text>
+  <!-- Right side dimension -->
+  <line x1="680" y1="60" x2="680" y2="395" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="675" y1="60" x2="688" y2="60" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="675" y1="395" x2="688" y2="395" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="695" y="230" font-family="Arial, sans-serif" font-size="8" fill="#0A1F44" text-anchor="middle" transform="rotate(90,695,230)" font-weight="bold">335.00'</text>
+  <!-- Address label -->
+  <rect x="40" y="40" width="200" height="32" fill="#0A1F44" rx="2"/>
+  <text x="50" y="53" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1">ADDRESS</text>
+  <text x="50" y="66" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">1247 OAK STREET</text>
+  <!-- North arrow -->
+  <g transform="translate(710,95)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,9 0,3 6,9" fill="#0A1F44"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Corner monuments -->
+  <g stroke="#0A1F44" stroke-width="1.2" fill="none">
+    <rect x="124" y="54" width="11" height="11"/>
+    <line x1="124" y1="54" x2="135" y2="65"/><line x1="135" y1="54" x2="124" y2="65"/>
+    <rect x="664" y="54" width="11" height="11"/>
+    <line x1="664" y1="54" x2="675" y2="65"/><line x1="675" y1="54" x2="664" y2="65"/>
+    <rect x="124" y="389" width="11" height="11"/>
+    <line x1="124" y1="389" x2="135" y2="400"/><line x1="135" y1="389" x2="124" y2="400"/>
+    <rect x="664" y="389" width="11" height="11"/>
+    <line x1="664" y1="389" x2="675" y2="400"/><line x1="675" y1="389" x2="664" y2="400"/>
+  </g>
+  <!-- Certification block -->
+  <rect x="40" y="350" width="220" height="68" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.8"/>
+  <text x="50" y="363" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#0A1F44">SURVEYOR'S CERTIFICATE</text>
+  <text x="50" y="376" font-family="Arial, sans-serif" font-size="5.5" fill="#4b5563">I hereby certify that this survey was made</text>
+  <text x="50" y="387" font-family="Arial, sans-serif" font-size="5.5" fill="#4b5563">under my direct supervision and that the</text>
+  <text x="50" y="398" font-family="Arial, sans-serif" font-size="5.5" fill="#4b5563">improvements shown are within the lot lines</text>
+  <text x="50" y="409" font-family="Arial, sans-serif" font-size="5.5" fill="#4b5563">and there are no encroachments noted.</text>
+</svg>

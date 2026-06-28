@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">PLUMBING DRAFTING SERVICES</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">PLUMBING ISOMETRIC</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">STANDARD</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">AS/NZS 3500</text>
+  <text x="700" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="700" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.4">
+    <line x1="200" y1="40" x2="200" y2="424"/>
+    <line x1="400" y1="40" x2="400" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="180" x2="760" y2="180"/>
+    <line x1="40" y1="310" x2="760" y2="310"/>
+  </g>
+  <!-- COLD WATER ISOMETRIC (left-center) -->
+  <!-- Title and header -->
+  <text x="210" y="56" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#2563eb" text-anchor="middle">COLD WATER SYSTEM — ISOMETRIC</text>
+  <!-- Water meter / connection -->
+  <rect x="60" y="388" width="35" height="20" fill="#dde8f5" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="77" y="402" font-family="Arial, sans-serif" font-size="6" fill="#2563eb" text-anchor="middle">METER</text>
+  <!-- Main cold water line vertical -->
+  <line x1="77" y1="388" x2="77" y2="75" stroke="#2563eb" stroke-width="4"/>
+  <!-- Level floor connections -->
+  <!-- Ground floor branch -->
+  <line x1="77" y1="365" x2="200" y2="365" stroke="#2563eb" stroke-width="3"/>
+  <text x="80" y="362" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">DN32</text>
+  <!-- L1 branch -->
+  <line x1="77" y1="280" x2="200" y2="280" stroke="#2563eb" stroke-width="3"/>
+  <text x="80" y="277" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">DN25</text>
+  <!-- L2 branch -->
+  <line x1="77" y1="175" x2="200" y2="175" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="80" y="172" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">DN20</text>
+  <!-- L3 branch -->
+  <line x1="77" y1="80" x2="200" y2="80" stroke="#2563eb" stroke-width="2"/>
+  <text x="80" y="77" font-family="Arial, sans-serif" font-size="6" fill="#2563eb">DN20</text>
+  <!-- Fixtures on GF -->
+  <!-- WC -->
+  <ellipse cx="220" cy="370" rx="20" ry="12" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="220" y="374" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">WC</text>
+  <text x="220" y="385" font-family="Arial, sans-serif" font-size="5" fill="#6b7280" text-anchor="middle">Cistern</text>
+  <!-- Basin -->
+  <ellipse cx="280" cy="365" rx="18" ry="10" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="280" y="369" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">HB</text>
+  <text x="280" y="380" font-family="Arial, sans-serif" font-size="5" fill="#6b7280" text-anchor="middle">Hand Basin</text>
+  <!-- Shower -->
+  <rect x="325" y="355" width="30" height="24" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="340" y="369" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">SHR</text>
+  <!-- Fixtures on L1 -->
+  <ellipse cx="220" cy="285" rx="20" ry="12" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="220" y="289" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">WC</text>
+  <ellipse cx="280" cy="280" rx="18" ry="10" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="280" y="284" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">HB</text>
+  <rect x="325" y="270" width="30" height="24" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="340" y="284" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">SHR</text>
+  <!-- Fixtures on L2 -->
+  <ellipse cx="220" cy="180" rx="20" ry="12" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="220" y="184" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">WC</text>
+  <ellipse cx="280" cy="175" rx="18" ry="10" fill="#dde8f5" stroke="#2563eb" stroke-width="1.2"/>
+  <text x="280" y="179" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb" text-anchor="middle">HB</text>
+  <!-- Floor level marks -->
+  <line x1="55" y1="408" x2="200" y2="408" stroke="#0A1F44" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="45" y="412" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="end">GF</text>
+  <line x1="55" y1="320" x2="370" y2="320" stroke="#0A1F44" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="45" y="324" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="end">L1</text>
+  <line x1="55" y1="215" x2="370" y2="215" stroke="#0A1F44" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="45" y="219" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="end">L2</text>
+  <line x1="55" y1="110" x2="370" y2="110" stroke="#0A1F44" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="45" y="114" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="end">L3</text>
+  <!-- HOT WATER / SANITARY (right panel) -->
+  <line x1="430" y1="42" x2="430" y2="424" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="590" y="56" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#7c3a00" text-anchor="middle">SANITARY — ISOMETRIC</text>
+  <!-- Sanitary stack -->
+  <line x1="620" y1="408" x2="620" y2="85" stroke="#7c3a00" stroke-width="5"/>
+  <text x="605" y="250" font-family="Arial, sans-serif" font-size="6.5" fill="#7c3a00" text-anchor="end" transform="rotate(-90,605,250)">DN100 SOIL STACK</text>
+  <!-- Horizontal branches (sanitary) -->
+  <line x1="500" y1="395" x2="620" y2="395" stroke="#7c3a00" stroke-width="3"/>
+  <text x="558" y="392" font-family="Arial, sans-serif" font-size="6" fill="#7c3a00" text-anchor="middle">DN100</text>
+  <line x1="500" y1="305" x2="620" y2="305" stroke="#7c3a00" stroke-width="3"/>
+  <text x="558" y="302" font-family="Arial, sans-serif" font-size="6" fill="#7c3a00" text-anchor="middle">DN100</text>
+  <line x1="500" y1="205" x2="620" y2="205" stroke="#7c3a00" stroke-width="2.5"/>
+  <text x="558" y="202" font-family="Arial, sans-serif" font-size="6" fill="#7c3a00" text-anchor="middle">DN75</text>
+  <!-- WC fixtures (sanitary) -->
+  <ellipse cx="480" cy="400" rx="18" ry="12" fill="#f5e8e0" stroke="#7c3a00" stroke-width="1.2"/>
+  <text x="480" y="404" font-family="Arial, sans-serif" font-size="5.5" fill="#7c3a00" text-anchor="middle">WC</text>
+  <ellipse cx="520" cy="398" rx="14" ry="10" fill="#f5e8e0" stroke="#7c3a00" stroke-width="1.2"/>
+  <text x="520" y="402" font-family="Arial, sans-serif" font-size="5.5" fill="#7c3a00" text-anchor="middle">HB</text>
+  <ellipse cx="480" cy="310" rx="18" ry="12" fill="#f5e8e0" stroke="#7c3a00" stroke-width="1.2"/>
+  <text x="480" y="314" font-family="Arial, sans-serif" font-size="5.5" fill="#7c3a00" text-anchor="middle">WC</text>
+  <ellipse cx="520" cy="308" rx="14" ry="10" fill="#f5e8e0" stroke="#7c3a00" stroke-width="1.2"/>
+  <text x="520" y="312" font-family="Arial, sans-serif" font-size="5.5" fill="#7c3a00" text-anchor="middle">HB</text>
+  <!-- Vent pipe -->
+  <line x1="640" y1="408" x2="640" y2="55" stroke="#9ab3d4" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="648" y="220" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" transform="rotate(-90,648,220)">DN80 VENT STACK</text>
+  <!-- Floor waste connections -->
+  <rect x="448" y="385" width="12" height="12" fill="none" stroke="#7c3a00" stroke-width="1.2"/>
+  <line x1="454" y1="385" x2="460" y2="395" stroke="#7c3a00" stroke-width="1"/>
+  <text x="440" y="378" font-family="Arial, sans-serif" font-size="5" fill="#7c3a00">FW</text>
+  <!-- Legend -->
+  <rect x="440" y="60" width="250" height="100" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="440" y="60" width="250" height="14" fill="#0A1F44"/>
+  <text x="565" y="71" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">PLUMBING LEGEND</text>
+  <line x1="448" y1="83" x2="472" y2="83" stroke="#2563eb" stroke-width="4"/>
+  <text x="478" y="87" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Cold Water Supply (CWS)</text>
+  <line x1="448" y1="97" x2="472" y2="97" stroke="#d97706" stroke-width="4"/>
+  <text x="478" y="101" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Hot Water Supply (HWS)</text>
+  <line x1="448" y1="111" x2="472" y2="111" stroke="#7c3a00" stroke-width="5"/>
+  <text x="478" y="115" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Sanitary Drain (DN100)</text>
+  <line x1="448" y1="125" x2="472" y2="125" stroke="#9ab3d4" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="478" y="129" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Vent Pipe</text>
+  <line x1="448" y1="139" x2="472" y2="139" stroke="#0A1F44" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="478" y="143" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Floor Level</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <!-- Drawing sheet -->
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <!-- Title block -->
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">TOPOGRAPHIC SURVEY PLAN</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:500</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid lines -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="720" y1="40" x2="720" y2="424"/>
+    <line x1="40" y1="130" x2="760" y2="130"/>
+    <line x1="40" y1="230" x2="760" y2="230"/>
+    <line x1="40" y1="330" x2="760" y2="330"/>
+  </g>
+  <!-- Survey boundary -->
+  <rect x="40" y="40" width="720" height="384" fill="none" stroke="#4a7fc1" stroke-width="1" stroke-dasharray="8,4" opacity="0.5"/>
+  <text x="52" y="55" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">SURVEY BOUNDARY</text>
+  <!-- Contour lines — outermost to innermost -->
+  <ellipse cx="390" cy="230" rx="310" ry="170" fill="none" stroke="#4a7fc1" stroke-width="0.7" opacity="0.5"/>
+  <path d="M 155,235 C 160,165 240,105 390,100 C 540,95 640,165 645,235 C 648,305 545,375 390,378 C 235,381 150,305 155,235 Z" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <!-- 105 index -->
+  <path d="M 195,235 C 202,178 272,130 390,126 C 508,122 595,178 598,235 C 600,295 510,348 390,350 C 270,352 192,295 195,235 Z" fill="none" stroke="#0A1F44" stroke-width="1.8"/>
+  <path d="M 242,235 C 250,193 305,162 390,159 C 475,156 535,193 538,235 C 540,280 490,316 390,318 C 290,320 240,280 242,235 Z" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <path d="M 292,235 C 300,208 340,188 390,186 C 440,184 478,208 480,235 C 482,264 452,286 390,287 C 328,288 290,264 292,235 Z" fill="none" stroke="#0A1F44" stroke-width="1"/>
+  <!-- 120 index -->
+  <path d="M 342,235 C 348,220 366,210 390,209 C 414,208 432,220 435,235 C 437,252 426,263 390,264 C 354,265 340,252 342,235 Z" fill="none" stroke="#0A1F44" stroke-width="1.8"/>
+  <!-- Summit -->
+  <ellipse cx="390" cy="235" rx="24" ry="16" fill="#e8eef5" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Contour labels -->
+  <text x="157" y="239" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">100</text>
+  <text x="197" y="239" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0A1F44">105</text>
+  <text x="244" y="239" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">110</text>
+  <text x="294" y="239" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">115</text>
+  <text x="344" y="239" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0A1F44">120</text>
+  <text x="383" y="239" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">125</text>
+  <!-- Spot elevations -->
+  <g stroke="#d97706" stroke-width="1">
+    <line x1="455" y1="148" x2="455" y2="154"/><line x1="452" y1="151" x2="458" y2="151"/>
+    <line x1="305" y1="161" x2="305" y2="167"/><line x1="302" y1="164" x2="308" y2="164"/>
+    <line x1="520" y1="300" x2="520" y2="306"/><line x1="517" y1="303" x2="523" y2="303"/>
+    <line x1="215" y1="300" x2="215" y2="306"/><line x1="212" y1="303" x2="218" y2="303"/>
+    <line x1="450" y1="376" x2="450" y2="382"/><line x1="447" y1="379" x2="453" y2="379"/>
+  </g>
+  <text x="460" y="153" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">+112.35</text>
+  <text x="310" y="165" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">+108.72</text>
+  <text x="525" y="305" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">+97.45</text>
+  <text x="178" y="305" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">+95.18</text>
+  <text x="455" y="381" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706">+91.30</text>
+  <!-- Drainage channel -->
+  <path d="M 52,148 C 95,158 145,185 175,225 C 205,265 198,320 192,400" fill="none" stroke="#4a7fc1" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="56" y="220" font-family="Arial, sans-serif" font-size="6" fill="#4a7fc1" transform="rotate(60,56,220)">DRAINAGE</text>
+  <!-- Bench mark -->
+  <polygon points="700,385 692,402 708,402" fill="#0A1F44"/>
+  <text x="678" y="413" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">BM RL=88.450</text>
+  <!-- North arrow -->
+  <g transform="translate(710,88)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,9 0,3 6,9" fill="#0A1F44"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Legend -->
+  <rect x="555" y="50" width="175" height="110" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="555" y="50" width="175" height="16" fill="#0A1F44"/>
+  <text x="642" y="62" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">LEGEND</text>
+  <line x1="565" y1="76" x2="595" y2="76" stroke="#0A1F44" stroke-width="1.8"/>
+  <text x="601" y="80" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Index Contour (5m int.)</text>
+  <line x1="565" y1="92" x2="595" y2="92" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="601" y="96" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Contour Line (1m int.)</text>
+  <line x1="565" y1="108" x2="595" y2="108" stroke="#4a7fc1" stroke-width="2"/>
+  <text x="601" y="112" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Drainage Channel</text>
+  <text x="573" y="128" font-family="Arial, sans-serif" font-size="8" fill="#d97706">+</text>
+  <text x="601" y="130" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Spot Elevation</text>
+  <polygon points="565,145 561,152 569,152" fill="#0A1F44"/>
+  <text x="601" y="152" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Bench Mark</text>
+</svg>

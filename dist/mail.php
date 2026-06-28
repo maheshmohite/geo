@@ -28,15 +28,12 @@ define('ZOHO_USER', 'services@geo-nectar.com');
 define('ZOHO_PASS', 'Jia@291085');
 // ─────────────────────────────────────────────────────────────────────────────
 
-$raw  = file_get_contents('php://input');
-$data = json_decode($raw, true) ?? [];
-
-$name    = strip_tags(trim($data['name']    ?? ''));
-$email   = filter_var(trim($data['email']   ?? ''), FILTER_SANITIZE_EMAIL);
-$phone   = strip_tags(trim($data['phone']   ?? ''));
-$company = strip_tags(trim($data['company'] ?? ''));
-$service = strip_tags(trim($data['service'] ?? ''));
-$message = strip_tags(trim($data['message'] ?? ''));
+$name    = strip_tags(trim($_POST['name']    ?? ''));
+$email   = filter_var(trim($_POST['email']   ?? ''), FILTER_SANITIZE_EMAIL);
+$phone   = strip_tags(trim($_POST['phone']   ?? ''));
+$company = strip_tags(trim($_POST['company'] ?? ''));
+$service = strip_tags(trim($_POST['service'] ?? ''));
+$message = strip_tags(trim($_POST['message'] ?? ''));
 
 if (!$name || !filter_var($email, FILTER_VALIDATE_EMAIL) || !$message) {
     http_response_code(400);
@@ -77,6 +74,22 @@ try {
         </div>
     ";
     $mail->AltBody = "Name: {$name}\nEmail: {$email}\nPhone: {$phone}\nCompany: {$company}\nService: {$service}\nMessage:\n{$message}";
+
+    // Attach uploaded files
+    $allowed_exts = ['pdf', 'dwg', 'dxf', 'png', 'jpg', 'jpeg', 'zip'];
+    $max_size     = 20 * 1024 * 1024; // 20 MB
+    if (!empty($_FILES['files'])) {
+        $file_count = count($_FILES['files']['name']);
+        for ($i = 0; $i < $file_count; $i++) {
+            if ($_FILES['files']['error'][$i] !== UPLOAD_ERR_OK) continue;
+            $tmp  = $_FILES['files']['tmp_name'][$i];
+            $orig = basename($_FILES['files']['name'][$i]);
+            $size = $_FILES['files']['size'][$i];
+            $ext  = strtolower(pathinfo($orig, PATHINFO_EXTENSION));
+            if ($size > $max_size || !in_array($ext, $allowed_exts, true)) continue;
+            $mail->addAttachment($tmp, $orig);
+        }
+    }
 
     $mail->send();
     echo json_encode(['success' => true]);

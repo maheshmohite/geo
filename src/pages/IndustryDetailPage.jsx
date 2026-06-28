@@ -29,8 +29,10 @@ export default function IndustryDetailPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               <span className="section-eyebrow">Industry Overview</span>
-              <h2 className="section-title">GeoNectar for {ind.title}</h2>
-              <p className="text-brand-body leading-relaxed mb-8">{ind.description}</p>
+              <h2 className="section-title">Geo-Nectar for {ind.title}</h2>
+              {(Array.isArray(ind.overview) ? ind.overview : [ind.description]).map((para, i) => (
+                <p key={i} className="text-brand-body leading-relaxed mb-6">{para}</p>
+              ))}
 
 
               <h3 className="text-[1.05rem] font-bold text-brand-heading mb-4">Key Services for This Industry</h3>

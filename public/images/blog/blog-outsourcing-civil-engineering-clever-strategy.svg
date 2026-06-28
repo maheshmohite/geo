@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="772" height="472" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="20" y="20" width="760" height="465" fill="none" stroke="#0A1F44" stroke-width="0.4"/>
+  <rect x="14" y="451" width="772" height="35" fill="#0A1F44"/>
+  <line x1="260" y1="451" x2="260" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="520" y1="451" x2="520" y2="486" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="28" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">CATEGORY</text>
+  <text x="28" y="473" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">OUTSOURCING TIPS</text>
+  <text x="28" y="483" font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">geo-nectar.com</text>
+  <text x="274" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">TOPIC</text>
+  <text x="274" y="473" font-family="Arial, sans-serif" font-size="8" fill="#ffffff">Outsourcing Civil Engineering: A Clever Strategy</text>
+  <text x="534" y="462" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PUBLISHED</text>
+  <text x="534" y="473" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">September 15, 2020</text>
+  <text x="534" y="483" font-family="Arial, sans-serif" font-size="6" fill="#F05A28">GeoNectar Technologies</text>
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="400" y1="28" x2="400" y2="444"/>
+    <line x1="28" y1="260" x2="772" y2="260"/>
+  </g>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">CIVIL ENGINEERING OUTSOURCING INFOGRAPHIC  |  MARKET GROWTH · COST SAVINGS · FOLLOW-THE-SUN MODEL</text>
+  <!-- Market Growth Chart (top left) -->
+  <rect x="28" y="50" width="358" height="200" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="207" y="66" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">GLOBAL ENGINEERING OUTSOURCING MARKET</text>
+  <!-- Bar chart -->
+  <g font-family="Arial, sans-serif" font-size="6">
+    <!-- Y axis -->
+    <line x1="70" y1="78" x2="70" y2="218" stroke="#0A1F44" stroke-width="1"/>
+    <line x1="70" y1="218" x2="370" y2="218" stroke="#0A1F44" stroke-width="1"/>
+    <!-- Y labels -->
+    <text x="64" y="221" fill="#6b7280" text-anchor="end">0</text>
+    <text x="64" y="193" fill="#6b7280" text-anchor="end">1T</text>
+    <text x="64" y="166" fill="#6b7280" text-anchor="end">2T</text>
+    <text x="64" y="139" fill="#6b7280" text-anchor="end">3T</text>
+    <text x="64" y="111" fill="#6b7280" text-anchor="end">4T</text>
+    <text x="64" y="83" fill="#6b7280" text-anchor="end">5T</text>
+    <!-- Grid lines -->
+    <line x1="70" y1="193" x2="370" y2="193" stroke="#e0e8f0" stroke-width="0.5"/>
+    <line x1="70" y1="166" x2="370" y2="166" stroke="#e0e8f0" stroke-width="0.5"/>
+    <line x1="70" y1="139" x2="370" y2="139" stroke="#e0e8f0" stroke-width="0.5"/>
+    <line x1="70" y1="111" x2="370" y2="111" stroke="#e0e8f0" stroke-width="0.5"/>
+    <line x1="70" y1="83" x2="370" y2="83" stroke="#e0e8f0" stroke-width="0.5"/>
+    <!-- Bars -->
+    <rect x="90" y="183" width="30" height="35" fill="#9ab3d4"/>
+    <text x="105" y="230" fill="#6b7280" text-anchor="middle">2020</text>
+    <text x="105" y="180" fill="#0A1F44" text-anchor="middle">1.2T</text>
+    <rect x="140" y="170" width="30" height="48" fill="#4a7fc1"/>
+    <text x="155" y="230" fill="#6b7280" text-anchor="middle">2021</text>
+    <text x="155" y="167" fill="#0A1F44" text-anchor="middle">1.6T</text>
+    <rect x="190" y="152" width="30" height="66" fill="#4a7fc1"/>
+    <text x="205" y="230" fill="#6b7280" text-anchor="middle">2022</text>
+    <text x="205" y="149" fill="#0A1F44" text-anchor="middle">2.1T</text>
+    <rect x="240" y="130" width="30" height="88" fill="#F05A28"/>
+    <text x="255" y="230" fill="#6b7280" text-anchor="middle">2023</text>
+    <text x="255" y="127" fill="#0A1F44" text-anchor="middle">2.6T</text>
+    <rect x="290" y="105" width="30" height="113" fill="#F05A28"/>
+    <text x="305" y="230" fill="#6b7280" text-anchor="middle">2024</text>
+    <text x="305" y="102" fill="#0A1F44" text-anchor="middle">3.2T</text>
+    <rect x="340" y="78" width="24" height="140" fill="#22a366" stroke="#22a366" stroke-dasharray="4,2" fill-opacity="0.5"/>
+    <text x="352" y="230" fill="#22a366" text-anchor="middle">2030</text>
+    <text x="352" y="75" fill="#22a366" text-anchor="middle">5T</text>
+    <!-- CAGR badge -->
+    <rect x="300" y="85" width="60" height="20" fill="#F05A28" rx="2"/>
+    <text x="330" y="95" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">CAGR 23.4%</text>
+    <text x="330" y="103" font-size="5.5" fill="#ffffff" text-anchor="middle">2024–2030</text>
+  </g>
+  <!-- Cost Savings (top right) -->
+  <rect x="398" y="50" width="374" height="200" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="585" y="66" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">COST SAVINGS BREAKDOWN</text>
+  <!-- Donut chart style -->
+  <circle cx="500" cy="148" r="72" fill="none" stroke="#ef4444" stroke-width="28" stroke-dasharray="202 227"/>
+  <circle cx="500" cy="148" r="72" fill="none" stroke="#22a366" stroke-width="28" stroke-dasharray="76 353" stroke-dashoffset="-202"/>
+  <circle cx="500" cy="148" r="72" fill="none" stroke="#4a7fc1" stroke-width="28" stroke-dasharray="45 384" stroke-dashoffset="-278"/>
+  <text x="500" y="144" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0A1F44" text-anchor="middle">60%</text>
+  <text x="500" y="158" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">avg. saving</text>
+  <!-- Legend -->
+  <rect x="598" y="100" width="12" height="12" fill="#ef4444" rx="1"/>
+  <text x="614" y="110" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Labour (40–60% saved)</text>
+  <rect x="598" y="118" width="12" height="12" fill="#22a366" rx="1"/>
+  <text x="614" y="128" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Software licences</text>
+  <rect x="598" y="136" width="12" height="12" fill="#4a7fc1" rx="1"/>
+  <text x="614" y="146" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Infrastructure &amp; space</text>
+  <!-- Comparison bar -->
+  <text x="598" y="164" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">IN-HOUSE COST</text>
+  <rect x="598" y="167" width="150" height="10" fill="#ef4444" rx="1"/>
+  <text x="752" y="176" font-family="Arial, sans-serif" font-size="6" fill="#ef4444">$180k/yr</text>
+  <text x="598" y="183" font-family="Arial, sans-serif" font-size="6" fill="#22a366">GEO-NECTAR COST</text>
+  <rect x="598" y="186" width="60" height="10" fill="#22a366" rx="1"/>
+  <text x="662" y="195" font-family="Arial, sans-serif" font-size="6" fill="#22a366">$72k/yr</text>
+  <!-- Follow the sun (bottom left) -->
+  <rect x="28" y="262" width="358" height="173" fill="#0A1F44" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="207" y="278" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle">FOLLOW-THE-SUN MODEL</text>
+  <!-- Timeline -->
+  <line x1="55" y1="330" x2="365" y2="330" stroke="#4a7fc1" stroke-width="1.5"/>
+  <!-- Time markers -->
+  <g font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4" text-anchor="middle">
+    <text x="75" y="338">12AM</text>
+    <text x="135" y="338">6AM</text>
+    <text x="207" y="338">12PM</text>
+    <text x="275" y="338">6PM</text>
+    <text x="345" y="338">12AM</text>
+  </g>
+  <!-- USA working block -->
+  <rect x="135" y="294" width="140" height="30" fill="#F05A28" opacity="0.8" rx="2"/>
+  <text x="205" y="313" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">🇺🇸 US TEAM ACTIVE</text>
+  <!-- India working block -->
+  <rect x="275" y="294" width="90" height="30" fill="#22a366" opacity="0.8" rx="2"/>
+  <rect x="55" y="294" width="78" height="30" fill="#22a366" opacity="0.8" rx="2"/>
+  <text x="375" y="313" font-family="Arial, sans-serif" font-size="7" fill="#22a366" text-anchor="middle">GN</text>
+  <text x="95" y="313" font-family="Arial, sans-serif" font-size="7" fill="#22a366" text-anchor="middle">GN</text>
+  <text x="207" y="355" font-family="Arial, sans-serif" font-size="6.5" fill="#9ab3d4" text-anchor="middle">GeoNectar works while US team sleeps — 24h productivity cycle</text>
+  <!-- Services list -->
+  <g font-family="Arial, sans-serif" font-size="6.5" fill="#c8d8ea">
+    <text x="55" y="380">✓  Structural Design</text>
+    <text x="55" y="393">✓  CAD Drafting</text>
+    <text x="55" y="406">✓  Land Surveying</text>
+    <text x="207" y="380">✓  Cost Estimation</text>
+    <text x="207" y="393">✓  BIM Modelling</text>
+    <text x="207" y="406">✓  GIS Mapping</text>
+  </g>
+  <!-- Scalability (bottom right) -->
+  <rect x="398" y="262" width="374" height="173" fill="#f8fafc" stroke="#9ab3d4" stroke-width="0.5"/>
+  <text x="585" y="278" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#0A1F44" text-anchor="middle">SCALABLE TEAM STRUCTURE</text>
+  <!-- Team size viz -->
+  <g font-family="Arial, sans-serif" font-size="6.5">
+    <text x="415" y="296" fill="#6b7280">PROJECT LOAD</text>
+    <text x="415" y="310" fill="#6b7280">Low season</text>
+    <rect x="510" y="301" width="50" height="14" fill="#9ab3d4" rx="2"/>
+    <text x="564" y="312" fill="#6b7280" font-size="6">2 drafters</text>
+    <text x="415" y="330" fill="#6b7280">Normal</text>
+    <rect x="510" y="320" width="100" height="14" fill="#4a7fc1" rx="2"/>
+    <text x="614" y="331" fill="#4a7fc1" font-size="6">5 drafters</text>
+    <text x="415" y="350" fill="#6b7280">Peak season</text>
+    <rect x="510" y="340" width="180" height="14" fill="#F05A28" rx="2"/>
+    <text x="694" y="351" fill="#F05A28" font-size="6">12 drafters</text>
+    <text x="415" y="370" fill="#6b7280">Major bid</text>
+    <rect x="510" y="360" width="230" height="14" fill="#22a366" rx="2"/>
+    <text x="744" y="371" fill="#22a366" font-size="6">15+ drafters</text>
+  </g>
+  <text x="415" y="394" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">No permanent hiring. No layoffs. No overhead risk.</text>
+  <rect x="415" y="402" width="340" height="24" fill="#0A1F44" rx="2"/>
+  <text x="585" y="418" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#F05A28" text-anchor="middle">Scale up or down within 48 hours</text>
+</svg>

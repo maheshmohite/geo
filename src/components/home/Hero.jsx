@@ -68,7 +68,6 @@ export default function Hero() {
                 <span title="United States">🇺🇸</span>
                 <span title="United Kingdom">🇬🇧</span>
                 <span title="Australia">🇦🇺</span>
-                <span title="India">🇮🇳</span>
               </div>
             </motion.div>
           </div>

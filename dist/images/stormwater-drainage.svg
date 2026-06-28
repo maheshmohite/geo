@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">STORMWATER DRAINAGE PLAN</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:1000</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 2</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="150" y1="40" x2="150" y2="424"/>
+    <line x1="300" y1="40" x2="300" y2="424"/>
+    <line x1="450" y1="40" x2="450" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="40" y1="150" x2="760" y2="150"/>
+    <line x1="40" y1="300" x2="760" y2="300"/>
+  </g>
+  <!-- Site boundary -->
+  <rect x="42" y="42" width="720" height="382" fill="#eef3f8" stroke="#0A1F44" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <!-- Catchment areas (shaded) -->
+  <polygon points="42,42 300,42 300,300 42,300" fill="#dde8f5" opacity="0.5"/>
+  <text x="171" y="80" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#4a7fc1" text-anchor="middle">CATCHMENT A</text>
+  <text x="171" y="92" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle">Area = 8.4 Ha  C = 0.75</text>
+  <polygon points="300,42 762,42 762,300 300,300" fill="#e0f0e8" opacity="0.5"/>
+  <text x="530" y="80" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#22a366" text-anchor="middle">CATCHMENT B</text>
+  <text x="530" y="92" font-family="Arial, sans-serif" font-size="6.5" fill="#22a366" text-anchor="middle">Area = 12.6 Ha  C = 0.65</text>
+  <polygon points="42,300 762,300 762,424 42,424" fill="#fef3e0" opacity="0.5"/>
+  <text x="400" y="340" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#d97706" text-anchor="middle">CATCHMENT C — DETENTION BASIN ZONE</text>
+  <!-- Main trunk drain (large blue line) -->
+  <line x1="42" y1="300" x2="762" y2="300" stroke="#4a7fc1" stroke-width="6"/>
+  <text x="400" y="296" font-family="Arial, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">TRUNK DRAIN DN1200</text>
+  <!-- Sub-catchment drains -->
+  <line x1="150" y1="42" x2="150" y2="300" stroke="#4a7fc1" stroke-width="3"/>
+  <text x="158" y="180" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" transform="rotate(90,158,180)">DN600</text>
+  <line x1="300" y1="42" x2="300" y2="300" stroke="#4a7fc1" stroke-width="4"/>
+  <text x="308" y="180" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" transform="rotate(90,308,180)">DN900</text>
+  <line x1="450" y1="42" x2="450" y2="300" stroke="#4a7fc1" stroke-width="3"/>
+  <text x="458" y="180" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" transform="rotate(90,458,180)">DN600</text>
+  <line x1="600" y1="42" x2="600" y2="300" stroke="#4a7fc1" stroke-width="3"/>
+  <text x="608" y="180" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" transform="rotate(90,608,180)">DN600</text>
+  <!-- Lateral drains -->
+  <line x1="75" y1="150" x2="150" y2="150" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="75" y1="220" x2="150" y2="220" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="225" y1="100" x2="300" y2="150" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="225" y1="240" x2="300" y2="265" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="375" y1="150" x2="450" y2="150" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="525" y1="200" x2="600" y2="200" stroke="#4a7fc1" stroke-width="2"/>
+  <line x1="680" y1="150" x2="762" y2="180" stroke="#4a7fc1" stroke-width="2"/>
+  <!-- Manholes (circles at junctions) -->
+  <g fill="#0A1F44" stroke="#0A1F44">
+    <circle cx="150" cy="300" r="7"/>
+    <circle cx="300" cy="300" r="7"/>
+    <circle cx="450" cy="300" r="7"/>
+    <circle cx="600" cy="300" r="7"/>
+    <circle cx="150" cy="150" r="5"/>
+    <circle cx="150" cy="220" r="5"/>
+    <circle cx="300" cy="150" r="5"/>
+    <circle cx="300" cy="265" r="5"/>
+    <circle cx="450" cy="150" r="5"/>
+    <circle cx="600" cy="200" r="5"/>
+  </g>
+  <!-- Manhole labels -->
+  <text x="150" y="288" font-family="Arial, sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle">MH-01</text>
+  <text x="300" y="288" font-family="Arial, sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle">MH-02</text>
+  <text x="450" y="288" font-family="Arial, sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle">MH-03</text>
+  <text x="600" y="288" font-family="Arial, sans-serif" font-size="5.5" fill="#ffffff" text-anchor="middle">MH-04</text>
+  <!-- Flow direction arrows -->
+  <polygon points="228,300 218,296 218,304" fill="#4a7fc1"/>
+  <polygon points="378,300 368,296 368,304" fill="#4a7fc1"/>
+  <polygon points="528,300 518,296 518,304" fill="#4a7fc1"/>
+  <polygon points="688,300 678,296 678,304" fill="#4a7fc1"/>
+  <polygon points="148,220 144,212 152,212" fill="#4a7fc1"/>
+  <polygon points="148,150 144,142 152,142" fill="#4a7fc1"/>
+  <!-- Detention basin -->
+  <ellipse cx="400" cy="385" rx="120" ry="30" fill="#c8e0f0" stroke="#4a7fc1" stroke-width="2"/>
+  <text x="400" y="382" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#0A1F44" text-anchor="middle">DETENTION BASIN</text>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="7" fill="#4a7fc1" text-anchor="middle">Vol. = 2,800 m³  |  AEP = 1%</text>
+  <!-- Inlet/outlet pipe at basin -->
+  <line x1="400" y1="300" x2="400" y2="355" stroke="#4a7fc1" stroke-width="3"/>
+  <text x="412" y="325" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">DN450 INLET</text>
+  <line x1="520" y1="385" x2="762" y2="400" stroke="#4a7fc1" stroke-width="2"/>
+  <text x="640" y="398" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">DN300 OUTLET</text>
+  <!-- North arrow -->
+  <g transform="translate(714,88)">
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-16 -5,8 0,2 5,8" fill="#0A1F44"/>
+    <line x1="0" y1="-16" x2="0" y2="16" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Legend -->
+  <rect x="630" y="120" width="130" height="140" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="630" y="120" width="130" height="14" fill="#0A1F44"/>
+  <text x="695" y="131" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">LEGEND</text>
+  <line x1="638" y1="143" x2="660" y2="143" stroke="#4a7fc1" stroke-width="6"/>
+  <text x="666" y="147" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Trunk Drain DN1200</text>
+  <line x1="638" y1="158" x2="660" y2="158" stroke="#4a7fc1" stroke-width="4"/>
+  <text x="666" y="162" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Main Drain DN900</text>
+  <line x1="638" y1="173" x2="660" y2="173" stroke="#4a7fc1" stroke-width="2.5"/>
+  <text x="666" y="177" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Sub Drain DN600</text>
+  <line x1="638" y1="188" x2="660" y2="188" stroke="#4a7fc1" stroke-width="1.5"/>
+  <text x="666" y="192" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Lateral DN300</text>
+  <circle cx="644" cy="202" r="5" fill="#0A1F44"/>
+  <text x="666" y="206" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Manhole</text>
+  <polygon points="644,214 640,222 648,222" fill="#4a7fc1"/>
+  <text x="666" y="222" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Flow Direction</text>
+  <ellipse cx="644" cy="234" rx="12" ry="6" fill="#c8e0f0" stroke="#4a7fc1" stroke-width="1.2"/>
+  <text x="666" y="238" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">Detention Basin</text>
+</svg>

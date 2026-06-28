@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">INDUSTRY</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">INFRASTRUCTURE</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DRAWING</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">BRIDGE STRUCTURE ELEVATION</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:200 / 1:50</text>
+  <text x="700" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="700" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <text x="55" y="56" font-family="Arial, sans-serif" font-size="6.5" fill="#6b7280">RIVER CROSSING — PRESTRESSED CONCRETE BOX GIRDER BRIDGE  |  AS5100  |  DESIGN LIFE: 100 YRS</text>
+  <!-- Divider -->
+  <line x1="40" y1="270" x2="760" y2="270" stroke="#9ab3d4" stroke-width="0.8"/>
+  <text x="55" y="267" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">ELEVATION VIEW (1:200)</text>
+  <text x="55" y="283" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">TYPICAL CROSS SECTION — MID SPAN (1:50)</text>
+  <!-- BRIDGE ELEVATION (top half) -->
+  <!-- River (water) -->
+  <rect x="240" y="190" width="320" height="60" fill="#c8dff5" stroke="#4a7fc1" stroke-width="0.5"/>
+  <g stroke="#4a7fc1" stroke-width="0.5" opacity="0.4">
+    <line x1="240" y1="205" x2="560" y2="205"/>
+    <line x1="240" y1="220" x2="560" y2="220"/>
+    <line x1="240" y1="235" x2="560" y2="235"/>
+  </g>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle">WATERWAY</text>
+  <!-- Embankment fill (left) -->
+  <polygon points="55,250 240,190 240,250" fill="#d4c8a8" stroke="#6b7280" stroke-width="1"/>
+  <!-- Embankment fill (right) -->
+  <polygon points="745,250 560,190 560,250" fill="#d4c8a8" stroke="#6b7280" stroke-width="1"/>
+  <!-- Ground line -->
+  <line x1="55" y1="250" x2="745" y2="250" stroke="#7c3a00" stroke-width="1.5"/>
+  <!-- Bridge deck -->
+  <rect x="55" y="150" width="690" height="22" fill="#b8c8de" stroke="#0A1F44" stroke-width="1.5"/>
+  <!-- Kerb/parapet -->
+  <rect x="55" y="140" width="690" height="12" fill="#0A1F44"/>
+  <rect x="55" y="170" width="690" height="5" fill="#0A1F44"/>
+  <!-- Piers -->
+  <!-- Pier 1 (left) -->
+  <rect x="215" y="172" width="30" height="78" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="200" y="242" width="60" height="12" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <!-- Pier cap -->
+  <rect x="208" y="168" width="44" height="6" fill="#0A1F44"/>
+  <!-- Pile caps (P1) -->
+  <rect x="202" y="254" width="56" height="8" fill="#6b7280" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Piles (P1) -->
+  <rect x="210" y="262" width="8" height="20" fill="#6b7280"/>
+  <rect x="230" y="262" width="8" height="20" fill="#6b7280"/>
+  <rect x="248" y="262" width="8" height="20" fill="#6b7280"/>
+  <!-- Pier 2 (right) -->
+  <rect x="555" y="172" width="30" height="78" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="540" y="242" width="60" height="12" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="548" y="168" width="44" height="6" fill="#0A1F44"/>
+  <rect x="542" y="254" width="56" height="8" fill="#6b7280" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="550" y="262" width="8" height="20" fill="#6b7280"/>
+  <rect x="570" y="262" width="8" height="20" fill="#6b7280"/>
+  <rect x="588" y="262" width="8" height="20" fill="#6b7280"/>
+  <!-- Abutments -->
+  <rect x="55" y="155" width="30" height="95" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="715" y="155" width="30" height="95" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1.5"/>
+  <!-- Span labels -->
+  <line x1="85" y1="135" x2="215" y2="135" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="85" y1="130" x2="85" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="215" y1="130" x2="215" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">SPAN 1 = 26.0m</text>
+  <line x1="245" y1="135" x2="555" y2="135" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="245" y1="130" x2="245" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="555" y1="130" x2="555" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">SPAN 2 = 42.0m (MAIN)</text>
+  <line x1="585" y1="135" x2="715" y2="135" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="585" y1="130" x2="585" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="715" y1="130" x2="715" y2="140" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="650" y="130" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44" text-anchor="middle">SPAN 3 = 26.0m</text>
+  <!-- Overall length -->
+  <line x1="55" y1="118" x2="745" y2="118" stroke="#4a7fc1" stroke-width="0.8"/>
+  <line x1="55" y1="113" x2="55" y2="123" stroke="#4a7fc1" stroke-width="0.8"/>
+  <line x1="745" y1="113" x2="745" y2="123" stroke="#4a7fc1" stroke-width="0.8"/>
+  <text x="400" y="114" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" text-anchor="middle" font-weight="bold">TOTAL BRIDGE LENGTH = 94.0m</text>
+  <!-- Deck RL -->
+  <text x="750" y="155" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">RL 18.50</text>
+  <text x="750" y="163" font-family="Arial, sans-serif" font-size="5.5" fill="#6b7280">Top Deck</text>
+  <!-- HFD -->
+  <line x1="560" y1="190" x2="740" y2="190" stroke="#2563eb" stroke-width="0.8" stroke-dasharray="5,3"/>
+  <text x="745" y="193" font-family="Arial, sans-serif" font-size="5.5" fill="#2563eb">HFD RL 15.20</text>
+  <!-- CROSS SECTION (bottom half) -->
+  <!-- Section box -->
+  <rect x="200" y="280" width="400" height="140" fill="#f0f8ff" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Box girder section -->
+  <!-- Deck slab top -->
+  <rect x="210" y="285" width="380" height="14" fill="#9ab3d4" stroke="#0A1F44" stroke-width="1"/>
+  <!-- Webs (outer) -->
+  <rect x="210" y="285" width="18" height="95" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="572" y="285" width="18" height="95" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Webs (inner) -->
+  <rect x="295" y="285" width="14" height="75" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="491" y="285" width="14" height="75" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Bottom flange -->
+  <rect x="228" y="368" width="344" height="12" fill="#9ab3d4" stroke="#0A1F44" stroke-width="0.8"/>
+  <!-- Void spaces -->
+  <rect x="231" y="299" width="61" height="66" fill="#c8dff5"/>
+  <rect x="312" y="299" width="176" height="66" fill="#c8dff5"/>
+  <rect x="508" y="299" width="61" height="66" fill="#c8dff5"/>
+  <!-- Kerb/barrier (top) -->
+  <polygon points="210,285 225,285 220,278 215,278" fill="#0A1F44"/>
+  <polygon points="580,285 595,285 585,278 590,278" fill="#0A1F44"/>
+  <!-- Dimension annotations (section) -->
+  <line x1="210" y1="415" x2="590" y2="415" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="210" y1="410" x2="210" y2="420" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="590" y1="410" x2="590" y2="420" stroke="#0A1F44" stroke-width="0.8"/>
+  <text x="400" y="426" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44" text-anchor="middle">DECK WIDTH = 12.0m (2 × 3.65m + 4.7m FOOTPATHS)</text>
+  <!-- Design data panel -->
+  <rect x="638" y="63" width="118" height="200" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="638" y="63" width="118" height="14" fill="#0A1F44"/>
+  <text x="697" y="74" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">DESIGN DATA</text>
+  <text x="648" y="88" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Standard: AS 5100</text>
+  <text x="648" y="100" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Design Life: 100 years</text>
+  <text x="648" y="112" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Live Load: T44 + SM1600</text>
+  <text x="648" y="124" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Deck: PSC Box Girder</text>
+  <text x="648" y="136" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Piers: RC Hammerhead</text>
+  <text x="648" y="148" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Piles: Bored RC Ø900</text>
+  <text x="648" y="160" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Concrete: f'c = 50 MPa</text>
+  <text x="648" y="172" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Reo: Grade 500N</text>
+  <text x="648" y="184" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">PT Strands: 270 LR</text>
+  <text x="648" y="196" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">HFD Clearance: 2.8m</text>
+  <text x="648" y="208" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Total Length: 94.0m</text>
+  <text x="648" y="220" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Deck Width: 12.0m</text>
+  <text x="648" y="232" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">No. Spans: 3</text>
+  <text x="648" y="248" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1" font-weight="bold">STRUCT. ENG: GEO-NECTAR</text>
+</svg>

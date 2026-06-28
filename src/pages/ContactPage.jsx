@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Send, Paperclip, X } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import AnimatedSection from '../components/ui/AnimatedSection'
 import { companyInfo } from '../data/siteData'
@@ -12,20 +12,45 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
   const [error, setError] = useState('')
+  const [files, setFiles] = useState([])
+  const [fileError, setFileError] = useState('')
+
+  const MAX_FILE_SIZE = 20 * 1024 * 1024 // 20 MB
+  const ALLOWED_EXTS = ['pdf', 'dwg', 'dxf', 'png', 'jpg', 'jpeg', 'zip']
 
   const handleChange = (e) =>
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }))
+
+  const handleFileChange = (e) => {
+    const selected = Array.from(e.target.files)
+    const invalid = selected.filter((f) => {
+      const ext = f.name.split('.').pop().toLowerCase()
+      return !ALLOWED_EXTS.includes(ext) || f.size > MAX_FILE_SIZE
+    })
+    if (invalid.length) {
+      setFileError(`Some files were skipped. Allowed: ${ALLOWED_EXTS.join(', ')} · Max 20 MB each.`)
+    } else {
+      setFileError('')
+    }
+    const valid = selected.filter((f) => {
+      const ext = f.name.split('.').pop().toLowerCase()
+      return ALLOWED_EXTS.includes(ext) && f.size <= MAX_FILE_SIZE
+    })
+    setFiles((prev) => [...prev, ...valid].slice(0, 5))
+    e.target.value = ''
+  }
+
+  const removeFile = (index) => setFiles((prev) => prev.filter((_, i) => i !== index))
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     setSending(true)
     setError('')
     try {
-      const res = await fetch('/mail.php', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      })
+      const fd = new FormData()
+      Object.entries(form).forEach(([k, v]) => fd.append(k, v))
+      files.forEach((f) => fd.append('files[]', f))
+      const res = await fetch('/mail.php', { method: 'POST', body: fd })
       const json = await res.json()
       if (!res.ok || !json.success) throw new Error(json.message)
       setSubmitted(true)
@@ -122,6 +147,53 @@ export default function ContactPage() {
                                  focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/30
                                  transition-colors resize-none"
                     />
+                  </div>
+
+                  {/* File Upload */}
+                  <div>
+                    <label className="block text-[0.8rem] font-semibold text-brand-heading mb-1.5">
+                      Attach Files{' '}
+                      <span className="text-brand-body font-normal">
+                        (optional — PDF, DWG, DXF, PNG, JPG, ZIP · max 20 MB · up to 5 files)
+                      </span>
+                    </label>
+                    <label
+                      htmlFor="file-upload"
+                      className="flex items-center gap-3 w-full border-2 border-dashed border-black/[0.15] rounded-lg px-4 py-4 cursor-pointer hover:border-accent transition-colors"
+                    >
+                      <Paperclip size={18} className="text-brand-body flex-shrink-0" strokeWidth={1.8} />
+                      <span className="text-[0.85rem] text-brand-body">
+                        Click to attach files
+                      </span>
+                      <input
+                        id="file-upload"
+                        type="file"
+                        multiple
+                        accept=".pdf,.dwg,.dxf,.png,.jpg,.jpeg,.zip"
+                        className="hidden"
+                        onChange={handleFileChange}
+                      />
+                    </label>
+                    {files.length > 0 && (
+                      <ul className="mt-2 space-y-1.5">
+                        {files.map((f, i) => (
+                          <li key={i} className="flex items-center justify-between bg-brand-light rounded-lg px-3 py-2 text-[0.82rem]">
+                            <span className="text-brand-heading truncate">{f.name}</span>
+                            <button
+                              type="button"
+                              onClick={() => removeFile(i)}
+                              className="ml-3 text-brand-body hover:text-red-500 transition-colors flex-shrink-0"
+                              aria-label="Remove file"
+                            >
+                              <X size={14} />
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {fileError && (
+                      <p className="text-amber-600 text-[0.82rem] mt-1.5">{fileError}</p>
+                    )}
                   </div>
 
                   {error && (

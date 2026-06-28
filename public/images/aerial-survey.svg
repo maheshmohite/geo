@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f0f4f8"/>
+  <rect x="20" y="20" width="760" height="460" fill="#ffffff" stroke="#0A1F44" stroke-width="2"/>
+  <rect x="28" y="28" width="744" height="452" fill="none" stroke="#0A1F44" stroke-width="0.5"/>
+  <rect x="28" y="432" width="744" height="48" fill="#0A1F44"/>
+  <line x1="368" y1="432" x2="368" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="560" y1="432" x2="560" y2="480" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="44" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">PROJECT</text>
+  <text x="44" y="463" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">AERIAL SURVEY PLAN</text>
+  <text x="44" y="474" font-family="Arial, sans-serif" font-size="7.5" fill="#c8d8ea">Geo-Nectar Technologies Pvt. Ltd.</text>
+  <text x="374" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SCALE</text>
+  <text x="374" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1:2000</text>
+  <text x="566" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">SHEET</text>
+  <text x="566" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">1 OF 1</text>
+  <text x="650" y="451" font-family="Arial, sans-serif" font-size="7" fill="#9ab3d4" letter-spacing="1.5">DATE</text>
+  <text x="650" y="464" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">2024</text>
+  <!-- Survey area grid -->
+  <g stroke="#c8d8ea" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.5">
+    <line x1="120" y1="40" x2="120" y2="424"/>
+    <line x1="240" y1="40" x2="240" y2="424"/>
+    <line x1="360" y1="40" x2="360" y2="424"/>
+    <line x1="480" y1="40" x2="480" y2="424"/>
+    <line x1="600" y1="40" x2="600" y2="424"/>
+    <line x1="720" y1="40" x2="720" y2="424"/>
+    <line x1="40" y1="120" x2="760" y2="120"/>
+    <line x1="40" y1="220" x2="760" y2="220"/>
+    <line x1="40" y1="320" x2="760" y2="320"/>
+    <line x1="40" y1="420" x2="760" y2="420"/>
+  </g>
+  <!-- Survey area boundary -->
+  <rect x="50" y="48" width="660" height="376" fill="none" stroke="#0A1F44" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="62" y="63" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44">SURVEY COVERAGE AREA — 152.4 Ha</text>
+  <!-- Flight strips (horizontal bands with overlap) -->
+  <rect x="50" y="48" width="660" height="86" fill="#dde8f5" opacity="0.5"/>
+  <rect x="50" y="114" width="660" height="86" fill="#c8d8ea" opacity="0.35"/>
+  <rect x="50" y="180" width="660" height="86" fill="#dde8f5" opacity="0.5"/>
+  <rect x="50" y="246" width="660" height="86" fill="#c8d8ea" opacity="0.35"/>
+  <rect x="50" y="312" width="660" height="86" fill="#dde8f5" opacity="0.5"/>
+  <rect x="50" y="378" width="660" height="46" fill="#c8d8ea" opacity="0.35"/>
+  <!-- Flight line labels -->
+  <text x="720" y="92" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 1</text>
+  <text x="720" y="158" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 2</text>
+  <text x="720" y="224" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 3</text>
+  <text x="720" y="290" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 4</text>
+  <text x="720" y="356" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 5</text>
+  <text x="720" y="402" font-family="Arial, sans-serif" font-size="6.5" fill="#4a7fc1">Strip 6</text>
+  <!-- Flight path arrows (Strip 1) -->
+  <line x1="80" y1="91" x2="680" y2="91" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="680,88 690,91 680,94" fill="#0A1F44"/>
+  <!-- Flight path arrows (Strip 2 — reverse) -->
+  <line x1="680" y1="157" x2="80" y2="157" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="80,154 70,157 80,160" fill="#0A1F44"/>
+  <!-- Flight path arrows (Strip 3) -->
+  <line x1="80" y1="223" x2="680" y2="223" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="680,220 690,223 680,226" fill="#0A1F44"/>
+  <!-- Flight path arrows (Strip 4 — reverse) -->
+  <line x1="680" y1="289" x2="80" y2="289" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="80,286 70,289 80,292" fill="#0A1F44"/>
+  <!-- Flight path arrows (Strip 5) -->
+  <line x1="80" y1="355" x2="680" y2="355" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="680,352 690,355 680,358" fill="#0A1F44"/>
+  <!-- Camera exposure positions — Strip 1 -->
+  <g fill="#d97706" stroke="#d97706" stroke-width="0.8">
+    <rect x="118" y="84" width="10" height="14" fill="none" stroke="#d97706" stroke-width="1"/>
+    <line x1="123" y1="78" x2="123" y2="84"/>
+    <rect x="238" y="84" width="10" height="14" fill="none" stroke="#d97706" stroke-width="1"/>
+    <line x1="243" y1="78" x2="243" y2="84"/>
+    <rect x="358" y="84" width="10" height="14" fill="none" stroke="#d97706" stroke-width="1"/>
+    <line x1="363" y1="78" x2="363" y2="84"/>
+    <rect x="478" y="84" width="10" height="14" fill="none" stroke="#d97706" stroke-width="1"/>
+    <line x1="483" y1="78" x2="483" y2="84"/>
+    <rect x="598" y="84" width="10" height="14" fill="none" stroke="#d97706" stroke-width="1"/>
+    <line x1="603" y1="78" x2="603" y2="84"/>
+  </g>
+  <!-- Camera positions — Strip 2 -->
+  <g fill="none" stroke="#d97706" stroke-width="1">
+    <rect x="118" y="150" width="10" height="14"/>
+    <rect x="238" y="150" width="10" height="14"/>
+    <rect x="358" y="150" width="10" height="14"/>
+    <rect x="478" y="150" width="10" height="14"/>
+    <rect x="598" y="150" width="10" height="14"/>
+  </g>
+  <!-- GCP markers (triangles) -->
+  <g fill="#d97706" stroke="none">
+    <polygon points="115,320 108,335 122,335"/>
+    <polygon points="295,52 288,67 302,67"/>
+    <polygon points="575,380 568,395 582,395"/>
+    <polygon points="680,230 673,245 687,245"/>
+  </g>
+  <!-- GCP labels -->
+  <text x="100" y="345" font-family="Arial, sans-serif" font-size="6" fill="#d97706">GCP-01</text>
+  <text x="282" y="77" font-family="Arial, sans-serif" font-size="6" fill="#d97706">GCP-02</text>
+  <text x="560" y="408" font-family="Arial, sans-serif" font-size="6" fill="#d97706">GCP-03</text>
+  <text x="665" y="255" font-family="Arial, sans-serif" font-size="6" fill="#d97706">GCP-04</text>
+  <!-- North arrow -->
+  <g transform="translate(710,88)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0A1F44" stroke-width="1.5"/>
+    <polygon points="0,-18 -6,9 0,3 6,9" fill="#0A1F44"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#0A1F44" stroke-width="1"/>
+    <text x="0" y="-23" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0A1F44" text-anchor="middle">N</text>
+  </g>
+  <!-- Flight info box -->
+  <rect x="40" y="340" width="200" height="80" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="40" y="340" width="200" height="16" fill="#0A1F44"/>
+  <text x="140" y="352" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">FLIGHT PARAMETERS</text>
+  <text x="50" y="368" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Platform: Fixed-Wing UAV</text>
+  <text x="50" y="381" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Flying Height: 150 m AGL</text>
+  <text x="50" y="394" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">GSD: 3.8 cm/pixel</text>
+  <text x="50" y="407" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Overlap: 80% F / 60% S</text>
+  <!-- Legend -->
+  <rect x="555" y="340" width="175" height="80" fill="#f8fafc" stroke="#0A1F44" stroke-width="1"/>
+  <rect x="555" y="340" width="175" height="16" fill="#0A1F44"/>
+  <text x="642" y="352" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">LEGEND</text>
+  <line x1="565" y1="368" x2="590" y2="368" stroke="#0A1F44" stroke-width="1.2"/>
+  <polygon points="590,365 600,368 590,371" fill="#0A1F44"/>
+  <text x="606" y="372" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Flight Path</text>
+  <rect x="565" y="382" width="10" height="12" fill="none" stroke="#d97706" stroke-width="1"/>
+  <text x="580" y="390" font-family="Arial, sans-serif" font-size="6" fill="#d97706">+</text>
+  <text x="606" y="392" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Camera Position</text>
+  <polygon points="569,409 563,420 575,420" fill="#d97706"/>
+  <text x="606" y="416" font-family="Arial, sans-serif" font-size="7" fill="#0A1F44">Ground Control Pt.</text>
+</svg>
