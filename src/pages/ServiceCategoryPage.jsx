@@ -4,6 +4,8 @@ import { ArrowRight, CheckCircle } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
 import SectionHeader from '../components/ui/SectionHeader'
+import SEO from '../components/ui/SEO'
+import JsonLd from '../components/ui/JsonLd'
 import { getServiceBySlug } from '../data/services'
 import NotFoundPage from './NotFoundPage'
 
@@ -12,8 +14,24 @@ export default function ServiceCategoryPage() {
   const svc = getServiceBySlug(categorySlug)
   if (!svc) return <NotFoundPage />
 
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `${svc.title} Services`,
+    description: svc.description,
+    provider: { '@type': 'Organization', name: 'GeoNectar Technologies', url: 'https://geo-nectar.com' },
+    areaServed: ['United States', 'United Kingdom', 'Australia'],
+    url: `https://geo-nectar.com/services/${svc.slug}`,
+  }
+
   return (
     <>
+      <SEO
+        title={`${svc.title} Services | Outsourced CAD & BIM`}
+        description={`${svc.description.slice(0, 155).trim()}…`}
+        canonical={`/services/${svc.slug}`}
+      />
+      <JsonLd schema={serviceSchema} />
       <PageHero
         title={svc.title}
         subtitle={svc.tagline}

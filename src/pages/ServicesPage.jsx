@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Map, Boxes, Building2, Layers, Construction, Cog, ArrowRight } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
+import SEO from '../components/ui/SEO'
 import { services } from '../data/services'
 
 const iconMap = { Map, Boxes, Building2, Layers, Construction, Cog }
@@ -10,6 +11,11 @@ const iconMap = { Map, Boxes, Building2, Layers, Construction, Cog }
 export default function ServicesPage() {
   return (
     <>
+      <SEO
+        title="CAD Drafting & BIM Outsourcing Services"
+        description="Explore GeoNectar's six CAD drafting and BIM service verticals: Land Survey Drafting, BIM Services, Civil Engineering, Building Services, Structural Design, and Mechanical Design — serving USA, UK & Australia."
+        canonical="/services"
+      />
       <PageHero
         title="Our CAD Drafting & Design Services"
         subtitle="Six specialized service verticals delivering precision drafting, BIM modeling, and design outsourcing to engineering firms across the USA, UK, Australia & India."

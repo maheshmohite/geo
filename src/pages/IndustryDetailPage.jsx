@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { CheckCircle, ArrowRight } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
+import SEO from '../components/ui/SEO'
 import { getIndustryBySlug } from '../data/industries'
 import { services } from '../data/services'
 import NotFoundPage from './NotFoundPage'
@@ -13,6 +14,11 @@ export default function IndustryDetailPage() {
 
   return (
     <>
+      <SEO
+        title={`${ind.title} | CAD Drafting & BIM Services`}
+        description={ind.description.slice(0, 155)}
+        canonical={`/industries/${ind.slug}`}
+      />
       <PageHero
         title={ind.title}
         subtitle={ind.tagline}

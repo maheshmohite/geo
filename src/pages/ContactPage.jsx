@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Phone, Mail, MapPin, Clock, Send, Paperclip, X } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import AnimatedSection from '../components/ui/AnimatedSection'
+import SEO from '../components/ui/SEO'
 import { companyInfo } from '../data/siteData'
 import { services } from '../data/services'
 
@@ -63,6 +64,11 @@ export default function ContactPage() {
 
   return (
     <>
+      <SEO
+        title="Contact GeoNectar | Get a Free CAD Drafting Quote"
+        description="Contact GeoNectar Technologies for a free quote on CAD drafting, BIM modeling, or design outsourcing. Based in Pune, India — serving USA, UK & Australia. Reply within 24 hours."
+        canonical="/contact-us"
+      />
       <PageHero
         title="Contact Us"
         subtitle="Get in touch with our team to discuss your CAD drafting or BIM project requirements. We respond within 24 hours."

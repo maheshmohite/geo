@@ -3,6 +3,7 @@ import { CheckCircle, Users, Award, Globe, Target, Handshake, TrendingUp, BookOp
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
 import SectionHeader from '../components/ui/SectionHeader'
+import SEO from '../components/ui/SEO'
 
 const milestones = [
   { year: '2018', event: 'GeoNectar Technologies founded in Pune, India' },
@@ -50,6 +51,11 @@ const values = [
 export default function AboutPage() {
   return (
     <>
+      <SEO
+        title="About GeoNectar Technologies | ISO-Certified CAD Outsourcing"
+        description="GeoNectar Technologies is an ISO 9001:2015 certified CAD drafting and BIM outsourcing company based in Pune, India, serving surveyors, engineers, and architects in USA, UK & Australia."
+        canonical="/about-us"
+      />
       <PageHero
         title="About GeoNectar Technologies"
         subtitle="Expert CAD Drafting & Design Outsourcing — built on precision, reliability, and a deep understanding of the AEC industry."

@@ -4,11 +4,17 @@ import { ArrowRight } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
 import SectionHeader from '../components/ui/SectionHeader'
+import SEO from '../components/ui/SEO'
 import { industries } from '../data/industries'
 
 export default function IndustriesPage() {
   return (
     <>
+      <SEO
+        title="Industries We Serve | CAD & BIM Outsourcing"
+        description="GeoNectar serves Architecture & Construction, Land Surveying, Civil Engineering, Real Estate, Infrastructure, and MEP sectors with expert CAD drafting and BIM outsourcing."
+        canonical="/industries"
+      />
       <PageHero
         title="Industries We Serve"
         subtitle="Deep domain expertise across the full built-environment spectrum — from land surveying to heavy industry."

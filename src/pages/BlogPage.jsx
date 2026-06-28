@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight, Clock } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
+import SEO from '../components/ui/SEO'
 import { blogPosts, blogCategories } from '../data/siteData'
 
 export default function BlogPage() {
@@ -12,9 +13,16 @@ export default function BlogPage() {
     : blogPosts
 
   const activeCategory = blogCategories.find((c) => c.slug === slug)
+  const pageTitle = activeCategory ? activeCategory.title : 'Blog & Insights'
+  const canonicalPath = slug ? `/blog/category/${slug}` : '/blog'
 
   return (
     <>
+      <SEO
+        title={pageTitle}
+        description="Expert articles on CAD drafting, BIM, civil engineering, survey best practices, and outsourcing strategies for AEC professionals."
+        canonical={canonicalPath}
+      />
       <PageHero
         title={activeCategory ? activeCategory.title : 'Blog & Insights'}
         subtitle="Expert perspectives on CAD drafting, BIM, civil engineering, and outsourcing best practices."

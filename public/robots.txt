@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block legal/utility pages from being indexed
+Disallow: /privacy-policy
+Disallow: /terms-and-conditions
+Disallow: /disclaimer
+Disallow: /cookie-policy
+
+Sitemap: https://geo-nectar.com/sitemap.xml

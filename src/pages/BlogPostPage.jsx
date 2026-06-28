@@ -2,6 +2,8 @@ import { useParams, Link } from 'react-router-dom'
 import { Clock, ArrowLeft } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
+import SEO from '../components/ui/SEO'
+import JsonLd from '../components/ui/JsonLd'
 import { blogPosts, blogCategories } from '../data/siteData'
 import NotFoundPage from './NotFoundPage'
 
@@ -11,9 +13,35 @@ export default function BlogPostPage() {
   if (!post) return <NotFoundPage />
 
   const category = blogCategories.find((c) => c.slug === post.category)
+  const publishedIso = new Date(post.date).toISOString()
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt.slice(0, 155),
+    image: `https://geo-nectar.com${post.image}`,
+    datePublished: publishedIso,
+    dateModified: publishedIso,
+    author: { '@type': 'Organization', name: 'GeoNectar Technologies', url: 'https://geo-nectar.com' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'GeoNectar Technologies',
+      logo: { '@type': 'ImageObject', url: 'https://geo-nectar.com/images/logo.png' },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://geo-nectar.com/blog/${post.slug}` },
+  }
 
   return (
     <>
+      <SEO
+        title={post.title}
+        description={post.excerpt.slice(0, 155)}
+        canonical={`/blog/${post.slug}`}
+        ogType="article"
+        article={{ publishedTime: publishedIso, author: 'GeoNectar Technologies' }}
+      />
+      <JsonLd schema={articleSchema} />
       <PageHero
         title={post.title}
         subtitle={post.excerpt}

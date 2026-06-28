@@ -1,4 +1,5 @@
 import PageHero from '../../components/ui/PageHero'
+import SEO from '../../components/ui/SEO'
 
 const content = {
   privacy: {
@@ -107,9 +108,21 @@ export default function LegalPage({ type }) {
     disclaimer: 'Disclaimer',
     cookies: 'Cookie Policy',
   }
+  const canonicalMap = {
+    privacy: '/privacy-policy',
+    terms: '/terms-and-conditions',
+    disclaimer: '/disclaimer',
+    cookies: '/cookie-policy',
+  }
 
   return (
     <>
+      <SEO
+        title={breadcrumbMap[type] ?? 'Legal'}
+        description={page.subtitle}
+        canonical={canonicalMap[type]}
+        noIndex={true}
+      />
       <PageHero
         title={page.title}
         subtitle={page.subtitle}

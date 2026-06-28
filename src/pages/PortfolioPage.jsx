@@ -4,11 +4,17 @@ import { ArrowRight } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
 import SectionHeader from '../components/ui/SectionHeader'
+import SEO from '../components/ui/SEO'
 import { portfolioCategories } from '../data/siteData'
 
 export default function PortfolioPage() {
   return (
     <>
+      <SEO
+        title="CAD Drafting & BIM Portfolio | Project Samples"
+        description="Browse GeoNectar's portfolio of ALTA survey drawings, BIM coordination models, civil engineering drawings, structural detailing, and MEP documentation delivered worldwide."
+        canonical="/portfolio"
+      />
       <PageHero
         title="Our Portfolio"
         subtitle="A selection of CAD drafting, BIM, and engineering design work delivered for clients across USA, UK, Australia & India."

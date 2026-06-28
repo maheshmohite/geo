@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { CheckCircle, ArrowRight } from 'lucide-react'
 import PageHero from '../components/ui/PageHero'
 import CTABanner from '../components/home/CTABanner'
+import SEO from '../components/ui/SEO'
 import { getServiceBySlug, getSubServiceBySlug } from '../data/services'
 import NotFoundPage from './NotFoundPage'
 
@@ -14,8 +15,18 @@ export default function SubServicePage() {
   // Related sub-services (siblings, excluding current)
   const related = category.subServices.filter((s) => s.slug !== subSlug).slice(0, 3)
 
+  const contentText = Array.isArray(sub.content) ? sub.content[0] : sub.content
+  const metaDesc = sub.description
+    ? `${sub.description} ${contentText ? contentText.slice(0, 80).trim() : ''}`.slice(0, 155)
+    : contentText?.slice(0, 155) ?? ''
+
   return (
     <>
+      <SEO
+        title={sub.title}
+        description={metaDesc}
+        canonical={`/services/${category.slug}/${sub.slug}`}
+      />
       <PageHero
         title={sub.title}
         subtitle={sub.description}
