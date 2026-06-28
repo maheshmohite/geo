@@ -49,11 +49,11 @@ export default function CookieConsent() {
     <div className="fixed bottom-0 left-0 right-0 z-[9999]
                     bg-white border-t-4 border-accent
                     shadow-[0_-8px_48px_rgba(10,31,68,0.18)]">
-      <div className="max-w-[1200px] mx-auto px-6 py-6">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-5 sm:py-6">
 
         {!showCustomise ? (
           /* ── Default view ─────────────────────────────── */
-          <div className="flex flex-col lg:flex-row lg:items-center gap-6">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-4 sm:gap-6">
             <div className="flex-1">
               <h2 className="text-[1.05rem] font-extrabold text-navy mb-2">
                 Privacy Preferences
@@ -74,25 +74,25 @@ export default function CookieConsent() {
               </p>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3 flex-shrink-0">
+            <div className="grid grid-cols-3 sm:flex sm:flex-wrap items-center gap-2 sm:gap-3 flex-shrink-0">
               <button
                 onClick={() => setShowCustomise(true)}
-                className="px-5 py-2.5 text-[0.84rem] font-semibold border-2 border-navy/30
-                           text-navy rounded-lg hover:border-navy transition-colors"
+                className="px-3 sm:px-5 py-2.5 text-[0.84rem] font-semibold border-2 border-navy/30
+                           text-navy rounded-lg hover:border-navy transition-colors text-center"
               >
                 Customise
               </button>
               <button
                 onClick={handleRejectAll}
-                className="px-5 py-2.5 text-[0.84rem] font-semibold border-2 border-navy/30
-                           text-navy rounded-lg hover:border-navy transition-colors"
+                className="px-3 sm:px-5 py-2.5 text-[0.84rem] font-semibold border-2 border-navy/30
+                           text-navy rounded-lg hover:border-navy transition-colors text-center"
               >
                 Reject All
               </button>
               <button
                 onClick={handleAccept}
-                className="px-6 py-2.5 text-[0.84rem] font-bold bg-navy text-white
-                           rounded-lg hover:bg-navy/90 transition-colors"
+                className="px-4 sm:px-6 py-2.5 text-[0.84rem] font-bold bg-navy text-white
+                           rounded-lg hover:bg-navy/90 transition-colors text-center"
               >
                 Accept All
               </button>

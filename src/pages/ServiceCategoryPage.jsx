@@ -25,9 +25,9 @@ export default function ServiceCategoryPage() {
       />
 
       {/* Description + benefits */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
               <span className="section-eyebrow">Overview</span>
               <h2 className="section-title">{svc.title} Services</h2>
@@ -52,16 +52,16 @@ export default function ServiceCategoryPage() {
       </section>
 
       {/* Sub-services grid */}
-      <section className="py-20 bg-brand-light">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-14 md:py-20 bg-brand-light">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <SectionHeader
             eyebrow="Our Specialisms"
             title={`${svc.title} Sub-Services`}
             subtitle="Click any service below to learn more about our capabilities and deliverables."
-            className="mb-14"
+            className="mb-10 md:mb-14"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
             {svc.subServices.map((sub, i) => (
               <motion.div
                 key={sub.slug}

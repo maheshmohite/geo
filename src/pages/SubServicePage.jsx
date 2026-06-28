@@ -29,9 +29,9 @@ export default function SubServicePage() {
       />
 
       {/* Main content */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
             {/* Content */}
             <div className="lg:col-span-2">
               <span className="section-eyebrow">Service Detail</span>

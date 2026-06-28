@@ -28,15 +28,15 @@ export default function Testimonials() {
   const shown = testimonials.slice(0, 2)
 
   return (
-    <section className="py-24 bg-white">
-      <div className="max-w-[1200px] mx-auto px-6">
+    <section className="py-14 md:py-20 lg:py-24 bg-white">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <SectionHeader
           eyebrow="Client Stories"
           title="What Our Clients Say"
-          className="mb-14"
+          className="mb-10 md:mb-14"
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7">
           {shown.map((t, i) => (
             <motion.div
               key={i}
@@ -44,7 +44,7 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.15 }}
               transition={{ duration: 0.55, ease: 'easeOut', delay: i * 0.12 }}
-              className="bg-brand-light rounded-card p-9 border border-black/[0.05]
+              className="bg-brand-light rounded-card p-6 md:p-9 border border-black/[0.05]
                          hover:-translate-y-1 hover:shadow-hover transition-all duration-300"
             >
               <QuoteIcon />

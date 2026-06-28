@@ -24,9 +24,9 @@ export default function BlogPostPage() {
         ]}
       />
 
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
             <article className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6 text-[0.78rem] text-brand-body/60">
                 <span className="bg-accent/10 text-accent font-bold px-2.5 py-0.5 rounded-full">

@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <!-- Background -->
+  <rect width="600" height="390" fill="#f0f4f8"/>
+  <rect x="14" y="14" width="572" height="362" fill="#ffffff" stroke="#0A1F44" stroke-width="1.5"/>
+  <rect x="20" y="20" width="560" height="350" fill="none" stroke="#0A1F44" stroke-width="0.4"/>
+
+  <!-- Bottom title bar -->
+  <rect x="20" y="336" width="560" height="34" fill="#0A1F44"/>
+  <line x1="280" y1="336" x2="280" y2="370" stroke="#4a7fc1" stroke-width="0.5"/>
+  <line x1="420" y1="336" x2="420" y2="370" stroke="#4a7fc1" stroke-width="0.5"/>
+  <text x="32" y="349" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">PROJECT</text>
+  <text x="32" y="361" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">CAD &amp; BIM DRAFTING</text>
+  <text x="286" y="349" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">SOFTWARE</text>
+  <text x="286" y="361" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#ffffff">AutoCAD · Revit</text>
+  <text x="426" y="349" font-family="Arial, sans-serif" font-size="6" fill="#9ab3d4" letter-spacing="1.2">COMPANY</text>
+  <text x="426" y="361" font-family="Arial, sans-serif" font-size="7" fill="#c8d8ea">Geo-Nectar Technologies</text>
+
+  <!-- Background grid -->
+  <g stroke="#c8d8ea" stroke-width="0.3" stroke-dasharray="3,4" opacity="0.45">
+    <line x1="90" y1="28" x2="90" y2="328"/>
+    <line x1="270" y1="28" x2="270" y2="328"/>
+    <line x1="450" y1="28" x2="450" y2="328"/>
+    <line x1="28" y1="175" x2="572" y2="175"/>
+  </g>
+
+  <!-- ===== LEFT SIDE: 2D CAD FLOOR PLAN ===== -->
+  <rect x="26" y="28" width="246" height="300" fill="#f8fafc" stroke="#6b7280" stroke-width="0.8"/>
+  <rect x="26" y="28" width="246" height="16" fill="#6b7280"/>
+  <text x="36" y="40" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" letter-spacing="0.8">2D CAD FLOOR PLAN (DWG)</text>
+
+  <!-- Outer walls of floor plan -->
+  <rect x="44" y="56" width="210" height="155" fill="none" stroke="#0A1F44" stroke-width="2"/>
+
+  <!-- Inner walls -->
+  <line x1="134" y1="56" x2="134" y2="211" stroke="#0A1F44" stroke-width="1.5"/>
+  <line x1="44" y1="135" x2="254" y2="135" stroke="#0A1F44" stroke-width="1.5"/>
+  <line x1="200" y1="135" x2="200" y2="56" stroke="#0A1F44" stroke-width="1.5"/>
+
+  <!-- Door arcs -->
+  <path d="M 134,135 Q 112,113 112,135" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="112" y1="135" x2="134" y2="135" stroke="#0A1F44" stroke-width="0.8"/>
+  <path d="M 134,211 Q 112,189 112,211" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="112" y1="211" x2="134" y2="211" stroke="#0A1F44" stroke-width="0.8"/>
+  <path d="M 200,135 Q 222,113 222,135" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="200" y1="135" x2="222" y2="135" stroke="#0A1F44" stroke-width="0.8"/>
+
+  <!-- Window symbols -->
+  <rect x="76" y="54" width="30" height="4" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="76" y1="56" x2="106" y2="56" stroke="#0A1F44" stroke-width="0.4"/>
+  <line x1="91" y1="54" x2="91" y2="58" stroke="#0A1F44" stroke-width="0.4"/>
+  <rect x="156" y="54" width="30" height="4" fill="none" stroke="#0A1F44" stroke-width="0.8"/>
+  <line x1="156" y1="56" x2="186" y2="56" stroke="#0A1F44" stroke-width="0.4"/>
+  <line x1="171" y1="54" x2="171" y2="58" stroke="#0A1F44" stroke-width="0.4"/>
+
+  <!-- Room labels -->
+  <text x="89" y="96" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">ROOM 01</text>
+  <text x="89" y="108" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">5.5 × 4.0 m</text>
+  <text x="224" y="94" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">ROOM 02</text>
+  <text x="224" y="106" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">3.0 × 4.0 m</text>
+  <text x="89" y="174" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">ROOM 03</text>
+  <text x="89" y="186" font-family="Arial, sans-serif" font-size="6" fill="#6b7280" text-anchor="middle">5.5 × 4.0 m</text>
+  <text x="194" y="174" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">ROOM 04</text>
+
+  <!-- Dimension lines -->
+  <line x1="44" y1="224" x2="254" y2="224" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="44" y1="220" x2="44" y2="228" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="254" y1="220" x2="254" y2="228" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="149" y="234" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44" text-anchor="middle" font-weight="bold">10,500</text>
+
+  <line x1="262" y1="56" x2="262" y2="211" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="258" y1="56" x2="266" y2="56" stroke="#0A1F44" stroke-width="0.7"/>
+  <line x1="258" y1="211" x2="266" y2="211" stroke="#0A1F44" stroke-width="0.7"/>
+  <text x="269" y="137" font-family="Arial, sans-serif" font-size="6.5" fill="#0A1F44" text-anchor="start" transform="rotate(90,269,137)">8,000</text>
+
+  <!-- CAD file info box -->
+  <rect x="32" y="246" width="232" height="74" fill="#f0f4f8" stroke="#6b7280" stroke-width="0.7"/>
+  <text x="42" y="259" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#6b7280" letter-spacing="0.5">CAD FILE DETAILS</text>
+  <text x="42" y="272" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">Format:  AutoCAD .dwg (2022)</text>
+  <text x="42" y="284" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">Layers:   36 (walls, doors, windows, dims)</text>
+  <text x="42" y="296" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">Scale:    1:100  |  Units: mm</text>
+  <text x="42" y="308" font-family="Arial, sans-serif" font-size="6" fill="#6b7280">Sheets:  10 (Plans, Elevations, Sections)</text>
+
+  <!-- ===== CENTRE ARROW ===== -->
+  <polygon points="281,170 303,160 303,167 314,167 314,160 336,170 314,180 314,173 303,173 303,180" fill="#d97706"/>
+  <text x="308" y="195" font-family="Arial, sans-serif" font-size="6.5" fill="#d97706" text-anchor="middle" font-weight="bold">CONVERT</text>
+
+  <!-- ===== RIGHT SIDE: BIM MODEL ===== -->
+  <rect x="342" y="28" width="224" height="300" fill="#eef3f8" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="342" y="28" width="224" height="16" fill="#0A1F44"/>
+  <text x="352" y="40" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" letter-spacing="0.8">REVIT BIM MODEL</text>
+
+  <!-- 3D isometric building -->
+  <!-- Base slab -->
+  <polygon points="370,296 466,296 520,262 424,262" fill="#dde6f0" stroke="#0A1F44" stroke-width="0.9"/>
+  <!-- Front face -->
+  <polygon points="370,296 424,262 424,178 370,212" fill="#c5d5e8" stroke="#0A1F44" stroke-width="0.9"/>
+  <!-- Right face -->
+  <polygon points="424,262 520,262 520,178 424,178" fill="#dde8f5" stroke="#0A1F44" stroke-width="0.9"/>
+  <!-- Roof slab -->
+  <polygon points="370,212 424,178 520,178 466,212" fill="#4a7fc1" stroke="#0A1F44" stroke-width="1.1" opacity="0.75"/>
+
+  <!-- Front windows L1 -->
+  <rect x="378" y="224" width="16" height="22" fill="#7fb3d4" stroke="#0A1F44" stroke-width="0.7" opacity="0.85"/>
+  <rect x="400" y="224" width="16" height="22" fill="#7fb3d4" stroke="#0A1F44" stroke-width="0.7" opacity="0.85"/>
+  <!-- Front windows L2 -->
+  <rect x="378" y="190" width="16" height="20" fill="#7fb3d4" stroke="#0A1F44" stroke-width="0.7" opacity="0.85"/>
+  <rect x="400" y="190" width="16" height="20" fill="#7fb3d4" stroke="#0A1F44" stroke-width="0.7" opacity="0.85"/>
+  <!-- Right face windows -->
+  <rect x="438" y="214" width="20" height="24" fill="#9ab8d0" stroke="#0A1F44" stroke-width="0.7" opacity="0.75"/>
+  <rect x="465" y="210" width="20" height="24" fill="#9ab8d0" stroke="#0A1F44" stroke-width="0.7" opacity="0.75"/>
+  <rect x="492" y="206" width="20" height="24" fill="#9ab8d0" stroke="#0A1F44" stroke-width="0.7" opacity="0.75"/>
+  <!-- R-face L2 -->
+  <rect x="438" y="182" width="20" height="20" fill="#9ab8d0" stroke="#0A1F44" stroke-width="0.7" opacity="0.75"/>
+  <rect x="465" y="178" width="20" height="20" fill="#9ab8d0" stroke="#0A1F44" stroke-width="0.7" opacity="0.75"/>
+
+  <!-- Level markers -->
+  <line x1="534" y1="296" x2="534" y2="178" stroke="#d97706" stroke-width="0.9" stroke-dasharray="3,2"/>
+  <line x1="531" y1="296" x2="537" y2="296" stroke="#d97706" stroke-width="0.9"/>
+  <line x1="531" y1="262" x2="537" y2="262" stroke="#d97706" stroke-width="0.9"/>
+  <line x1="531" y1="212" x2="537" y2="212" stroke="#d97706" stroke-width="0.9"/>
+  <line x1="531" y1="178" x2="537" y2="178" stroke="#d97706" stroke-width="0.9"/>
+  <text x="540" y="300" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">GL ±0.000</text>
+  <text x="540" y="266" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">L1 +3.300</text>
+  <text x="540" y="216" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">L2 +6.600</text>
+  <text x="540" y="182" font-family="Arial, sans-serif" font-size="5.5" fill="#d97706">Roof +9.900</text>
+
+  <!-- Column grid dots on roof -->
+  <circle cx="424" cy="178" r="3" fill="none" stroke="#d97706" stroke-width="1.2"/>
+  <circle cx="466" cy="178" r="3" fill="none" stroke="#d97706" stroke-width="1.2"/>
+  <circle cx="520" cy="178" r="3" fill="none" stroke="#d97706" stroke-width="1.2"/>
+  <text x="424" y="173" font-family="Arial, sans-serif" font-size="5" fill="#0A1F44" text-anchor="middle">A</text>
+  <text x="466" y="173" font-family="Arial, sans-serif" font-size="5" fill="#0A1F44" text-anchor="middle">B</text>
+  <text x="520" y="173" font-family="Arial, sans-serif" font-size="5" fill="#0A1F44" text-anchor="middle">C</text>
+
+  <!-- BIM info panel -->
+  <rect x="348" y="44" width="114" height="92" fill="#f8fafc" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="348" y="44" width="114" height="13" fill="#0A1F44"/>
+  <text x="405" y="54" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">MODEL INFO</text>
+  <text x="356" y="68" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Discipline: Architecture</text>
+  <text x="356" y="80" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Storeys: 2</text>
+  <text x="356" y="92" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">GFA: 1,800 m²</text>
+  <text x="356" y="104" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Elements: 3,400+</text>
+  <text x="356" y="116" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Format: .rvt / .ifc</text>
+  <text x="356" y="128" font-family="Arial, sans-serif" font-size="6" fill="#0A1F44">Coordinates: Shared</text>
+
+  <!-- LOD panel -->
+  <rect x="348" y="146" width="114" height="68" fill="#f8fafc" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="348" y="146" width="114" height="13" fill="#0A1F44"/>
+  <text x="405" y="156" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">LOD SPECIFICATION</text>
+  <text x="356" y="170" font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4">LOD 100  ○○○○○</text>
+  <text x="356" y="182" font-family="Arial, sans-serif" font-size="5.5" fill="#9ab3d4">LOD 200  ○○○○○</text>
+  <text x="356" y="194" font-family="Arial, sans-serif" font-size="5.5" fill="#0A1F44">LOD 300  ●●●●○</text>
+  <text x="356" y="206" font-family="Arial, sans-serif" font-size="5.5" fill="#4a7fc1">LOD 400  ●●●●●  ✓</text>
+
+  <!-- BIM deliverables box -->
+  <rect x="348" y="224" width="210" height="104" fill="#f8fafc" stroke="#0A1F44" stroke-width="0.8"/>
+  <rect x="348" y="224" width="210" height="13" fill="#0A1F44"/>
+  <text x="453" y="234" font-family="Arial, sans-serif" font-size="6.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.8">BIM DELIVERABLES</text>
+  <text x="356" y="248" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  Revit .rvt model (LOD 300–400)</text>
+  <text x="356" y="261" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  IFC export for OpenBIM workflows</text>
+  <text x="356" y="274" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  Parametric walls, doors &amp; windows</text>
+  <text x="356" y="287" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  Room data schedules &amp; area take-offs</text>
+  <text x="356" y="300" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  Material properties &amp; shared coordinates</text>
+  <text x="356" y="313" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  Clash-detection ready model</text>
+  <text x="356" y="325" font-family="Arial, sans-serif" font-size="5.8" fill="#0A1F44">✓  ALTA / BS / AS / BIS standards compliant</text>
+</svg>

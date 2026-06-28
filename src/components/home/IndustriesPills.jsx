@@ -10,13 +10,13 @@ const iconMap = { Building, Map, Layers: FileText, Home, GitBranch, Triangle, Wr
 
 export default function IndustriesPills() {
   return (
-    <section id="industries" className="py-20 bg-white">
-      <div className="max-w-[1200px] mx-auto px-6">
+    <section id="industries" className="py-12 md:py-20 bg-white">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <SectionHeader
           eyebrow="Sectors"
           title="Industries We Serve"
           subtitle="Deep domain expertise across the full built-environment spectrum — from land survey to heavy industry."
-          className="mb-14"
+          className="mb-8 md:mb-14"
         />
 
         <div className="flex flex-wrap justify-center gap-3.5">

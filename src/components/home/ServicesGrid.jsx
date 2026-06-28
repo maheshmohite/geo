@@ -8,16 +8,16 @@ const iconMap = { Map, Boxes, Building2, Layers, Construction, Cog }
 
 export default function ServicesGrid() {
   return (
-    <section id="services" className="py-24 bg-white">
-      <div className="max-w-[1200px] mx-auto px-6">
+    <section id="services" className="py-14 md:py-20 lg:py-24 bg-white">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <SectionHeader
           eyebrow="What We Do"
           title="Our Core Services"
           subtitle="Six specialized verticals delivering precision CAD drafting and design solutions to engineering firms worldwide."
-          className="mb-16"
+          className="mb-10 md:mb-16"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
           {services.map((svc, i) => {
             const Icon = iconMap[svc.icon] || Map
             return (
@@ -27,7 +27,7 @@ export default function ServicesGrid() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.1 }}
                 transition={{ duration: 0.55, ease: 'easeOut', delay: i * 0.08 }}
-                className="group relative card border border-black/[0.07] p-9 overflow-hidden cursor-default"
+                className="group relative card border border-black/[0.07] p-6 md:p-9 overflow-hidden cursor-default"
               >
                 {/* Orange left accent on hover */}
                 <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-accent

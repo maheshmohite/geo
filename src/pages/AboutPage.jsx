@@ -57,9 +57,9 @@ export default function AboutPage() {
       />
 
       {/* Our Story */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
               <span className="section-eyebrow">Our Story</span>
               <h2 className="section-title">Founded on a Mission.<br />Built for Scale.</h2>
@@ -121,9 +121,9 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-brand-light">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <SectionHeader eyebrow="Our Values" title="What Drives Us" className="mb-14" />
+      <section className="py-14 md:py-20 bg-brand-light">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <SectionHeader eyebrow="Our Values" title="What Drives Us" className="mb-10 md:mb-14" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
             {values.map(({ icon: Icon, title, desc }, i) => (
               <motion.div key={i}
@@ -147,9 +147,9 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <SectionHeader eyebrow="Our Journey" title="Key Milestones" className="mb-14" />
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <SectionHeader eyebrow="Our Journey" title="Key Milestones" className="mb-10 md:mb-14" />
           <div className="relative border-l-2 border-accent/20 pl-8 space-y-8 ml-4">
             {milestones.map(({ year, event }, i) => (
               <motion.div key={i}

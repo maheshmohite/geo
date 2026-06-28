@@ -15,16 +15,16 @@ export default function PortfolioPage() {
         breadcrumbs={[{ label: 'Portfolio' }]}
       />
 
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <SectionHeader
             eyebrow="Our Work"
             title="Browse Portfolio Categories"
             subtitle="Explore sample outputs across our six service verticals."
-            className="mb-14"
+            className="mb-10 md:mb-14"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
             {portfolioCategories.map((cat, i) => (
               <motion.div
                 key={cat.slug}

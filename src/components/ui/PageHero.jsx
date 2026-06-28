@@ -6,7 +6,7 @@ import { ChevronRight } from 'lucide-react'
  */
 export default function PageHero({ title, subtitle, breadcrumbs = [], image, hideTitle = false }) {
   return (
-    <section className="relative bg-navy overflow-hidden pt-20 pb-16">
+    <section className="relative bg-navy overflow-hidden pt-12 pb-10 md:pt-20 md:pb-16">
       {/* Grid overlay */}
       <div className="absolute inset-0 bg-grid-overlay pointer-events-none" />
       {/* Orange glow */}
@@ -14,7 +14,7 @@ export default function PageHero({ title, subtitle, breadcrumbs = [], image, hid
                       bg-[radial-gradient(circle,rgba(240,90,40,0.12)_0%,transparent_68%)]
                       pointer-events-none" />
 
-      <div className="max-w-[1200px] mx-auto px-6 relative z-10">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 relative z-10">
         {/* Breadcrumb */}
         {breadcrumbs.length > 0 && (
           <nav className="flex items-center gap-1.5 mb-6 text-[0.78rem] text-white/50 flex-wrap">

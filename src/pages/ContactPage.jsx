@@ -69,9 +69,9 @@ export default function ContactPage() {
         breadcrumbs={[{ label: 'Contact Us' }]}
       />
 
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-12">
 
             {/* Form */}
             <AnimatedSection className="lg:col-span-3">

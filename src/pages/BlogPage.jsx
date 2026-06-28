@@ -24,12 +24,12 @@ export default function BlogPage() {
         ]}
       />
 
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 md:gap-10">
             {/* Posts */}
             <div className="lg:col-span-3">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-7">
                 {(filtered.length ? filtered : blogPosts).map((post, i) => (
                   <motion.div
                     key={post.slug}

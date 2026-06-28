@@ -30,8 +30,8 @@ const socials = [
 export default function Footer() {
   return (
     <footer className="bg-navy-dark text-white/70">
-      <div className="max-w-[1200px] mx-auto px-6 py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-12 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
 
           {/* Col 1 — Brand */}
           <div>
@@ -140,15 +140,15 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/[0.08]">
-        <div className="max-w-[1200px] mx-auto px-6 py-5 flex flex-col sm:flex-row
-                        items-center justify-between gap-3 flex-wrap">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-5 flex flex-col sm:flex-row
+                        items-center justify-between gap-3 flex-wrap text-center sm:text-left">
           <p className="text-[0.79rem] text-white/38">
             © {new Date().getFullYear()} GeoNectar Technologies. All rights reserved.
           </p>
-          <div className="flex gap-5 flex-wrap">
+          <div className="flex gap-3 sm:gap-5 flex-wrap justify-center sm:justify-end">
             {legalLinks.map(({ label, to }) => (
               <Link key={to} to={to}
-                className="text-[0.79rem] text-white/38 hover:text-accent transition-colors">
+                className="text-[0.75rem] sm:text-[0.79rem] text-white/38 hover:text-accent transition-colors">
                 {label}
               </Link>
             ))}

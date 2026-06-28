@@ -15,13 +15,13 @@ export default function IndustriesPage() {
         breadcrumbs={[{ label: 'Industries' }]}
       />
 
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <SectionHeader
             eyebrow="Sectors"
             title="Domain Expertise Across Key Industries"
             subtitle="We have developed deep, repeatable expertise in the sectors our clients operate in — enabling faster onboarding and higher-quality outputs."
-            className="mb-16"
+            className="mb-10 md:mb-16"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7">

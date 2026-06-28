@@ -54,9 +54,9 @@ export default function CertificationsPage() {
       />
 
       {/* Intro */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center mb-14">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="max-w-3xl mx-auto text-center mb-10 md:mb-14">
             <span className="section-eyebrow">Our Commitment</span>
             <h2 className="section-title mb-6">Built on Standards.<br />Driven by Trust.</h2>
             <p className="text-brand-body leading-relaxed">
@@ -91,8 +91,8 @@ export default function CertificationsPage() {
       </section>
 
       {/* Stats banner */}
-      <section className="py-16 bg-navy">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-12 md:py-16 bg-navy">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {footerStats.map(({ value, label }, i) => (
               <motion.div key={i}

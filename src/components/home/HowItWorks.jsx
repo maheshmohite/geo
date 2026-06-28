@@ -4,16 +4,16 @@ import { howItWorks } from '../../data/siteData'
 
 export default function HowItWorks() {
   return (
-    <section className="py-24 bg-brand-light">
-      <div className="max-w-[1200px] mx-auto px-6">
+    <section className="py-14 md:py-20 lg:py-24 bg-brand-light">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <SectionHeader
           eyebrow="Our Process"
           title="How It Works"
           subtitle="A simple, structured four-step engagement model ensuring seamless project delivery every time."
-          className="mb-16"
+          className="mb-10 md:mb-16"
         />
 
-        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-8">
           {/* Dashed connector line (desktop only) */}
           <div className="hidden lg:block absolute top-[34px] left-[calc(12.5%+20px)] right-[calc(12.5%+20px)] h-[2px] z-0"
             style={{

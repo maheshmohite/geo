@@ -103,7 +103,7 @@ export default function Navbar() {
         className={`sticky top-0 z-[900] bg-white transition-shadow duration-300
           ${scrolled ? 'shadow-[0_4px_24px_rgba(0,0,0,0.12)]' : 'shadow-[0_2px_12px_rgba(0,0,0,0.07)]'}`}
       >
-        <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between h-[70px] gap-5">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 flex items-center justify-between h-[70px] gap-4 sm:gap-5">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
             <img src="/images/geonectar-logo.png" alt="Geo-Nectar Technologies" className="h-10 w-auto" />

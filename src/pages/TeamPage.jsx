@@ -46,9 +46,9 @@ export default function TeamPage() {
       />
 
       {/* Intro */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <div>
               <span className="section-eyebrow">Our People</span>
               <h2 className="section-title">Our Greatest Strength<br />Is Our People.</h2>
@@ -106,13 +106,13 @@ export default function TeamPage() {
       </section>
 
       {/* Pillars */}
-      <section className="py-20 bg-brand-light">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-14 md:py-20 bg-brand-light">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <SectionHeader
             eyebrow="How We Work"
             title="Built Around Your Success"
             subtitle="Our team structure and culture are designed to make us a seamless extension of your organisation."
-            className="mb-14"
+            className="mb-10 md:mb-14"
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-7">
             {pillars.map(({ icon: Icon, title, desc }, i) => (
@@ -137,8 +137,8 @@ export default function TeamPage() {
       </section>
 
       {/* Learning culture */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
             <span className="section-eyebrow">Our Culture</span>
             <h2 className="section-title mb-6">Learning Is Embedded<br />in Everything We Do</h2>

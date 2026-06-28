@@ -17,9 +17,9 @@ export default function ServicesPage() {
       />
 
       {/* Services grid */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <section className="py-14 md:py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
             {services.map((svc, i) => {
               const Icon = iconMap[svc.icon] || Map
               return (
@@ -31,7 +31,7 @@ export default function ServicesPage() {
                   transition={{ duration: 0.55, ease: 'easeOut', delay: i * 0.08 }}
                   className="group relative bg-white rounded-card border border-black/[0.07]
                              shadow-card hover:shadow-hover hover:-translate-y-1.5
-                             transition-all duration-300 p-9 overflow-hidden"
+                             transition-all duration-300 p-6 md:p-9 overflow-hidden"
                 >
                   <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-accent
                                   scale-y-0 group-hover:scale-y-100 transition-transform
