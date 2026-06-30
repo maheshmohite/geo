@@ -26,7 +26,7 @@ use PHPMailer\PHPMailer\Exception;
 
 // ── Zoho credentials ─────────────────────────────────────────────────────────
 define('ZOHO_USER', 'services@geo-nectar.com');
-define('ZOHO_PASS', 'Jia@291085');
+define('ZOHO_PASS', 'Jia@280218');
 // ─────────────────────────────────────────────────────────────────────────────
 
 $name    = strip_tags(trim($_POST['name']    ?? ''));

@@ -14,7 +14,7 @@ export const industries = [
       'By serving as a trusted extension of your design and construction teams, Geo-Nectar helps transform complex concepts into coordinated, buildable, and sustainable solutions that drive successful project outcomes.',
     ],
     services: ['Architectural BIM', 'CAD to BIM', 'BIM Coordination', '3D Rendering', 'Clash Detection'],
-    image: '/images/industry-architecture.svg',
+    image: '/images/industry-architecture.png',
   },
   {
     slug: 'land-surveying',
@@ -31,7 +31,7 @@ export const industries = [
       'By acting as an extension of your in-house team, Geo-Nectar enables surveying organizations to focus on field operations, client relationships, and business growth while we handle the complexities of drafting, mapping, and geospatial data processing with precision, reliability, and professionalism.',
     ],
     services: ['ALTA/NSPS', 'Topographical', 'Boundary Survey', 'Photogrammetry & Geospatial Mapping', 'Wetland Delineation'],
-    image: '/images/industry-land-surveying.svg',
+    image: '/images/industry-land-surveying.png',
   },
   {
     slug: 'civil-engineering',
@@ -48,7 +48,7 @@ export const industries = [
       'From transportation corridors and drainage infrastructure to land development and underground utility networks, Geo-Nectar serves as a reliable extension of your engineering team, helping deliver resilient, sustainable, and well-coordinated infrastructure solutions.',
     ],
     services: ['Road Network', 'Stormwater Drainage', 'Land Development', 'Utility Layout', 'Earthworks'],
-    image: '/images/industry-civil-engineering.svg',
+    image: '/images/industry-civil-engineering.png',
   },
   {
     slug: 'real-estate',
@@ -65,7 +65,7 @@ export const industries = [
       'With scalable offshore support, rapid turnaround times, and rigorous quality assurance, Geo-Nectar helps real estate organizations reduce operational costs, accelerate project delivery, and maintain the highest standards of accuracy and compliance across residential, commercial, industrial, and mixed-use developments.',
     ],
     services: ['ALTA/NSPS', 'Mortgage Survey', 'Facility Management', '3D Rendering', 'Floor Plans'],
-    image: '/images/industry-real-estate.svg',
+    image: '/images/industry-real-estate.png',
   },
   {
     slug: 'infrastructure',
@@ -82,7 +82,7 @@ export const industries = [
       'With rigorous quality assurance and adherence to international engineering standards, Geo-Nectar serves as a reliable extension of your infrastructure team, delivering resilient, sustainable, and data-driven solutions that support the development of modern communities and critical public assets.',
     ],
     services: ['Road Network', 'BIM Coordination', 'Utility Layout', 'Civil Drafting', 'Aerial Survey & Mapping'],
-    image: '/images/industry-infrastructure.svg',
+    image: '/images/industry-infrastructure.png',
   },
   {
     slug: 'mep-consultants',
@@ -99,7 +99,7 @@ export const industries = [
       'By serving as a dependable extension of your engineering team, Geo-Nectar delivers clash-free, coordinated, and construction-ready MEP solutions that support successful project outcomes and long-term building performance.',
     ],
     services: ['MEP BIM', 'HVAC Drafting', 'Electrical Drafting', 'Plumbing Drafting', 'Clash Detection'],
-    image: '/images/industry-mep.svg',
+    image: '/images/industry-mep.png',
   },
 ]
 
