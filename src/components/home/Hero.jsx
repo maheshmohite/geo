@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react'
 import { stats } from '../../data/siteData'
 
 const SLIDES = [
-  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector.png',
-  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-3.png',
-  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-2.png',
-  'https://geo-nectar.com/wp-content/uploads/2025/10/geo-nector-1.png',
+  '/images/hero-bim-services.png',
+  '/images/hero-civil-engineering.png',
+  '/images/hero-building-services.png',
+  '/images/industry-land-surveying.png',
 ]
 
 const fade = (delay = 0) => ({
